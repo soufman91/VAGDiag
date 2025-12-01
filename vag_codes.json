@@ -2030,7 +2030,6 @@
     "description": "",
     "commentaires": []
   },
-
   "17535": {
     "systeme": "Moteur / Mélange",
     "libelle": "P1127 Rangée 1, adaptation mélange - système trop riche",
@@ -2043,7 +2042,6 @@
     "description": "",
     "commentaires": []
   },
-
   "17609": {
     "systeme": "Moteur / Injection",
     "libelle": "P1201 Injecteur cylindre 1 -N30 - panne électrique",
@@ -2056,14 +2054,12 @@
     "description": "",
     "commentaires": []
   },
-
   "17733": {
     "systeme": "Moteur / Cliquetis",
     "libelle": "P1325 Réglage cliquetis cylindre 1 - limite atteinte",
     "description": "",
     "commentaires": []
   },
-
   "17808": {
     "systeme": "Moteur / EGR",
     "libelle": "P1400 Electrovalve EGR -N18 - panne électrique",
@@ -2076,7 +2072,6 @@
     "description": "",
     "commentaires": []
   },
-
   "17908": {
     "systeme": "Moteur / Alimentation carburant",
     "libelle": "P1500 Relais pompe à essence -J17 - panne électrique",
@@ -2104,7 +2099,6 @@
     "description": "",
     "commentaires": []
   },
-
   "18008": {
     "systeme": "Alimentation",
     "libelle": "P1600 Tension alimentation contact 15 - trop faible",
