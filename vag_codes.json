@@ -2,1811 +2,3313 @@
   "P0217": {
     "systeme": "Moteur",
     "libelle": "Lampe température – moteur surchauffé",
-    "description": "Température moteur trop élevée, surchauffe détectée.",
-    "commentaires": []
+    "description": "Température moteur trop élevée, surchauffe détectée par le capteur de température liquide de refroidissement.",
+    "commentaires": [
+      "Vérifier le niveau de liquide de refroidissement",
+      "Contrôler le fonctionnement du ventilateur",
+      "Inspecter le radiateur et les durites",
+      "Vérifier le capteur de température G62",
+      "Test thermostate"
+    ]
   },
   "P0218": {
     "systeme": "Boîte de vitesses",
     "libelle": "Lampe température – transmission surchauffée",
-    "description": "Température de la transmission trop élevée, surchauffe détectée.",
-    "commentaires": []
+    "description": "Température de la transmission automatique dépassant les limites de sécurité.",
+    "commentaires": [
+      "Vérifier le niveau d'huile boîte",
+      "Contrôler le refroidisseur d'huile boîte",
+      "Inspecter le radiateur intégré",
+      "Éviter les utilisations intensives en montagne"
+    ]
   },
   "P0326": {
     "systeme": "Moteur",
     "libelle": "Capteur de cliquetis 1 -G61 - signal inacceptable",
-    "description": "Le signal du capteur de cliquetis 1 est hors tolérance.",
-    "commentaires": []
+    "description": "Le signal du capteur de cliquetis 1 est hors plage de tolérance ou présente des anomalies.",
+    "commentaires": [
+      "Contrôler le capteur G61 et son connecteur",
+      "Vérifier le câblage vers l'ECU",
+      "Essence de mauvaise qualité peut causer ce défaut",
+      "Dépôts de carbone dans les chambres de combustion"
+    ]
   },
   "P0351": {
     "systeme": "Allumage",
     "libelle": "Commande d'allumage cylindre 1 - mauvais fonctionnement",
-    "description": "Défaut sur le circuit de commande de la bobine du cylindre 1.",
-    "commentaires": []
+    "description": "Circuit primaire de la bobine d'allumage du cylindre 1 défectueux ou signal de commande incorrect.",
+    "commentaires": [
+      "Vérifier la bobine cylindre 1",
+      "Contrôler le câblage de commande",
+      "Tester l'alimentation de la bobine",
+      "Remplacer si nécessaire la bobine"
+    ]
   },
   "P0352": {
     "systeme": "Allumage",
     "libelle": "Commande d'allumage cylindre 2 - mauvais fonctionnement",
-    "description": "Défaut sur le circuit de commande de la bobine du cylindre 2.",
-    "commentaires": []
+    "description": "Problème sur le circuit de commande de la bobine d'allumage du cylindre 2.",
+    "commentaires": [
+      "Inspecter la bobine du cylindre 2",
+      "Vérifier les connecteurs et câbles",
+      "Échanger les bobines pour diagnostic",
+      "Contrôler la masse du circuit"
+    ]
   },
   "P0420": {
     "systeme": "Dépollution",
     "libelle": "Rangée de cylindres 1, système catalyseurs - fonctionnement insuffisant",
-    "description": "Efficacité du catalyseur rangée 1 jugée insuffisante.",
-    "commentaires": []
+    "description": "Efficacité du catalyseur avant (pré-catalyseur) insuffisante sur la rangée 1.",
+    "commentaires": [
+      "Catalyseur usé ou endommagé",
+      "Sonde lambda défectueuse",
+      "Fuites d'échappement avant catalyseur",
+      "Mélange air/carburant incorrect"
+    ]
   },
   "P0443": {
     "systeme": "Dépollution",
     "libelle": "Electrovalve de filtre à charbon d'absorption -N80 - panne électrique",
-    "description": "Problème électrique sur l'électrovanne de purge du canister (N80).",
-    "commentaires": []
+    "description": "Défaut électrique sur l'électrovanne de purge du canister à charbon actif.",
+    "commentaires": [
+      "Vérifier la résistance de l'électrovanne N80",
+      "Contrôler l'alimentation et la commande",
+      "Inspecter les durites de purge",
+      "N80 souvent située sur le couvre-culasse"
+    ]
   },
   "P0500": {
     "systeme": "ABS / Vitesse",
     "libelle": "Capteur de vitesse – aucun signal",
-    "description": "Absence de signal en provenance du capteur de vitesse véhicule.",
-    "commentaires": []
+    "description": "Absence de signal du capteur de vitesse véhicule (généralement sur boîte ou différentiel).",
+    "commentaires": [
+      "Capteur de vitesse G22 ou G68 défectueux",
+      "Câblage ou connecteur endommagé",
+      "Roue phonique oxydée ou sale",
+      "Problème de compteur kilométrique"
+    ]
   },
   "P0560": {
     "systeme": "Alimentation",
     "libelle": "Tension d'alimentation - signal inacceptable",
-    "description": "La tension de bord mesurée est hors plage attendue.",
-    "commentaires": []
+    "description": "Tension du système électrique du véhicule hors des plages acceptables pour le fonctionnement de l'ECU.",
+    "commentaires": [
+      "Batterie faible ou en fin de vie",
+      "Alternateur défectueux",
+      "Mauvaise connexion de masse",
+      "Câbles d'alimentation corrodés"
+    ]
   },
   "P0561": {
     "systeme": "Alimentation",
     "libelle": "Voltage pile – instable",
-    "description": "Variation excessive ou instabilité de la tension de batterie.",
-    "commentaires": []
+    "description": "Variations excessives de la tension batterie détectées par l'ECU moteur.",
+    "commentaires": [
+      "Batterie sulfatée ou interne défectueuse",
+      "Alternateur avec régulateur défaillant",
+      "Courant de fuite important",
+      "Connexions de batterie oxydées"
+    ]
   },
   "P0562": {
     "systeme": "Alimentation",
     "libelle": "Tension d'alimentation - tension trop faible",
-    "description": "La tension d'alimentation est trop basse.",
-    "commentaires": []
+    "description": "Tension d'alimentation inférieure au minimum requis (généralement < 10.5V avec moteur tournant).",
+    "commentaires": [
+      "Batterie déchargée",
+      "Alternateur ne chargeant pas",
+      "Courant de démarrage excessif",
+      "Court-circuit dans le système"
+    ]
   },
   "P0563": {
     "systeme": "Alimentation",
     "libelle": "Tension d'alimentation - tension trop forte",
-    "description": "La tension d'alimentation est trop élevée.",
-    "commentaires": []
+    "description": "Surtension détectée dans le circuit d'alimentation (généralement > 16V).",
+    "commentaires": [
+      "Régulateur d'alternateur défectueux",
+      "Problème de masse de l'alternateur",
+      "Câblage d'alternateur endommagé",
+      "ECU peut être endommagé par surtension"
+    ]
   },
   "P0565": {
     "systeme": "Régulateur de vitesse",
     "libelle": "Régulateur de vitesse – circuit ne fonctionne pas",
-    "description": "Défaut sur le circuit de commande du régulateur de vitesse.",
-    "commentaires": []
+    "description": "Défaut général dans le circuit de commande du régulateur de vitesse (cruise control).",
+    "commentaires": [
+      "Commande au volant défectueuse",
+      "Câblage vers l'ECU moteur",
+      "Contacteur de frein ou d'embrayage",
+      "Fusible du système régulateur"
+    ]
   },
   "P0571": {
     "systeme": "Régulateur de vitesse",
     "libelle": "Régulateur de vitesse / contacteur feu stop circuit A génère défaut",
-    "description": "Problème de cohérence entre le contacteur de frein et le régulateur.",
-    "commentaires": []
+    "description": "Incohérence entre l'état du contacteur de frein et la commande du régulateur de vitesse.",
+    "commentaires": [
+      "Contacteur de frein F défectueux",
+      "Court-circuit dans le circuit stop",
+      "Problème de pédale de frein",
+      "Câblage vers l'ECU moteur"
+    ]
   },
   "P0572": {
     "systeme": "Régulateur de vitesse",
     "libelle": "Bouton de frein – voltage bas",
-    "description": "Tension trop faible sur le circuit du contacteur de frein.",
-    "commentaires": []
+    "description": "Tension insuffisante sur le circuit du contacteur de pédale de frein.",
+    "commentaires": [
+      "Mauvaise alimentation du contacteur",
+      "Résistance excessive dans le circuit",
+      "Contacteur de frein usé",
+      "Problème de masse du circuit"
+    ]
   },
   "P0573": {
     "systeme": "Régulateur de vitesse",
     "libelle": "Bouton de frein – voltage élevé",
-    "description": "Tension trop élevée sur le circuit du contacteur de frein.",
-    "commentaires": []
+    "description": "Tension excessive sur le circuit du contacteur de pédale de frein.",
+    "commentaires": [
+      "Court-circuit à la masse défectueux",
+      "Problème d'alimentation du circuit",
+      "Contacteur de frein collé fermé",
+      "ECU défectueux"
+    ]
   },
   "P0600": {
     "systeme": "Communication",
     "libelle": "Databus 'entraînement' manque d'info",
-    "description": "Perte ou absence d'informations sur le bus de données groupe motopropulseur.",
-    "commentaires": []
+    "description": "Perte de communication sur le bus CAN (Controller Area Network) du groupe motopropulseur.",
+    "commentaires": [
+      "Problème de câblage CAN",
+      "ECU défectueux",
+      "Mauvaise connexion d'un module",
+      "Interférences électromagnétiques"
+    ]
   },
   "P0601": {
     "systeme": "Calculateur",
     "libelle": "Appareil de réglage défectueux",
-    "description": "Défaut interne de mémoire/contrôle dans le calculateur.",
-    "commentaires": []
+    "description": "Erreur interne de mémoire ROM ou flash dans le calculateur moteur.",
+    "commentaires": [
+      "ECU nécessite reprogrammation",
+      "Problème de mémoire interne",
+      "Coupure de batterie pendant mise à jour",
+      "ECU peut nécessiter remplacement"
+    ]
   },
   "P0602": {
     "systeme": "Calculateur",
     "libelle": "Programmation d'appareil de réglage - mauvais fonctionnement",
-    "description": "Problème de programmation ou de codage du calculateur.",
-    "commentaires": []
+    "description": "Erreur de programmation ou de codage du calculateur moteur.",
+    "commentaires": [
+      "Mauvais codage ECU installé",
+      "Programmation incorrecte",
+      "Problème de communication OBD",
+      "Nécessite recodage avec outil dédié"
+    ]
   },
   "P0604": {
     "systeme": "Calculateur",
     "libelle": "Appareil de réglage défectueux",
-    "description": "Erreur interne de mémoire RAM du calculateur.",
-    "commentaires": []
+    "description": "Erreur interne de mémoire RAM dans le calculateur moteur.",
+    "commentaires": [
+      "Problème d'alimentation ECU",
+      "Mémoire RAM défectueuse",
+      "ECU endommagé par surtension",
+      "Nécessite remplacement ECU"
+    ]
   },
   "P0606": {
     "systeme": "Calculateur",
     "libelle": "Appareil de réglage défectueux",
-    "description": "Défaillance générale du processeur de calculateur.",
-    "commentaires": []
+    "description": "Défaillance générale du processeur ou du microcontrôleur de l'ECU.",
+    "commentaires": [
+      "ECU complètement défectueux",
+      "Problème interne grave",
+      "Survoltage ayant endommagé le CPU",
+      "Remplacement ECU nécessaire"
+    ]
   },
   "16486": {
     "systeme": "Débitmètre",
     "libelle": "P0102 Débitmètre massique -G70 signal trop faible",
-    "description": "",
-    "commentaires": []
+    "description": "Signal du débitmètre d'air massique inférieur à la valeur attendue pour le régime et charge moteur.",
+    "commentaires": [
+      "Débitmètre d'air défectueux",
+      "Entrée d'air non mesurée (fuite après débitmètre)",
+      "Connexion électrique du MAF",
+      "Filtre à air très sale ou obstrué"
+    ]
   },
   "16487": {
     "systeme": "Débitmètre",
     "libelle": "P0103 Débitmètre massique -G70 signal trop fort",
-    "description": "",
-    "commentaires": []
+    "description": "Signal du débitmètre d'air massique supérieur à la valeur attendue pour les conditions de fonctionnement.",
+    "commentaires": [
+      "Débitmètre d'air court-circuité",
+      "Fils du MAF endommagés",
+      "ECU moteur défectueux",
+      "Problème de référence de tension"
+    ]
   },
   "16496": {
     "systeme": "Admission",
     "libelle": "P0112 Capteur température d'air aspiré -G42 signal trop faible",
-    "description": "",
-    "commentaires": []
+    "description": "Signal du capteur de température d'air d'admission indiquant une température anormalement basse.",
+    "commentaires": [
+      "Capteur G42 court-circuit à la masse",
+      "Résistance interne défectueuse",
+      "Câblage endommagé",
+      "Connecteur oxydé ou sale"
+    ]
   },
   "16497": {
     "systeme": "Admission",
     "libelle": "P0113 Capteur température d'air aspiré -G42 signal trop fort",
-    "description": "",
-    "commentaires": []
+    "description": "Signal du capteur de température d'air d'admission indiquant une température anormalement élevée ou circuit ouvert.",
+    "commentaires": [
+      "Capteur G42 circuit ouvert",
+      "Résistance interne très élevée",
+      "Câblage coupé",
+      "Problème de connexion au +5V"
+    ]
   },
   "16500": {
     "systeme": "Refroidissement",
     "libelle": "P0116 Capteur température liquide refroidissement -G62 signal inacceptable",
-    "description": "",
-    "commentaires": []
+    "description": "Signal du capteur de température liquide de refroidissement hors plage ou incohérent avec d'autres paramètres.",
+    "commentaires": [
+      "Capteur G62 défectueux",
+      "Courbe de résistance incorrecte",
+      "Circuit de référence défectueux",
+      "Température réelle très anormale"
+    ]
   },
   "16501": {
     "systeme": "Refroidissement",
     "libelle": "P0117 Capteur température liquide refroidissement -G62 signal trop faible",
-    "description": "",
-    "commentaires": []
+    "description": "Signal indiquant une température de liquide de refroidissement anormalement basse (circuit court-circuité).",
+    "commentaires": [
+      "Capteur G62 court-circuit",
+      "Câblage court-circuité à la masse",
+      "Résistance interne trop basse",
+      "Problème de référence ECU"
+    ]
   },
   "16502": {
     "systeme": "Refroidissement",
     "libelle": "P0118 Capteur température liquide refroidissement -G62 signal trop fort",
-    "description": "",
-    "commentaires": []
+    "description": "Signal indiquant une température de liquide de refroidissement anormalement élevée (circuit ouvert).",
+    "commentaires": [
+      "Capteur G62 circuit ouvert",
+      "Câblage coupé",
+      "Connecteur déconnecté",
+      "Résistance interne infinie"
+    ]
   },
   "16504": {
     "systeme": "Papillon",
     "libelle": "P0120 Potentiomètre de papillon -G69 panne électrique",
-    "description": "",
-    "commentaires": []
+    "description": "Défaut électrique général sur le circuit du potentiomètre de papillon des gaz.",
+    "commentaires": [
+      "Potentiomètre G69 défectueux",
+      "Alimentation +5V absente",
+      "Masse du capteur coupée",
+      "Câblage endommagé"
+    ]
   },
   "16505": {
     "systeme": "Papillon",
     "libelle": "P0121 Potentiomètre de papillon -G69 signal inacceptable",
-    "description": "",
-    "commentaires": []
+    "description": "Signal du potentiomètre de papillon incohérent ou hors plage de fonctionnement.",
+    "commentaires": [
+      "Plages de signal incorrectes",
+      "Usure du potentiomètre",
+      "Problème mécanique du papillon",
+      "Calibration nécessaire"
+    ]
   },
   "16506": {
     "systeme": "Papillon",
     "libelle": "P0122 Potentiomètre de papillon -G69 signal trop faible",
-    "description": "",
-    "commentaires": []
+    "description": "Signal du potentiomètre de papillon inférieur à la valeur minimale attendue.",
+    "commentaires": [
+      "Court-circuit à la masse",
+      "Résistance interne faible",
+      "Problème de référence basse",
+      "Capteur défectueux"
+    ]
   },
   "16507": {
     "systeme": "Papillon",
     "libelle": "P0123 Potentiomètre de papillon -G69 signal trop fort",
-    "description": "",
-    "commentaires": []
+    "description": "Signal du potentiomètre de papillon supérieur à la valeur maximale attendue.",
+    "commentaires": [
+      "Court-circuit au +5V",
+      "Circuit ouvert du capteur",
+      "Résistance interne élevée",
+      "Problème de câblage signal"
+    ]
   },
   "16514": {
     "systeme": "Lambda",
     "libelle": "P0130 Rangée 1 Sonde 1 - panne électrique",
-    "description": "",
-    "commentaires": []
+    "description": "Défaut électrique sur le circuit de la sonde lambda avant catalyseur (sonde de régulation).",
+    "commentaires": [
+      "Sonde lambda G39 défectueuse",
+      "Câblage coupé ou court-circuité",
+      "Connecteur oxydé (chaleur)",
+      "ECU défectueux"
+    ]
   },
   "16515": {
     "systeme": "Lambda",
     "libelle": "P0131 Rangée 1 Sonde 1 - tension trop faible",
-    "description": "",
-    "commentaires": []
+    "description": "Signal de la sonde lambda avant catalyseur trop faible, indiquant un mélange trop pauvre.",
+    "commentaires": [
+      "Sonde défectueuse (vieillissement)",
+      "Fuites d'air admission",
+      "Pression d'injection faible",
+      "Filtre à air très encrassé"
+    ]
   },
   "16516": {
     "systeme": "Lambda",
     "libelle": "P0132 Rangée 1 Sonde 1 - tension trop forte",
-    "description": "",
-    "commentaires": []
+    "description": "Signal de la sonde lambda avant catalyseur trop élevé, indiquant un mélange trop riche.",
+    "commentaires": [
+      "Sonde lambda court-circuitée",
+      "Pression d'injection trop élevée",
+      "Sonctionnement en mode dégradé",
+      "Fuite carburant dans admission"
+    ]
   },
   "16517": {
     "systeme": "Lambda",
     "libelle": "P0133 Rangée 1 Sonde 1 - signal trop lent",
-    "description": "",
-    "commentaires": []
+    "description": "Réponse de la sonde lambda avant catalyseur trop lente pour une régulation correcte.",
+    "commentaires": [
+      "Sonde lambda vieillissante",
+      "Contamination par silicones",
+      "Température sonde insuffisante",
+      "Chauffage sonde défectueux"
+    ]
   },
   "16518": {
     "systeme": "Lambda",
     "libelle": "P0134 Rangée 1 Sonde 1 - aucune activité",
-    "description": "",
-    "commentaires": []
+    "description": "Absence de signal ou activité nulle de la sonde lambda avant catalyseur.",
+    "commentaires": [
+      "Sonde lambda complètement morte",
+      "Câblage coupé",
+      "Chauffage sonde HS",
+      "Sonde non alimentée"
+    ]
   },
   "16519": {
     "systeme": "Lambda",
     "libelle": "P0135 Rangée 1 Sonde 1 chauffage - panne électrique",
-    "description": "",
-    "commentaires": []
+    "description": "Défaut sur le circuit de chauffage de la sonde lambda avant catalyseur.",
+    "commentaires": [
+      "Résistance chauffage HS",
+      "Relais chauffage défectueux",
+      "Fusible chauffage grillé",
+      "Câblage chauffage endommagé"
+    ]
   },
   "16520": {
     "systeme": "Lambda",
     "libelle": "P0136 Rangée 1 Sonde 2 panne électrique",
-    "description": "",
-    "commentaires": []
+    "description": "Défaut électrique sur le circuit de la sonde lambda après catalyseur (sonde de diagnostic).",
+    "commentaires": [
+      "Sonde post-catalyseur défectueuse",
+      "Câblage endommagé",
+      "Connecteur près catalyseur",
+      "Problème similare à P0130"
+    ]
   },
   "16521": {
     "systeme": "Lambda",
     "libelle": "P0137 Rangée 1 Sonde 2 tension trop faible",
-    "description": "",
-    "commentaires": []
+    "description": "Signal de la sonde lambda après catalyseur trop faible pour les conditions de fonctionnement.",
+    "commentaires": [
+      "Catalyseur très efficace",
+      "Sonde post-cat vieillissante",
+      "Fuites d'échappement avant sonde",
+      "Mélange globalement trop pauvre"
+    ]
   },
   "16522": {
     "systeme": "Lambda",
     "libelle": "P0138 Rangée 1 Sonde 2 tension trop forte",
-    "description": "",
-    "commentaires": []
+    "description": "Signal de la sonde lambda après catalyseur trop élevé, catalyseur probablement inefficace.",
+    "commentaires": [
+      "Catalyseur endommagé ou usé",
+      "Sonde post-cat défectueuse",
+      "Échappement fuyard",
+      "Régulation lambda défaillante"
+    ]
   },
   "16523": {
     "systeme": "Lambda",
     "libelle": "P0139 Rangée 1 Sonde 2 signal trop lent",
-    "description": "",
-    "commentaires": []
+    "description": "Réponse trop lente de la sonde lambda après catalyseur pour un diagnostic fiable.",
+    "commentaires": [
+      "Sonde post-cat contaminée",
+      "Température insuffisante",
+      "Vieillissement normal sonde",
+      "Chauffage sonde faible"
+    ]
   },
   "16524": {
     "systeme": "Lambda",
     "libelle": "P0140 Rangée 1 Sonde 2 aucune activité",
-    "description": "",
-    "commentaires": []
+    "description": "Absence de signal de la sonde lambda après catalyseur.",
+    "commentaires": [
+      "Sonde post-cat complètement HS",
+      "Circuit ouvert",
+      "Problème de connecteur",
+      "ECU ne détecte pas la sonde"
+    ]
   },
   "16525": {
     "systeme": "Lambda",
     "libelle": "P0141 Rangée 1 Sonde 2 chauffage panne électrique",
-    "description": "",
-    "commentaires": []
+    "description": "Défaut sur le circuit de chauffage de la sonde lambda après catalyseur.",
+    "commentaires": [
+      "Chauffage sonde post-cat HS",
+      "Fusible spécifique",
+      "Relais commun avec sonde avant",
+      "Câblage endommagé par chaleur"
+    ]
   },
   "16534": {
     "systeme": "Lambda",
     "libelle": "P0150 Rangée 2 Sonde 1 panne électrique",
-    "description": "",
-    "commentaires": []
+    "description": "Défaut électrique sur la sonde lambda avant catalyseur rangée 2 (moteurs V6, V8).",
+    "commentaires": [
+      "Sonde lambda banque 2 défectueuse",
+      "Problèmes similaires à P0130",
+      "Câblage côté conducteur",
+      "Connecteur côté chaud"
+    ]
   },
   "16536": {
     "systeme": "Lambda",
     "libelle": "P0152 Rangée 2 Sonde 1 tension trop forte",
-    "description": "",
-    "commentaires": []
+    "description": "Signal trop élevé de la sonde lambda avant catalyseur rangée 2.",
+    "commentaires": [
+      "Mélange riche rangée 2",
+      "Injecteurs bouchés ou fuites",
+      "Problème admission spécifique",
+      "Sonde défectueuse côté droit"
+    ]
   },
   "16537": {
     "systeme": "Lambda",
     "libelle": "P0153 Rangée 2 Sonde 1 signal trop lent",
-    "description": "",
-    "commentaires": []
+    "description": "Réponse trop lente de la sonde lambda avant catalyseur rangée 2.",
+    "commentaires": [
+      "Vieillissement sonde rangée 2",
+      "Contamination spécifique",
+      "Température différente entre rangées",
+      "Chauffage sonde faible"
+    ]
   },
   "16538": {
     "systeme": "Lambda",
     "libelle": "P0154 Rangée 2 Sonde 1 aucune activité",
-    "description": "",
-    "commentaires": []
+    "description": "Absence de signal de la sonde lambda avant catalyseur rangée 2.",
+    "commentaires": [
+      "Sonde rangée 2 complètement HS",
+      "Câblage spécifique coupé",
+      "Connecteur défaillant",
+      "ECU ne détecte pas sonde 2"
+    ]
   },
   "16539": {
     "systeme": "Lambda",
     "libelle": "P0155 Rangée 2 Sonde 1 chauffage panne électrique",
-    "description": "",
-    "commentaires": []
+    "description": "Défaut chauffage sonde lambda avant catalyseur rangée 2.",
+    "commentaires": [
+      "Chauffage sonde rangée 2 HS",
+      "Circuit indépendant",
+      "Fusible spécifique rangée 2",
+      "Câblage côté conducteur"
+    ]
   },
   "16540": {
     "systeme": "Lambda",
     "libelle": "P0156 Rangée 2 Sonde 2 panne électrique",
-    "description": "",
-    "commentaires": []
+    "description": "Défaut électrique sonde lambda après catalyseur rangée 2.",
+    "commentaires": [
+      "Sonde post-cat rangée 2 HS",
+      "Problèmes similaires à P0136",
+      "Câblage vers l'arrière",
+      "Connecteur près silencieux"
+    ]
   },
   "16542": {
     "systeme": "Lambda",
     "libelle": "P0158 Rangée 2 Sonde 2 tension trop forte",
-    "description": "",
-    "commentaires": []
+    "description": "Signal trop élevé sonde lambda après catalyseur rangée 2.",
+    "commentaires": [
+      "Catalyseur rangée 2 inefficace",
+      "Sonde post-cat défectueuse",
+      "Échappement rangée 2 fuyard",
+      "Problème régulation spécifique"
+    ]
   },
   "16543": {
     "systeme": "Lambda",
-    "libelle": "P0159 Rangée 2 Sonde 2 signal trop faible",
-    "description": "",
-    "commentaires": []
+    "libelle": "P0159 Rangée 2 Sonde 2 signal trop lent",
+    "description": "Réponse trop lente sonde lambda après catalyseur rangée 2.",
+    "commentaires": [
+      "Sonde post-cat vieillissante",
+      "Contamination par huile",
+      "Distance du moteur plus grande",
+      "Température plus basse"
+    ]
   },
   "16544": {
     "systeme": "Lambda",
     "libelle": "P0160 Rangée 2 Sonde 2 aucune activité",
-    "description": "",
-    "commentaires": []
+    "description": "Absence de signal sonde lambda après catalyseur rangée 2.",
+    "commentaires": [
+      "Sonde post-cat rangée 2 morte",
+      "Circuit complètement ouvert",
+      "Problème de connecteur arrière",
+      "ECU détecte absence signal"
+    ]
   },
   "16545": {
     "systeme": "Lambda",
     "libelle": "P0161 Rangée 2 Sonde 2 chauffage panne électrique",
-    "description": "",
-    "commentaires": []
+    "description": "Défaut chauffage sonde lambda après catalyseur rangée 2.",
+    "commentaires": [
+      "Chauffage sonde post-cat 2 HS",
+      "Circuit chauffage indépendant",
+      "Fusible spécifique",
+      "Câblage le long du châssis"
+    ]
   },
   "16554": {
     "systeme": "Carburant",
     "libelle": "P0170 Rangée 1 système de correction de carburant – mauvais fonctionnement",
-    "description": "",
-    "commentaires": []
+    "description": "Problème général dans le système de correction de carburant pour la rangée 1 des cylindres.",
+    "commentaires": [
+      "Régulation lambda défaillante",
+      "Problème pression carburant",
+      "Injecteurs défectueux",
+      "Sonde lambda avant HS"
+    ]
   },
   "16555": {
     "systeme": "Carburant",
     "libelle": "P0171 Rangée 1 – mélange trop pauvre",
-    "description": "",
-    "commentaires": []
+    "description": "Mélange air/carburant trop pauvre détecté sur la rangée 1 des cylindres.",
+    "commentaires": [
+      "Fuites d'air admission",
+      "Pression carburant faible",
+      "Injecteurs partiellement bouchés",
+      "Débitmètre d'air sous-estimant"
+    ]
   },
   "16556": {
     "systeme": "Carburant",
     "libelle": "P0172 Rangée 1 – mélange trop riche",
-    "description": "",
-    "commentaires": []
+    "description": "Mélange air/carburant trop riche détecté sur la rangée 1 des cylindres.",
+    "commentaires": [
+      "Pression carburant trop élevée",
+      "Injecteurs fuites internes",
+      "Débitmètre sur-estimant débit",
+      "Sonctionnement en mode dégradé"
+    ]
   },
   "16557": {
     "systeme": "Carburant",
     "libelle": "P0173 Rangée 1 – mauvais fonctionnement",
-    "description": "",
-    "commentaires": []
+    "description": "Fonctionnement incorrect du système de correction carburant rangée 1.",
+    "commentaires": [
+      "Problème général régulation",
+      "ECU ne corrige pas correctement",
+      "Multiples causes possibles",
+      "Diagnostic approfondi nécessaire"
+    ]
   },
   "16558": {
     "systeme": "Carburant",
     "libelle": "P0174 Rangée 2 – mélange trop pauvre",
-    "description": "",
-    "commentaires": []
+    "description": "Mélange trop pauvre détecté sur la rangée 2 des cylindres (moteurs multi-rangées).",
+    "commentaires": [
+      "Fuites admission rangée 2",
+      "Injecteurs rangée 2 bouchés",
+      "Collecteur admission spécifique",
+      "Problème sonde lambda rangée 2"
+    ]
   },
   "16559": {
     "systeme": "Carburant",
     "libelle": "P0175 Rangée 2 – mélange trop riche",
-    "description": "",
-    "commentaires": []
+    "description": "Mélange trop riche détecté sur la rangée 2 des cylindres.",
+    "commentaires": [
+      "Injecteurs rangée 2 fuites",
+      "Pression carburant local élevée",
+      "Problème admission spécifique",
+      "Sonde lambda rangée 2 défectueuse"
+    ]
   },
   "16684": {
     "systeme": "Allumage",
     "libelle": "P0300 Détection de ratés de combustion – aléatoire",
-    "description": "",
-    "commentaires": []
+    "description": "Ratés d'allumage détectés sur plusieurs cylindres de manière aléatoire.",
+    "commentaires": [
+      "Bougies usées",
+      "Bobines d'allumage faibles",
+      "Problème essence (eau)",
+      "Compression moteur faible"
+    ]
   },
   "16685": {
     "systeme": "Allumage",
     "libelle": "P0301 Ratés de combustion cylindre 1",
-    "description": "",
-    "commentaires": []
+    "description": "Ratés d'allumage spécifiques au cylindre 1 détectés.",
+    "commentaires": [
+      "Bougie cylindre 1",
+      "Bobine cylindre 1",
+      "Injecteur cylindre 1",
+      "Compression cylindre 1 faible"
+    ]
   },
   "16686": {
     "systeme": "Allumage",
     "libelle": "P0302 Ratés de combustion cylindre 2",
-    "description": "",
-    "commentaires": []
+    "description": "Ratés d'allumage spécifiques au cylindre 2.",
+    "commentaires": [
+      "Problème bougie 2",
+      "Bobine 2 défectueuse",
+      "Injecteur 2 bouché",
+      "Compression différentielle"
+    ]
   },
   "16687": {
     "systeme": "Allumage",
     "libelle": "P0303 Ratés de combustion cylindre 3",
-    "description": "",
-    "commentaires": []
+    "description": "Ratés d'allumage spécifiques au cylindre 3.",
+    "commentaires": [
+      "Élément d'allumage 3",
+      "Problème électrique local",
+      "Fuites admission cylindre 3",
+      "Joint de culasse local"
+    ]
   },
   "16688": {
     "systeme": "Allumage",
     "libelle": "P0304 Ratés de combustion cylindre 4",
-    "description": "",
-    "commentaires": []
+    "description": "Ratés d'allumage spécifiques au cylindre 4.",
+    "commentaires": [
+      "Bougie 4 encrassée",
+      "Bobine 4 faible",
+      "Injecteur 4 défectueux",
+      "Segment piston 4 usé"
+    ]
   },
   "16689": {
     "systeme": "Allumage",
     "libelle": "P0305 Ratés de combustion cylindre 5",
-    "description": "",
-    "commentaires": []
+    "description": "Ratés d'allumage spécifiques au cylindre 5 (moteurs 5 ou 6 cylindres).",
+    "commentaires": [
+      "Système allumage cylindre 5",
+      "Problème compression 5",
+      "Circuit injection spécifique",
+      "Distribution décalée localement"
+    ]
   },
   "16690": {
     "systeme": "Allumage",
     "libelle": "P0306 Ratés de combustion cylindre 6",
-    "description": "",
-    "commentaires": []
+    "description": "Ratés d'allumage spécifiques au cylindre 6.",
+    "commentaires": [
+      "Élément allumage 6",
+      "Bobine ou bougie 6",
+      "Problème admission cylindre 6",
+      "Compression moteur sur 6"
+    ]
   },
   "16691": {
     "systeme": "Allumage",
     "libelle": "P0307 Ratés de combustion cylindre 7",
-    "description": "",
-    "commentaires": []
+    "description": "Ratés d'allumage spécifiques au cylindre 7 (moteurs V8, V10, V12).",
+    "commentaires": [
+      "Système cylindre 7 défectueux",
+      "Problème électrique spécifique",
+      "Distribution côté 7",
+      "Compression cylindre 7"
+    ]
   },
   "16692": {
     "systeme": "Allumage",
     "libelle": "P0308 Ratés de combustion cylindre 8",
-    "description": "",
-    "commentaires": []
+    "description": "Ratés d'allumage spécifiques au cylindre 8.",
+    "commentaires": [
+      "Bougie ou bobine 8",
+      "Injecteur cylindre 8",
+      "Fuites admission 8",
+      "Problème mécanique local"
+    ]
   },
   "16706": {
     "systeme": "Moteur",
     "libelle": "P0322 Capteur régime moteur -G28 aucun signal",
-    "description": "",
-    "commentaires": []
+    "description": "Absence complète de signal du capteur de régime moteur (capteur vilebrequin).",
+    "commentaires": [
+      "Capteur G28 défectueux",
+      "Câblage coupé",
+      "Roue phonique endommagée",
+      "Écart capteur trop important"
+    ]
   },
   "16711": {
     "systeme": "Cliquetis",
     "libelle": "P0327 Capteur de cliquetis 1 -G61 signal trop faible",
-    "description": "",
-    "commentaires": []
+    "description": "Signal du capteur de cliquetis 1 trop faible pour une détection correcte.",
+    "commentaires": [
+      "Capteur G61 vieillissant",
+      "Câblage résistance élevée",
+      "Problème de connexion",
+      "Montage capteur incorrect"
+    ]
   },
   "16716": {
     "systeme": "Cliquetis",
     "libelle": "P0332 Capteur de cliquetis 2 signal trop fort",
-    "description": "",
-    "commentaires": []
+    "description": "Signal du capteur de cliquetis 2 trop élevé (généralement court-circuit).",
+    "commentaires": [
+      "Capteur cliquetis 2 court-circuité",
+      "Câblage endommagé",
+      "Problème ECU",
+      "Interférences électriques"
+    ]
   },
   "16721": {
     "systeme": "Moteur",
     "libelle": "P0337 Capteur point de référence -G4 signal trop faible",
-    "description": "",
-    "commentaires": []
+    "description": "Signal du capteur de point mort haut (PMH) trop faible.",
+    "commentaires": [
+      "Capteur G4 défectueux",
+      "Problème similare à G28",
+      "Roue de référence sale",
+      "Écart d'air important"
+    ]
   },
   "16725": {
     "systeme": "Distribution",
     "libelle": "P0341 Capteur position arbre à cames - signal inacceptable",
-    "description": "",
-    "commentaires": []
+    "description": "Signal du capteur de position arbre à cames incorrect ou hors plage.",
+    "commentaires": [
+      "Capteur G40 défectueux",
+      "Problème distribution",
+      "Courroie de distribution décalée",
+      "Câblage capteur arbre à cames"
+    ]
   },
   "16784": {
     "systeme": "EGR",
     "libelle": "P0400 Recirculation gaz d'échappement – mauvais fonctionnement",
-    "description": "",
-    "commentaires": []
+    "description": "Fonctionnement général incorrect du système EGR (Exhaust Gas Recirculation).",
+    "commentaires": [
+      "Valve EGR bloquée",
+      "Circuit EGR obstrué",
+      "Problème électrovanne",
+      "Capteur débit EGR défectueux"
+    ]
   },
   "16785": {
     "systeme": "EGR",
     "libelle": "P0401 Recirculation gaz d'échappement – passage trop étroit",
-    "description": "",
-    "commentaires": []
+    "description": "Débit de gaz EGR inférieur à la valeur attendue.",
+    "commentaires": [
+      "Valve EGR partiellement obstruée",
+      "Circuit EGR encrassé",
+      "Pression différentielle faible",
+      "Problème vanne EGR"
+    ]
   },
   "16786": {
     "systeme": "EGR",
     "libelle": "P0402 Recirculation gaz d'échappement – passage trop important",
-    "description": "",
-    "commentaires": []
+    "description": "Débit de gaz EGR supérieur à la valeur attendue.",
+    "commentaires": [
+      "Valve EGR coincée ouverte",
+      "Problème commande électrovanne",
+      "Pression échappement anormale",
+      "Fuites dans le circuit EGR"
+    ]
   },
   "16795": {
     "systeme": "Air secondaire",
     "libelle": "P0411 Système air secondaire – débit insuffisant",
-    "description": "",
-    "commentaires": []
+    "description": "Débit d'air insuffisant dans le système d'injection d'air secondaire.",
+    "commentaires": [
+      "Pompe air secondaire faible",
+      "Circuit air obstrué",
+      "Electrovanne air secondaire",
+      "Capteur débit air secondaire"
+    ]
   },
   "16806": {
     "systeme": "Catalyseur",
     "libelle": "P0422 Rangée 1 catalyseur principal – efficacité insuffisante",
-    "description": "",
-    "commentaires": []
+    "description": "Efficacité du catalyseur principal rangée 1 insuffisante selon diagnostic OBD.",
+    "commentaires": [
+      "Catalyseur usé ou endommagé",
+      "Sonde lambda avant ou après",
+      "Température catalyseur insuffisante",
+      "Problème mélange chronique"
+    ]
   },
   "16816": {
     "systeme": "Catalyseur",
     "libelle": "P0432 Rangée 2 catalyseur principal – efficacité insuffisante",
-    "description": "",
-    "commentaires": []
+    "description": "Efficacité du catalyseur principal rangée 2 insuffisante.",
+    "commentaires": [
+      "Catalyseur rangée 2 HS",
+      "Problèmes similaires rangée 1",
+      "Utilisation différente des rangées",
+      "Température inégale entre côtés"
+    ]
   },
   "16824": {
     "systeme": "Ventilation réservoir",
     "libelle": "P0440 Système de ventilation du réservoir – mauvais fonctionnement",
-    "description": "",
-    "commentaires": []
+    "description": "Problème général dans le système d'évaporation des vapeurs de carburant (EVAP).",
+    "commentaires": [
+      "Electrovanne purge canister",
+      "Capteur pression EVAP",
+      "Fuites dans le système",
+      "Circuit vapeurs obstrué"
+    ]
   },
   "16825": {
     "systeme": "Ventilation réservoir",
     "libelle": "P0441 Passage insuffisant dans le système de ventilation du réservoir",
-    "description": "",
-    "commentaires": []
+    "description": "Débit insuffisant dans le système EVAP lors du test de purge.",
+    "commentaires": [
+      "Électrovanne purge obstruée",
+      "Canister à charbon saturé",
+      "Durites EVAP pliées",
+      "Filtre EVAP bouché"
+    ]
   },
   "16826": {
     "systeme": "Ventilation réservoir",
     "libelle": "P0442 Détection de légère fuite dans le système de ventilation du réservoir",
-    "description": "",
-    "commentaires": []
+    "description": "Fuite de petite taille détectée dans le système EVAP.",
+    "commentaires": [
+      "Bouchon réservoir mal serré",
+      "Durite EVAP fendue",
+      "Connexions desserrées",
+      "Joint canister défectueux"
+    ]
   },
   "16836": {
     "systeme": "Ventilation réservoir",
     "libelle": "P0452 Capteur pression système ventilation réservoir – signal trop faible",
-    "description": "",
-    "commentaires": []
+    "description": "Signal du capteur de pression EVAP trop faible.",
+    "commentaires": [
+      "Capteur pression EVAP défectueux",
+      "Circuit ouvert capteur",
+      "Pression anormalement basse",
+      "Problème référence ECU"
+    ]
   },
   "16837": {
     "systeme": "Ventilation réservoir",
     "libelle": "P0453 Capteur pression système ventilation réservoir – signal trop fort",
-    "description": "",
-    "commentaires": []
+    "description": "Signal du capteur de pression EVAP trop élevé.",
+    "commentaires": [
+      "Capteur pression court-circuité",
+      "Pression anormalement haute",
+      "Circuit signal vers +5V",
+      "Problème interne capteur"
+    ]
   },
   "16839": {
     "systeme": "Ventilation réservoir",
     "libelle": "P0455 Détection de grosse fuite dans le système de ventilation du réservoir",
-    "description": "",
-    "commentaires": []
+    "description": "Fuite importante détectée dans le système EVAP.",
+    "commentaires": [
+      "Bouchon réservoir absent",
+      "Durite EVAP coupée",
+      "Canister fissuré",
+      "Connexion principale desserrée"
+    ]
   },
   "16845": {
     "systeme": "Carburant",
     "libelle": "P0461 Signal de niveau de carburant – signal inacceptable",
-    "description": "",
-    "commentaires": []
+    "description": "Signal du capteur de niveau de carburant incorrect ou incohérent.",
+    "commentaires": [
+      "Sonction à carburant défectueuse",
+      "Résistance variable usée",
+      "Câblage vers combiné",
+      "Problème afficheur niveau"
+    ]
   },
   "16885": {
     "systeme": "Vitesse véhicule",
     "libelle": "P0501 Signal de vitesse véhicule – signal inacceptable",
-    "description": "",
-    "commentaires": []
+    "description": "Signal du capteur de vitesse véhicule incorrect ou incohérent.",
+    "commentaires": [
+      "Capteur vitesse G22/G68",
+      "Roue phonique endommagée",
+      "Câblage vers ECU/ABS",
+      "Problème calculateur ABS"
+    ]
   },
   "16890": {
     "systeme": "Ralenti",
     "libelle": "P0506 Régulation du régime de ralenti – régime trop bas",
-    "description": "",
-    "commentaires": []
+    "description": "Régime moteur au ralenti inférieur à la consigne.",
+    "commentaires": [
+      "VanEAP de ralenti sale",
+      "Fuites d'air admission",
+      "Problème papillon des gaz",
+      "Charge électrique excessive"
+    ]
   },
   "16891": {
     "systeme": "Ralenti",
     "libelle": "P0507 Régime de ralenti trop élevé",
-    "description": "",
-    "commentaires": []
+    "description": "Régime moteur au ralenti supérieur à la consigne.",
+    "commentaires": [
+      "VanEAP de ralenti coincée",
+      "Câble accélérateur tendu",
+      "Papillon des gaz encrassé",
+      "Adaptation ralenti nécessaire"
+    ]
   },
   "16894": {
     "systeme": "Boîte auto",
     "libelle": "P0510 Contacteur de charge nulle - mauvais fonctionnement",
-    "description": "",
-    "commentaires": []
+    "description": "Problème avec le contacteur de position neutre/point mort (boîte auto ou manuelle).",
+    "commentaires": [
+      "Contacteur neutre F8/F125",
+      "Câblage vers ECU",
+      "Problème levier boîte",
+      "Ajustement contacteur nécessaire"
+    ]
   },
   "16989": {
     "systeme": "Calculateur",
     "libelle": "P0605 Appareil de réglage défectueux",
-    "description": "",
-    "commentaires": []
+    "description": "Défaillance interne de l'ECU moteur (ROM checksum error).",
+    "commentaires": [
+      "ECU nécessite remplacement",
+      "Mémoire programme corrompue",
+      "Problème après flash ECU",
+      "Coupure pendant programmation"
+    ]
   },
   "17090": {
     "systeme": "Boîte auto",
     "libelle": "P0706 Capteur position de volant -F125 signal inacceptable",
-    "description": "",
-    "commentaires": []
+    "description": "Signal incorrect du capteur de position du levier de vitesses automatique.",
+    "commentaires": [
+      "Capteur F125 défectueux",
+      "Câblage vers calculateur BVA",
+      "Levier de vitesses mécanique",
+      "Problème calculateur BVA"
+    ]
   },
   "17091": {
     "systeme": "Boîte auto",
     "libelle": "P0707 Capteur position de volant -F125 signal trop faible",
-    "description": "",
-    "commentaires": []
+    "description": "Signal trop faible du capteur de position levier BVA.",
+    "commentaires": [
+      "Capteur F125 résistance élevée",
+      "Problème d'alimentation capteur",
+      "Câblage résistif",
+      "Usure mécanique capteur"
+    ]
   },
   "17509": {
     "systeme": "Lambda",
     "libelle": "P1101 Sonde 1 rangée 1 tension trop faible / air parasite",
-    "description": "",
-    "commentaires": []
+    "description": "Tension sonde lambda avant trop faible possiblement due à de l'air parasite.",
+    "commentaires": [
+      "Fuites échappement avant sonde",
+      "Sonde lambda vieillissante",
+      "Problème de référence tension",
+      "Air dans échappement"
+    ]
   },
   "17510": {
     "systeme": "Lambda",
     "libelle": "P1102 Sonde 1 rangée 1 court-circuit préchauffage",
-    "description": "",
-    "commentaires": []
+    "description": "Court-circuit dans le circuit de chauffage de la sonde lambda avant.",
+    "commentaires": [
+      "Chauffage sonde court-circuité",
+      "Isolation chauffage endommagée",
+      "Câblage chauffage endommagé",
+      "Sonde nécessite remplacement"
+    ]
   },
   "17511": {
     "systeme": "Lambda",
     "libelle": "P1103 Sonde 1 rangée 1 puissance chauffage trop faible",
-    "description": "",
-    "commentaires": []
+    "description": "Puissance de chauffage insuffisante pour la sonde lambda avant.",
+    "commentaires": [
+      "Résistance chauffage trop élevée",
+      "Alimentation chauffage faible",
+      "Vieillissement élément chauffant",
+      "Tension système trop basse"
+    ]
   },
   "17512": {
     "systeme": "Lambda",
     "libelle": "P1104 Sonde 2 rangée 1 tension trop basse / air parasite",
-    "description": "",
-    "commentaires": []
+    "description": "Tension sonde lambda après trop faible avec suspicion d'air parasite.",
+    "commentaires": [
+      "Fuites avant sonde post-cat",
+      "Sonde post-cat défectueuse",
+      "Échappement percé",
+      "Problème similare avant sonde"
+    ]
   },
   "17513": {
     "systeme": "Lambda",
     "libelle": "P1105 Sonde 2 rangée 1 court-circuit préchauffage",
-    "description": "",
-    "commentaires": []
+    "description": "Court-circuit chauffage sonde lambda après catalyseur.",
+    "commentaires": [
+      "Chauffage sonde post-cat court-circuit",
+      "Problème isolation arrière",
+      "Câblage chauffage endommagé",
+      "Sonde arrière à remplacer"
+    ]
   },
   "17514": {
     "systeme": "Lambda",
     "libelle": "P1106 Sonde 1 rangée 2 tension trop faible / air parasite",
-    "description": "",
-    "commentaires": []
+    "description": "Tension faible sonde lambda avant rangée 2 avec air parasite suspecté.",
+    "commentaires": [
+      "Fuites échappement rangée 2",
+      "Sonde rangée 2 défectueuse",
+      "Problème côté conducteur",
+      "Air dans collecteur échappement"
+    ]
   },
   "17515": {
     "systeme": "Lambda",
     "libelle": "P1107 Sonde 1 rangée 2 court-circuit préchauffage",
-    "description": "",
-    "commentaires": []
+    "description": "Court-circuit chauffage sonde lambda avant rangée 2.",
+    "commentaires": [
+      "Chauffage sonde rangée 2 court-circuit",
+      "Circuit chauffage indépendant HS",
+      "Câblage spécifique endommagé",
+      "Sonde côté droit à changer"
+    ]
   },
   "17516": {
     "systeme": "Lambda",
     "libelle": "P1108 Sonde 1 rangée 2 puissance chauffage trop faible",
-    "description": "",
-    "commentaires": []
+    "description": "Puissance chauffage insuffisante sonde lambda avant rangée 2.",
+    "commentaires": [
+      "Chauffage sonde rangée 2 faible",
+      "Alimentation spécifique faible",
+      "Résistance chauffage élevée",
+      "Problème relais chauffage"
+    ]
   },
   "17517": {
     "systeme": "Lambda",
     "libelle": "P1109 Sonde 2 rangée 2 tension trop faible / air parasite",
-    "description": "",
-    "commentaires": []
+    "description": "Tension faible sonde lambda après rangée 2 avec air parasite.",
+    "commentaires": [
+      "Fuites échappement rangée 2 après cat",
+      "Sonde post-cat rangée 2 HS",
+      "Échappement côté droit percé",
+      "Problème similare côté gauche"
+    ]
   },
   "17518": {
     "systeme": "Lambda",
     "libelle": "P1110 Sonde 2 rangée 2 court-circuit préchauffage",
-    "description": "",
-    "commentaires": []
+    "description": "Court-circuit chauffage sonde lambda après rangée 2.",
+    "commentaires": [
+      "Chauffage sonde post-cat rangée 2 court-circuit",
+      "Circuit le plus éloigné",
+      "Câblage long endommagé",
+      "Sonde arrière droite HS"
+    ]
   },
   "17535": {
     "systeme": "Carburant",
     "libelle": "P1127 Rangée 1 mélange trop riche",
-    "description": "",
-    "commentaires": []
+    "description": "Adaptation à long terme trop riche sur la rangée 1 des cylindres.",
+    "commentaires": [
+      "Injecteurs fuites",
+      "Pression carburant trop élevée",
+      "Régulation lambda défectueuse",
+      "Débitmètre sur-estimant"
+    ]
   },
   "17536": {
     "systeme": "Carburant",
     "libelle": "P1128 Rangée 1 mélange trop pauvre",
-    "description": "",
-    "commentaires": []
+    "description": "Adaptation à long terme trop pauvre sur la rangée 1.",
+    "commentaires": [
+      "Fuites admission",
+      "Pression carburant faible",
+      "Injecteurs partiellement bouchés",
+      "Problème sonde lambda"
+    ]
   },
   "17609": {
     "systeme": "Injection",
     "libelle": "P1201 Injecteur cylindre 1 - panne électrique",
-    "description": "",
-    "commentaires": []
+    "description": "Défaut électrique général sur le circuit de l'injecteur du cylindre 1.",
+    "commentaires": [
+      "Injecteur 1 circuit ouvert",
+      "Bobine injecteur 1 HS",
+      "Câblage injecteur 1",
+      "Driver injection ECU défectueux"
+    ]
   },
   "17610": {
     "systeme": "Injection",
     "libelle": "P1202 Injecteur cylindre 2 - panne électrique",
-    "description": "",
-    "commentaires": []
+    "description": "Défaut électrique sur le circuit de l'injecteur cylindre 2.",
+    "commentaires": [
+      "Injecteur 2 défectueux",
+      "Problème similare cylindre 1",
+      "Circuit spécifique injecteur 2",
+      "Driver ECU spécifique"
+    ]
   },
   "17611": {
     "systeme": "Injection",
     "libelle": "P1203 Injecteur cylindre 3 - panne électrique",
-    "description": "",
-    "commentaires": []
+    "description": "Défaut électrique injecteur cylindre 3.",
+    "commentaires": [
+      "Injecteur 3 circuit électrique",
+      "Bobine injecteur 3 HS",
+      "Câblage vers injecteur 3",
+      "Problème groupe d'injecteurs"
+    ]
   },
   "17612": {
     "systeme": "Injection",
     "libelle": "P1204 Injecteur cylindre 4 - panne électrique",
-    "description": "",
-    "commentaires": []
+    "description": "Défaut électrique injecteur cylindre 4.",
+    "commentaires": [
+      "Injecteur 4 électriquement HS",
+      "Circuit ouvert ou court-circuit",
+      "Problème driver ECU pour 4",
+      "Câblage spécifique cylindre 4"
+    ]
   },
   "17613": {
     "systeme": "Injection",
     "libelle": "P1205 Injecteur cylindre 5 - panne électrique",
-    "description": "",
-    "commentaires": []
+    "description": "Défaut électrique injecteur cylindre 5.",
+    "commentaires": [
+      "Injecteur 5 défectueux",
+      "Circuit électrique cylindre 5",
+      "Problème sur moteurs 5/6 cyl",
+      "Driver injection spécifique"
+    ]
   },
   "17614": {
     "systeme": "Injection",
     "libelle": "P1206 Injecteur cylindre 6 - panne électrique",
-    "description": "",
-    "commentaires": []
+    "description": "Défaut électrique injecteur cylindre 6.",
+    "commentaires": [
+      "Injecteur 6 HS électrique",
+      "Câblage injecteur 6",
+      "Problème groupe cylindres 4-6",
+      "ECU injection défectueux partiellement"
+    ]
   },
   "17615": {
     "systeme": "Injection",
     "libelle": "P1207 Injecteur cylindre 7 - panne électrique",
-    "description": "",
-    "commentaires": []
+    "description": "Défaut électrique injecteur cylindre 7.",
+    "commentaires": [
+      "Injecteur 7 circuit défectueux",
+      "Problème moteurs V8, V10, V12",
+      "Câblage côté rangée 2",
+      "Driver ECU pour cylindres impairs"
+    ]
   },
   "17616": {
     "systeme": "Injection",
     "libelle": "P1208 Injecteur cylindre 8 - panne électrique",
-    "description": "",
-    "commentaires": []
+    "description": "Défaut électrique injecteur cylindre 8.",
+    "commentaires": [
+      "Injecteur 8 électriquement HS",
+      "Circuit dernier cylindre",
+      "Problème similare autres injecteurs",
+      "Câblage spécifique V8"
+    ]
   },
   "17621": {
     "systeme": "Injection",
     "libelle": "P1213 Injecteur cylindre 1 – court-circuit au plus",
-    "description": "",
-    "commentaires": []
+    "description": "Court-circuit vers la tension batterie sur le circuit de l'injecteur 1.",
+    "commentaires": [
+      "Fils injecteur 1 touchant +12V",
+      "Bobine injecteur court-circuitée",
+      "Problème dans ECU",
+      "Isolation câblage endommagée"
+    ]
   },
   "17622": {
     "systeme": "Injection",
     "libelle": "P1214 Injecteur cylindre 2 – court-circuit au plus",
-    "description": "",
-    "commentaires": []
+    "description": "Court-circuit vers +12V sur circuit injecteur 2.",
+    "commentaires": [
+      "Injecteur 2 court-circuit +12V",
+      "Câblage endommagé",
+      "Problème similare injecteur 1",
+      "Protection driver ECU déclenchée"
+    ]
   },
   "17623": {
     "systeme": "Injection",
     "libelle": "P1215 Injecteur cylindre 3 – court-circuit au plus",
-    "description": "",
-    "commentaires": []
+    "description": "Court-circuit vers tension batterie sur injecteur 3.",
+    "commentaires": [
+      "Circuit injecteur 3 court-circuit +",
+      "Problème isolation cylindre 3",
+      "Fils frottant sur châssis +12V",
+      "Driver ECU protection"
+    ]
   },
   "17624": {
     "systeme": "Injection",
     "libelle": "P1216 Injecteur cylindre 4 – court-circuit au plus",
-    "description": "",
-    "commentaires": []
+    "description": "Court-circuit vers +12V sur injecteur 4.",
+    "commentaires": [
+      "Injecteur 4 court-circuit positif",
+      "Câblage endommagé cylindre 4",
+      "Problème groupe injection",
+      "ECU détecte courant excessif"
+    ]
   },
   "17625": {
     "systeme": "Injection",
     "libelle": "P1217 Injecteur cylindre 5 – court-circuit au plus",
-    "description": "",
-    "commentaires": []
+    "description": "Court-circuit vers +12V sur injecteur 5.",
+    "commentaires": [
+      "Circuit injecteur 5 court-circuit +",
+      "Problème moteurs multi-cylindres",
+      "Câblage spécifique cylindre 5",
+      "Protection driver activée"
+    ]
   },
   "17626": {
     "systeme": "Injection",
     "libelle": "P1218 Injecteur cylindre 6 – court-circuit au plus",
-    "description": "",
-    "commentaires": []
+    "description": "Court-circuit vers tension batterie sur injecteur 6.",
+    "commentaires": [
+      "Injecteur 6 court-circuit +12V",
+      "Dernier injecteur rangée 1",
+      "Problème similare autres",
+      "Isolation câblage endommagée"
+    ]
   },
   "17627": {
     "systeme": "Injection",
     "libelle": "P1219 Injecteur cylindre 7 – court-circuit au plus",
-    "description": "",
-    "commentaires": []
+    "description": "Court-circuit vers +12V sur injecteur 7.",
+    "commentaires": [
+      "Circuit injecteur 7 court-circuit +",
+      "Problème rangée 2 moteurs V",
+      "Câblage côté conducteur",
+      "Driver ECU rangée 2"
+    ]
   },
   "17628": {
     "systeme": "Injection",
     "libelle": "P1220 Injecteur cyl. 8 – court-circuit au plus",
-    "description": "",
-    "commentaires": []
+    "description": "Court-circuit vers tension batterie sur injecteur 8.",
+    "commentaires": [
+      "Injecteur 8 court-circuit positif",
+      "Dernier injecteur moteur V8",
+      "Problème groupe cylindres 7-8",
+      "Protection ECU déclenchée"
+    ]
   },
   "17633": {
     "systeme": "Injection",
     "libelle": "P1225 Injecteur cylindre 1 – court-circuit à la masse",
-    "description": "",
-    "commentaires": []
+    "description": "Court-circuit à la masse sur le circuit de l'injecteur 1.",
+    "commentaires": [
+      "Fils injecteur 1 touchant châssis",
+      "Bobine injecteur court-circuit masse",
+      "Problème isolation vers masse",
+      "Driver ECU détecte court-circuit"
+    ]
   },
   "17634": {
     "systeme": "Injection",
     "libelle": "P1226 Injecteur cylindre 2 – court-circuit à la masse",
-    "description": "",
-    "commentaires": []
+    "description": "Court-circuit à la masse sur injecteur 2.",
+    "commentaires": [
+      "Injecteur 2 court-circuit masse",
+      "Câblage endommagé touche carrosserie",
+      "Problème similare injecteur 1",
+      "Protection driver active"
+    ]
   },
   "17635": {
     "systeme": "Injection",
     "libelle": "P1227 Injecteur cylindre 3 – court-circuit à la masse",
-    "description": "",
-    "commentaires": []
+    "description": "Court-circuit à la masse sur injecteur 3.",
+    "commentaires": [
+      "Circuit injecteur 3 court-circuit masse",
+      "Problème isolation cylindre 3",
+      "Fils frottant sur châssis",
+      "ECU protection circuit"
+    ]
   },
   "17636": {
     "systeme": "Injection",
     "libelle": "P1228 Injecteur cylindre 4 – court-circuit à la masse",
-    "description": "",
-    "commentaires": []
+    "description": "Court-circuit à la masse sur injecteur 4.",
+    "commentaires": [
+      "Injecteur 4 court-circuit terre",
+      "Câblage endommagé cylindre 4",
+      "Problème groupe injection 1-4",
+      "Driver détecte résistance nulle"
+    ]
   },
   "17637": {
     "systeme": "Injection",
     "libelle": "P1229 Injecteur cylindre 5 – court-circuit à la masse",
-    "description": "",
-    "commentaires": []
+    "description": "Court-circuit à la masse sur injecteur 5.",
+    "commentaires": [
+      "Circuit injecteur 5 court-circuit masse",
+      "Problème moteurs 5/6 cylindres",
+      "Câblage spécifique cylindre 5",
+      "Protection driver activée"
+    ]
   },
   "17638": {
     "systeme": "Injection",
     "libelle": "P1230 Injecteur cylindre 6 – court-circuit à la masse",
-    "description": "",
-    "commentaires": []
+    "description": "Court-circuit à la masse sur injecteur 6.",
+    "commentaires": [
+      "Injecteur 6 court-circuit masse",
+      "Dernier injecteur rangée 1",
+      "Problème similare autres",
+      "Isolation câblage défectueuse"
+    ]
   },
   "17639": {
     "systeme": "Injection",
     "libelle": "P1231 Injecteur cylindre 7 – court-circuit à la masse",
-    "description": "",
-    "commentaires": []
+    "description": "Court-circuit à la masse sur injecteur 7.",
+    "commentaires": [
+      "Circuit injecteur 7 court-circuit masse",
+      "Problème rangée 2 moteurs V",
+      "Câblage côté conducteur",
+      "Driver ECU rangée 2 défectueux"
+    ]
   },
   "17640": {
     "systeme": "Injection",
     "libelle": "P1232 Injecteur cylindre 8 – court-circuit à la masse",
-    "description": "",
-    "commentaires": []
+    "description": "Court-circuit à la masse sur injecteur 8.",
+    "commentaires": [
+      "Injecteur 8 court-circuit terre",
+      "Dernier injecteur moteur V8",
+      "Problème groupe cylindres 7-8",
+      "Protection ECU déclenchée"
+    ]
   },
   "17645": {
     "systeme": "Injection",
     "libelle": "P1237 Injecteur cyl.1 – coupure",
-    "description": "",
-    "commentaires": []
+    "description": "Circuit ouvert (coupure) sur le circuit de l'injecteur 1.",
+    "commentaires": [
+      "Fils injecteur 1 coupés",
+      "Connecteur injecteur 1 déconnecté",
+      "Bobine injecteur ouverte",
+      "Soudure interne injecteur cassée"
+    ]
   },
   "17646": {
     "systeme": "Injection",
     "libelle": "P1238 Injecteur cyl.2 – coupure",
-    "description": "",
-    "commentaires": []
+    "description": "Circuit ouvert sur injecteur 2.",
+    "commentaires": [
+      "Injecteur 2 circuit ouvert",
+      "Câblage coupé cylindre 2",
+      "Connecteur défectueux",
+      "Problème similare injecteur 1"
+    ]
   },
   "17647": {
     "systeme": "Injection",
     "libelle": "P1239 Injecteur cyl.3 – coupure",
-    "description": "",
-    "commentaires": []
+    "description": "Circuit ouvert sur injecteur 3.",
+    "commentaires": [
+      "Circuit injecteur 3 ouvert",
+      "Problème connexion cylindre 3",
+      "Fils sectionnés",
+      "Résistance infinie détectée"
+    ]
   },
   "17648": {
     "systeme": "Injection",
     "libelle": "P1240 Injecteur cyl.4 – coupure",
-    "description": "",
-    "commentaires": []
+    "description": "Circuit ouvert sur injecteur 4.",
+    "commentaires": [
+      "Injecteur 4 circuit ouvert",
+      "Câblage endommagé cylindre 4",
+      "Problème groupe injection",
+      "ECU détecte circuit ouvert"
+    ]
   },
   "17649": {
     "systeme": "Injection",
     "libelle": "P1241 Injecteur cyl.5 – coupure",
-    "description": "",
-    "commentaires": []
+    "description": "Circuit ouvert sur injecteur 5.",
+    "commentaires": [
+      "Circuit injecteur 5 ouvert",
+      "Problème moteurs multi-cylindres",
+      "Câblage spécifique cylindre 5",
+      "Résistance très élevée"
+    ]
   },
   "17650": {
     "systeme": "Injection",
     "libelle": "P1242 Injecteur cyl.6 – coupure",
-    "description": "",
-    "commentaires": []
+    "description": "Circuit ouvert sur injecteur 6.",
+    "commentaires": [
+      "Injecteur 6 circuit ouvert",
+      "Dernier injecteur rangée 1",
+      "Problème similare autres",
+      "Connecteur injecteur 6 défectueux"
+    ]
   },
   "17651": {
     "systeme": "Injection",
     "libelle": "P1243 Injecteur cyl.7 – coupure",
-    "description": "",
-    "commentaires": []
+    "description": "Circuit ouvert sur injecteur 7.",
+    "commentaires": [
+      "Circuit injecteur 7 ouvert",
+      "Problème rangée 2 moteurs V",
+      "Câblage côté conducteur coupé",
+      "ECU détecte circuit ouvert rangée 2"
+    ]
   },
   "17652": {
     "systeme": "Injection",
     "libelle": "P1244 Injecteur cyl.8 – coupure",
-    "description": "",
-    "commentaires": []
+    "description": "Circuit ouvert sur injecteur 8.",
+    "commentaires": [
+      "Injecteur 8 circuit ouvert",
+      "Dernier injecteur moteur V8",
+      "Problème groupe cylindres 7-8",
+      "Résistance infinie détectée"
+    ]
   },
   "17656": {
     "systeme": "Injection",
     "libelle": "P1250 Régulation du début d'injection - différence de réglage",
-    "description": "",
-    "commentaires": []
+    "description": "Différence excessive entre le début d'injection mesuré et la consigne.",
+    "commentaires": [
+      "Pompe injection défectueuse",
+      "Capteur d'aiguille défectueux",
+      "Problème régulation diesel",
+      "Pression rail incorrecte"
+    ]
   },
   "17733": {
     "systeme": "Cliquetis",
     "libelle": "P1325 Réglage cliquetis cyl.1 limite atteinte",
-    "description": "",
-    "commentaires": []
+    "description": "Limite de correction d'avance à l'allumage atteinte pour le cylindre 1.",
+    "commentaires": [
+      "Dépôts carbone cylindre 1",
+      "Bougie cylindre 1 usée",
+      "Rapport de compression élevé",
+      "Essence indice d'octane bas"
+    ]
   },
   "17734": {
     "systeme": "Cliquetis",
     "libelle": "P1326 Réglage cliquetis cyl.2 limite atteinte",
-    "description": "",
-    "commentaires": []
+    "description": "Limite correction avance atteinte cylindre 2.",
+    "commentaires": [
+      "Problème similare cylindre 1",
+      "Dépôts spécifiques cylindre 2",
+      "Refroidissement cylindre 2",
+      "Bougie 2 caractéristiques différentes"
+    ]
   },
   "17735": {
     "systeme": "Cliquetis",
     "libelle": "P1327 Réglage cliquetis cyl.3 limite atteinte",
-    "description": "",
-    "commentaires": []
+    "description": "Limite correction avance atteinte cylindre 3.",
+    "commentaires": [
+      "Cylindre 3 fonctionnement chaud",
+      "Problème refroidissement local",
+      "Dépôts combustion cylindre 3",
+      "Bougie 3 défectueuse"
+    ]
   },
   "17736": {
     "systeme": "Cliquetis",
     "libelle": "P1328 Réglage cliquetis cyl.4 limite atteinte",
-    "description": "",
-    "commentaires": []
+    "description": "Limite correction avance atteinte cylindre 4.",
+    "commentaires": [
+      "Cylindre 4 correction maximale",
+      "Dernier cylindre refroidissement",
+      "Problème similare autres",
+      "Distribution décalée localement"
+    ]
   },
   "17737": {
     "systeme": "Cliquetis",
     "libelle": "P1329 Réglage cliquetis cyl.5 limite atteinte",
-    "description": "",
-    "commentaires": []
+    "description": "Limite correction avance atteinte cylindre 5.",
+    "commentaires": [
+      "Cylindre 5 moteurs 5/6 cyl",
+      "Problème refroidissement spécifique",
+      "Dépôts carbone important",
+      "Bougie 5 caractéristique différente"
+    ]
   },
   "17738": {
     "systeme": "Cliquetis",
     "libelle": "P1330 Réglage cliquetis cyl.6 limite atteinte",
-    "description": "",
-    "commentaires": []
+    "description": "Limite correction avance atteinte cylindre 6.",
+    "commentaires": [
+      "Dernier cylindre rangée 1",
+      "Température plus élevée",
+      "Problème refroidissement fin rangée",
+      "Bougie 6 usée prématurément"
+    ]
   },
   "17739": {
     "systeme": "Cliquetis",
     "libelle": "P1331 Réglage cliquetis cyl.7 limite atteinte",
-    "description": "",
-    "commentaires": []
+    "description": "Limite correction avance atteinte cylindre 7.",
+    "commentaires": [
+      "Cylindre 7 rangée 2 V-moteur",
+      "Problème refroidissement rangée 2",
+      "Dépôts spécifiques côté conducteur",
+      "Bougie 7 défectueuse"
+    ]
   },
   "17740": {
     "systeme": "Cliquetis",
     "libelle": "P1332 Réglage cliquetis cyl.8 limite atteinte",
-    "description": "",
-    "commentaires": []
+    "description": "Limite correction avance atteinte cylindre 8.",
+    "commentaires": [
+      "Dernier cylindre moteur V8",
+      "Température élevée fin rangée 2",
+      "Problème similare cylindre 7",
+      "Bougie 8 usée"
+    ]
   },
   "17747": {
     "systeme": "Synchro moteur",
     "libelle": "P1339 Capteurs vilebrequin/ régime moteur inversés",
-    "description": "",
-    "commentaires": []
+    "description": "Signaux des capteurs vilebrequin et arbre à cames inversés ou incohérents.",
+    "commentaires": [
+      "Câblages capteurs inversés",
+      "Problème après intervention",
+      "Défaut ECU interprétation",
+      "Signaux phase incorrects"
+    ]
   },
   "17748": {
     "systeme": "Synchronisation",
     "libelle": "P1340 Capteur arbre à cames G40 / vilebrequin G28 info incohérente",
-    "description": "",
-    "commentaires": []
+    "description": "Incohérence entre la position vilebrequin et arbre à cames détectée.",
+    "commentaires": [
+      "Courroie distribution décalée",
+      "Capteur G40 défectueux",
+      "Problème synchronisation",
+      "Chaîne distribution étirée"
+    ]
   },
   "17749": {
     "systeme": "Allumage",
     "libelle": "P1341 Sortie allumage 1 – court-circuit masse",
-    "description": "",
-    "commentaires": []
+    "description": "Court-circuit à la masse sur la sortie de commande d'allumage pour le cylindre 1.",
+    "commentaires": [
+      "Bobine allumage 1 court-circuit",
+      "Câblage commande bobine 1",
+      "Driver allumage ECU défectueux",
+      "Isolation bobine endommagée"
+    ]
   },
   "17751": {
     "systeme": "Allumage",
     "libelle": "P1343 Sortie allumage 2 – court-circuit masse",
-    "description": "",
-    "commentaires": []
+    "description": "Court-circuit à la masse sur sortie allumage cylindre 2.",
+    "commentaires": [
+      "Bobine 2 court-circuit masse",
+      "Problème similare cylindre 1",
+      "Câblage spécifique bobine 2",
+      "Driver ECU pour cylindre 2"
+    ]
   },
   "17753": {
     "systeme": "Allumage",
     "libelle": "P1345 Sortie allumage 3 – court-circuit masse",
-    "description": "",
-    "commentaires": []
+    "description": "Court-circuit à la masse sur sortie allumage cylindre 3.",
+    "commentaires": [
+      "Bobine 3 court-circuit terre",
+      "Circuit commande bobine 3",
+      "Problème groupe bobines 1-3",
+      "Driver allumage défectueux partiellement"
+    ]
   },
   "17799": {
     "systeme": "Arbre à cames",
     "libelle": "P1391 Capteur position AAC rangée 2 court-circuit masse",
-    "description": "",
-    "commentaires": []
+    "description": "Court-circuit à la masse sur le capteur de position arbre à cames rangée 2.",
+    "commentaires": [
+      "Capteur G163 ou similaire",
+      "Câblage côté conducteur",
+      "Problème similare rangée 1",
+      "Capteur arbre à cames rangée 2"
+    ]
   },
   "17800": {
     "systeme": "Arbre à cames",
     "libelle": "P1392 Capteur AAC rangée 2 coupure / court-circuit",
-    "description": "",
-    "commentaires": []
+    "description": "Circuit ouvert ou court-circuit sur capteur arbre à cames rangée 2.",
+    "commentaires": [
+      "Capteur rangée 2 défectueux",
+      "Câblage coupé ou court-circuit",
+      "Problème connecteur côté droit",
+      "ECU détecte défaut rangée 2"
+    ]
   },
   "17801": {
     "systeme": "Allumage",
     "libelle": "P1393 Sortie allumage 1 – panne électrique",
-    "description": "",
-    "commentaires": []
+    "description": "Défaut électrique général sur sortie allumage cylindre 1.",
+    "commentaires": [
+      "Circuit ouvert bobine 1",
+      "Problème driver ECU allumage 1",
+      "Câblage commande ouvert",
+      "Résistance circuit anormale"
+    ]
   },
   "17802": {
     "systeme": "Allumage",
     "libelle": "P1394 Sortie allumage 2 – panne électrique",
-    "description": "",
-    "commentaires": []
+    "description": "Défaut électrique sortie allumage cylindre 2.",
+    "commentaires": [
+      "Bobine 2 circuit électrique",
+      "Problème similare cylindre 1",
+      "Câblage spécifique défectueux",
+      "Driver ECU pour bobine 2"
+    ]
   },
   "17803": {
     "systeme": "Allumage",
     "libelle": "P1395 Sortie allumage 3 – panne électrique",
-    "description": "",
-    "commentaires": []
+    "description": "Défaut électrique sortie allumage cylindre 3.",
+    "commentaires": [
+      "Circuit bobine 3 défectueux",
+      "Problème groupe bobines",
+      "Câblage vers bobine 3",
+      "Résistance anormale détectée"
+    ]
   },
   "17804": {
     "systeme": "Moteur",
     "libelle": "P1396 Capteur régime G28 – dent manquante",
-    "description": "",
-    "commentaires": []
+    "description": "Dent manquante ou endommagée détectée sur la roue phonique du vilebrequin.",
+    "commentaires": [
+      "Roue phonique G28 endommagée",
+      "Dent manquante ou pliée",
+      "Capteur G28 mal positionné",
+      "Problème après intervention vilebrequin"
+    ]
   },
   "17808": {
     "systeme": "EGR",
     "libelle": "P1400 Électrovanne EGR -N18 panne électrique",
-    "description": "",
-    "commentaires": []
+    "description": "Défaut électrique général sur l'électrovanne de commande EGR.",
+    "commentaires": [
+      "Electrovanne EGR N18 HS",
+      "Câblage vers N18",
+      "Résistance bobine N18 anormale",
+      "Driver ECU EGR défectueux"
+    ]
   },
   "17809": {
     "systeme": "EGR",
     "libelle": "P1401 Valve EGR - court-circuit à la masse",
-    "description": "",
-    "commentaires": []
+    "description": "Court-circuit à la masse sur l'électrovanne EGR.",
+    "commentaires": [
+      "Bobine N18 court-circuit masse",
+      "Câblage touchant châssis",
+      "Isolation électrovanne endommagée",
+      "Driver ECU détecte court-circuit"
+    ]
   },
   "17810": {
     "systeme": "EGR",
     "libelle": "P1402 Valve EGR - court-circuit au plus",
-    "description": "",
-    "commentaires": []
+    "description": "Court-circuit vers +12V sur l'électrovanne EGR.",
+    "commentaires": [
+      "Electrovanne EGR court-circuit +",
+      "Câblage touchant alimentation",
+      "Problème isolation N18",
+      "Protection driver activée"
+    ]
   },
   "17815": {
     "systeme": "EGR",
     "libelle": "P1407 Capteur température EGR G98 – signal trop faible",
-    "description": "",
-    "commentaires": []
+    "description": "Signal du capteur de température EGR trop faible.",
+    "commentaires": [
+      "Capteur température EGR G98",
+      "Court-circuit à la masse",
+      "Résistance interne faible",
+      "Câblage capteur défectueux"
+    ]
   },
   "17816": {
     "systeme": "EGR",
     "libelle": "P1408 Capteur température EGR G98 – signal trop fort",
-    "description": "",
-    "commentaires": []
+    "description": "Signal du capteur de température EGR trop élevé.",
+    "commentaires": [
+      "Capteur G98 circuit ouvert",
+      "Résistance interne élevée",
+      "Câblage coupé",
+      "Problème référence température"
+    ]
   },
   "17817": {
     "systeme": "Filtre à charbon",
     "libelle": "P1409 Électrovanne filtre à charbon -N80 panne électrique",
-    "description": "",
-    "commentaires": []
+    "description": "Défaut électrique sur l'électrovanne de purge du canister.",
+    "commentaires": [
+      "Electrovanne N80 défectueuse",
+      "Problème similare P0443",
+      "Câblage vers N80",
+      "Résistance bobine anormale"
+    ]
   },
   "17818": {
     "systeme": "Filtre à charbon",
     "libelle": "P1410 Électrovanne N80 — court-circuit au plus",
-    "description": "",
-    "commentaires": []
+    "description": "Court-circuit vers +12V sur l'électrovanne de purge canister.",
+    "commentaires": [
+      "N80 court-circuit positif",
+      "Câblage touchant alimentation",
+      "Isolation bobine endommagée",
+      "Driver ECU purge défectueux"
+    ]
   },
   "17819": {
     "systeme": "Air secondaire",
     "libelle": "P1411 Système air secondaire banc 2 — passage trop étroit",
-    "description": "",
-    "commentaires": []
+    "description": "Débit insuffisant système air secondaire rangée 2.",
+    "commentaires": [
+      "Pompe air secondaire rangée 2 faible",
+      "Circuit air rangée 2 obstrué",
+      "Electrovanne rangée 2",
+      "Problème similare rangée 1"
+    ]
   },
   "17822": {
     "systeme": "Air secondaire",
     "libelle": "P1414 Fuite air secondaire banc 2",
-    "description": "",
-    "commentaires": []
+    "description": "Fuite détectée dans le système air secondaire rangée 2.",
+    "commentaires": [
+      "Durites air secondaire rangée 2",
+      "Connexions côté conducteur",
+      "Soupape air secondaire rangée 2",
+      "Fuites similaires rangée 1"
+    ]
   },
   "17826": {
     "systeme": "Capteurs carburant",
     "libelle": "P1418 Flotteur -G signal trop fort",
-    "description": "",
-    "commentaires": []
+    "description": "Signal du capteur de niveau carburant trop élevé.",
+    "commentaires": [
+      "Capteur niveau carburant G",
+      "Circuit ouvert ou résistance élevée",
+      "Flotteur bloqué haut",
+      "Problème affichage niveau"
+    ]
   },
   "17828": {
     "systeme": "Air secondaire",
     "libelle": "P1420 Soupape injection air secondaire -N112 panne électrique",
-    "description": "",
-    "commentaires": []
+    "description": "Défaut électrique sur la soupape d'injection d'air secondaire.",
+    "commentaires": [
+      "Electrovanne air secondaire N112",
+      "Câblage vers N112",
+      "Résistance bobine anormale",
+      "Driver ECU air secondaire"
+    ]
   },
   "17829": {
     "systeme": "Air secondaire",
     "libelle": "P1421 Soupape injection air secondaire - court-circuit masse",
-    "description": "",
-    "commentaires": []
+    "description": "Court-circuit à la masse sur soupape air secondaire.",
+    "commentaires": [
+      "N112 court-circuit terre",
+      "Câblage touchant châssis",
+      "Isolation électrovanne endommagée",
+      "Protection driver activée"
+    ]
   },
   "17830": {
     "systeme": "Air secondaire",
     "libelle": "P1422 Soupape injection air secondaire -N112 court-circuit au plus",
-    "description": "",
-    "commentaires": []
+    "description": "Court-circuit vers +12V sur soupape air secondaire.",
+    "commentaires": [
+      "N112 court-circuit positif",
+      "Câblage touchant alimentation",
+      "Bobine N112 défectueuse",
+      "Driver ECU détecte court-circuit"
+    ]
   },
   "17831": {
     "systeme": "Air secondaire",
     "libelle": "P1423 Banc 1 — passage trop étroit",
-    "description": "",
-    "commentaires": []
+    "description": "Débit insuffisant système air secondaire rangée 1.",
+    "commentaires": [
+      "Pompe air secondaire faible",
+      "Circuit air rangée 1 obstrué",
+      "Electrovanne rangée 1",
+      "Durites air secondaire bouchées"
+    ]
   },
   "17832": {
     "systeme": "Air secondaire",
     "libelle": "P1424 Banc 1 — fuite détectée",
-    "description": "",
-    "commentaires": []
+    "description": "Fuite détectée système air secondaire rangée 1.",
+    "commentaires": [
+      "Durites air secondaire rangée 1",
+      "Connexions côté passager",
+      "Soupape air secondaire fuite",
+      "Joint d'étanchéité défectueux"
+    ]
   },
   "17833": {
     "systeme": "Filtre charbon",
     "libelle": "P1425 Électrovanne N80 court-circuit à la masse",
-    "description": "",
-    "commentaires": []
+    "description": "Court-circuit à la masse sur électrovanne purge canister.",
+    "commentaires": [
+      "N80 court-circuit terre",
+      "Problème similare P1410",
+      "Câblage touchant châssis",
+      "Isolation bobine endommagée"
+    ]
   },
   "17834": {
     "systeme": "Filtre charbon",
     "libelle": "P1426 Électrovanne N80 coupure",
-    "description": "",
-    "commentaires": []
+    "description": "Circuit ouvert sur électrovanne purge canister.",
+    "commentaires": [
+      "N80 circuit ouvert",
+      "Câblage coupé",
+      "Bobine N80 ouverte",
+      "Connecteur défectueux"
+    ]
   },
   "17842": {
     "systeme": "Air secondaire",
     "libelle": "P1434 Relais pompe air secondaire court-circuit au plus",
-    "description": "",
-    "commentaires": []
+    "description": "Court-circuit vers +12V sur le relais de la pompe air secondaire.",
+    "commentaires": [
+      "Relais pompe air secondaire",
+      "Bobine relais court-circuit",
+      "Câblage commande relais",
+      "Driver ECU pompe air"
+    ]
   },
   "17844": {
     "systeme": "Air secondaire",
     "libelle": "P1436 Relais pompe air secondaire panne électrique",
-    "description": "",
-    "commentaires": []
+    "description": "Défaut électrique général sur le relais pompe air secondaire.",
+    "commentaires": [
+      "Relais pompe air HS",
+      "Câblage vers relais",
+      "Alimentation relais défectueuse",
+      "Commande ECU pompe air"
+    ]
   },
   "17848": {
     "systeme": "EGR",
     "libelle": "P1440 Électrovanne EGR -N18 coupure",
-    "description": "",
-    "commentaires": []
+    "description": "Circuit ouvert sur l'électrovanne EGR.",
+    "commentaires": [
+      "N18 circuit ouvert",
+      "Câblage EGR coupé",
+      "Bobine N18 ouverte",
+      "Connecteur EGR défectueux"
+    ]
   },
   "17858": {
     "systeme": "Air secondaire",
     "libelle": "P1450 Court-circuit au plus",
-    "description": "",
-    "commentaires": []
+    "description": "Court-circuit vers +12V dans le système air secondaire.",
+    "commentaires": [
+      "Court-circuit général système air",
+      "Câblage touchant +12V",
+      "Multiple composants concernés",
+      "Diagnostic approfondi nécessaire"
+    ]
   },
   "17859": {
     "systeme": "Air secondaire",
     "libelle": "P1451 Court-circuit à la masse",
-    "description": "",
-    "commentaires": []
+    "description": "Court-circuit à la masse dans le système air secondaire.",
+    "commentaires": [
+      "Court-circuit terre système air",
+      "Câblage touchant châssis",
+      "Isolation composants endommagée",
+      "Problème similare P1450"
+    ]
   },
   "17860": {
     "systeme": "Air secondaire",
     "libelle": "P1452 Coupure",
-    "description": "",
-    "commentaires": []
+    "description": "Circuit ouvert dans le système air secondaire.",
+    "commentaires": [
+      "Circuit ouvert système air",
+      "Câblage coupé",
+      "Connecteurs défectueux",
+      "Alimentation système absente"
+    ]
   },
   "17878": {
     "systeme": "Réservoir",
     "libelle": "P1470 Pompe diagnostic du réservoir — panne électrique",
-    "description": "",
-    "commentaires": []
+    "description": "Défaut électrique sur la pompe de diagnostic du système EVAP.",
+    "commentaires": [
+      "Pompe diagnostic EVAP V144",
+      "Câblage pompe diagnostic",
+      "Résistance pompe anormale",
+      "Driver ECU diagnostic EVAP"
+    ]
   },
   "17879": {
     "systeme": "Réservoir",
     "libelle": "P1471 Pompe diagnostic — court-circuit au plus",
-    "description": "",
-    "commentaires": []
+    "description": "Court-circuit vers +12V sur pompe diagnostic EVAP.",
+    "commentaires": [
+      "Pompe V144 court-circuit +",
+      "Câblage touchant alimentation",
+      "Bobine pompe défectueuse",
+      "Protection driver activée"
+    ]
   },
   "17883": {
     "systeme": "Réservoir",
     "libelle": "P1475 Pompe diagnostic — mauvais fonctionnement",
-    "description": "",
-    "commentaires": []
+    "description": "Mauvais fonctionnement général de la pompe diagnostic EVAP.",
+    "commentaires": [
+      "Pompe V144 faible débit",
+      "Circuit diagnostic obstrué",
+      "Problème mécanique pompe",
+      "Test EVAP échoue"
+    ]
   },
   "17884": {
     "systeme": "Réservoir",
     "libelle": "P1476 Pompe diagnostic — mauvais fonctionnement",
-    "description": "",
-    "commentaires": []
+    "description": "Autre problème de fonctionnement pompe diagnostic EVAP.",
+    "commentaires": [
+      "Problème similare P1475",
+      "Pompe diagnostic intermittente",
+      "Câblage résistance élevée",
+      "ECU détecte performance faible"
+    ]
   },
   "17908": {
     "systeme": "Pompe essence",
     "libelle": "P1500 Relais pompe essence panne électrique",
-    "description": "",
-    "commentaires": []
+    "description": "Défaut électrique sur le relais de la pompe à essence.",
+    "commentaires": [
+      "Relais pompe essence J17",
+      "Câblage vers relais J17",
+      "Bobine relais défectueuse",
+      "Commande ECU pompe essence"
+    ]
   },
   "17910": {
     "systeme": "Pompe essence",
     "libelle": "P1502 Relais pompe essence court-circuit au plus",
-    "description": "",
-    "commentaires": []
+    "description": "Court-circuit vers +12V sur le relais pompe à essence.",
+    "commentaires": [
+      "Relais J17 court-circuit +",
+      "Câblage touchant alimentation",
+      "Bobine relais court-circuitée",
+      "Driver ECU pompe essence"
+    ]
   },
   "17912": {
     "systeme": "Admission",
     "libelle": "P1504 Fuite d'air détectée",
-    "description": "",
-    "commentaires": []
+    "description": "Fuite d'air non mesurée détectée dans le système d'admission.",
+    "commentaires": [
+      "Fuites admission après débitmètre",
+      "Durites admission fendues",
+      "Collecteur admission fissuré",
+      "Joint de papillon usé"
+    ]
   },
   "17913": {
     "systeme": "Ralenti",
     "libelle": "P1505 Contacteur charge nulle ne ferme pas",
-    "description": "",
-    "commentaires": []
+    "description": "Contacteur de position neutre/pédale embrayage ne ferme pas quand attendu.",
+    "commentaires": [
+      "Contacteur neutre F8/F125",
+      "Ajustement contacteur nécessaire",
+      "Levier boîte mal réglé",
+      "Câble d'embrayage jeu excessif"
+    ]
   },
   "17914": {
     "systeme": "Ralenti",
     "libelle": "P1506 Contacteur charge nulle court-circuit à la masse",
-    "description": "",
-    "commentaires": []
+    "description": "Court-circuit à la masse sur le circuit du contacteur neutre.",
+    "commentaires": [
+      "Contacteur neutre court-circuit",
+      "Câblage touchant châssis",
+      "Contacteur défectueux interne",
+      "Problème ECU interprétation"
+    ]
   },
   "17917": {
     "systeme": "Ralenti",
     "libelle": "P1509 Soupape stabilisation ralenti N71 panne électrique",
-    "description": "",
-    "commentaires": []
+    "description": "Défaut électrique sur la vanne de régulation de ralenti.",
+    "commentaires": [
+      "VanEAP ralenti N71",
+      "Câblage vers N71",
+      "Résistance bobine anormale",
+      "Driver ECU ralenti"
+    ]
   },
   "17918": {
     "systeme": "Ralenti",
     "libelle": "P1510 Soupape stabilisation ralenti N71 court-circuit au plus",
-    "description": "",
-    "commentaires": []
+    "description": "Court-circuit vers +12V sur la vanne de ralenti.",
+    "commentaires": [
+      "N71 court-circuit positif",
+      "Câblage touchant alimentation",
+      "Bobine N71 court-circuitée",
+      "Protection driver activée"
+    ]
   },
   "17919": {
     "systeme": "Admission",
     "libelle": "P1511 Soupape inversion collecteur admission -N156 panne électrique",
-    "description": "",
-    "commentaires": []
+    "description": "Défaut électrique sur la soupape d'inversion des longueurs d'admission.",
+    "commentaires": [
+      "Electrovanne admission N156",
+      "Câblage vers N156",
+      "Résistance bobine anormale",
+      "Driver ECU admission variable"
+    ]
   },
   "17920": {
     "systeme": "Admission",
     "libelle": "P1512 Soupape inversion collecteur admission court-circuit au plus",
-    "description": "",
-    "commentaires": []
+    "description": "Court-circuit vers +12V sur la soupape d'admission variable.",
+    "commentaires": [
+      "N156 court-circuit +",
+      "Câblage touchant alimentation",
+      "Bobine N156 défectueuse",
+      "Driver détecte court-circuit"
+    ]
   },
   "17945": {
     "systeme": "Papillon",
     "libelle": "P1537 Défaut papillon",
-    "description": "",
-    "commentaires": []
+    "description": "Défaut général dans le système de papillon des gaz (potentiomètre ou moteur).",
+    "commentaires": [
+      "Potentiomètre papillon G69/G79",
+      "Moteur papillon V60",
+      "Câblage ensemble papillon",
+      "ECU gestion papillon"
+    ]
   },
   "17951": {
     "systeme": "Papillon",
     "libelle": "P1543 Capteur angle papillon -G187 signal trop faible",
-    "description": "",
-    "commentaires": []
+    "description": "Signal du capteur d'angle papillon (potentiomètre 2) trop faible.",
+    "commentaires": [
+      "Potentiomètre 2 papillon G187",
+      "Court-circuit à la masse",
+      "Résistance interne faible",
+      "Câblage capteur défectueux"
+    ]
   },
   "17952": {
     "systeme": "Papillon",
     "libelle": "P1544 Capteur angle papillon -G187 signal trop fort",
-    "description": "",
-    "commentaires": []
+    "description": "Signal du capteur d'angle papillon (potentiomètre 2) trop élevé.",
+    "commentaires": [
+      "G187 circuit ouvert",
+      "Résistance interne élevée",
+      "Câblage coupé",
+      "Problème référence tension"
+    ]
   },
   "17965": {
     "systeme": "Turbo",
     "libelle": "P1557 Charge Pressure Control: Positive Deviation",
-    "description": "Surpression turbo détectée.",
+    "description": "Surpression détectée dans le système de suralimentation (turbo).",
     "commentaires": [
-      "Wastegate grippée",
+      "Wastegate grippée fermée",
       "Électrovanne N75 défaillante",
-      "Durite de commande turbo pincée ou fuyarde"
+      "Durite de commande turbo pincée",
+      "Capteur pression suralimentation"
     ]
   },
   "17988": {
     "systeme": "Papillon",
     "libelle": "P1580 Entraînement papillon banc 1 mauvais fonctionnement",
-    "description": "",
-    "commentaires": []
+    "description": "Mauvais fonctionnement du moteur d'entraînement du papillon rangée 1.",
+    "commentaires": [
+      "Moteur papillon V60 défectueux",
+      "Engrenages papillon usés",
+      "Câblage moteur papillon",
+      "Calibration papillon nécessaire"
+    ]
   },
   "17990": {
     "systeme": "Ralenti",
     "libelle": "P1582 Limite d'adaptation du ralenti atteinte",
-    "description": "",
-    "commentaires": []
+    "description": "Limite de correction de la vanne de ralenti atteinte.",
+    "commentaires": [
+      "VanEAP ralenti N71 limite",
+      "Fuites admission importantes",
+      "Papillon des gaz encrassé",
+      "Adaptation ralenti dépassée"
+    ]
   },
   "18008": {
     "systeme": "Électrique",
     "libelle": "P1600 Tension contact 15 trop faible",
-    "description": "",
-    "commentaires": []
+    "description": "Tension sur la ligne contact 15 (allumage) trop faible.",
+    "commentaires": [
+      "Contact d'allumage défectueux",
+      "Câblage contact 15 résistif",
+      "Relais contact 15 faible",
+      "Problème commutation allumage"
+    ]
   },
   "18010": {
     "systeme": "Électrique",
     "libelle": "P1602 Tension contact 30 trop faible",
-    "description": "",
-    "commentaires": []
+    "description": "Tension sur la ligne contact 30 (batterie permanente) trop faible.",
+    "commentaires": [
+      "Batterie faible moteur arrêté",
+      "Câblage batterie résistif",
+      "Fusible principal défectueux",
+      "Connexion batterie oxydée"
+    ]
   },
   "18014": {
     "systeme": "ABS",
     "libelle": "P1606 Info ABS mauvaise / panne électrique",
-    "description": "",
-    "commentaires": []
+    "description": "Information du système ABS incorrecte ou défaut de communication.",
+    "commentaires": [
+      "Communication ABS-ECU défectueuse",
+      "Calculateur ABS défaillant",
+      "Câblage bus CAN vers ABS",
+      "Problème alimentation ABS"
+    ]
   },
   "18019": {
     "systeme": "Électrique",
     "libelle": "P1611 Court-circuit témoin panne",
-    "description": "",
-    "commentaires": []
+    "description": "Court-circuit sur le circuit du témoin de panne moteur.",
+    "commentaires": [
+      "Témoin panne K83 court-circuit",
+      "Câblage témoin touchant autre fil",
+      "ECU sortie témoin défectueuse",
+      "Combiné instruments court-circuit"
+    ]
   },
   "18020": {
     "systeme": "Électrique",
     "libelle": "P1612 Mauvais codage calculateur moteur",
-    "description": "",
-    "commentaires": []
+    "description": "Codage de l'ECU moteur incorrect pour le véhicule.",
+    "commentaires": [
+      "ECU remplacé non codé",
+      "Codage incorrect programmé",
+      "Options véhicule non reconnues",
+      "Nécessite recodage avec outil"
+    ]
   },
   "18021": {
     "systeme": "Électrique",
     "libelle": "P1613 Témoin panne coupure / CC+",
-    "description": "",
-    "commentaires": []
+    "description": "Circuit ouvert ou court-circuit vers +12V sur témoin de panne.",
+    "commentaires": [
+      "Témoin K83 circuit ouvert",
+      "Câblage coupé",
+      "Court-circuit témoin vers +12V",
+      "Problème combiné instruments"
+    ]
   },
   "18062": {
     "systeme": "Combiné",
-    "libelle": "P1654 Lire mémoire défaut combiné d’instruments",
-    "description": "",
-    "commentaires": []
+    "libelle": "P1654 Lire mémoire défaut combiné d'instruments",
+    "description": "Erreur de lecture de la mémoire du combiné d'instruments.",
+    "commentaires": [
+      "Combiné instruments défectueux",
+      "Communication ECU-combiné",
+      "Mémoire combiné corrompue",
+      "Problème après décharge batterie"
+    ]
   },
   "00257": {
     "systeme": "ABS",
     "libelle": "Soupape d'admission ABS avant gauche -N101",
-    "description": "",
-    "commentaires": []
+    "description": "Défaut sur la soupape d'admission ABS roue avant gauche.",
+    "commentaires": [
+      "Soupape ABS N101 défectueuse",
+      "Câblage vers soupape avant gauche",
+      "Calculateur ABS défectueux",
+      "Résistance soupape anormale"
+    ]
   },
   "00258": {
     "systeme": "ABS / Boîte",
     "libelle": "P0753 Electrovanne 1 -N88",
-    "description": "",
-    "commentaires": []
+    "description": "Défaut sur l'électrovanne 1 de la boîte automatique.",
+    "commentaires": [
+      "Electrovanne boîte N88",
+      "Câblage vers électrovanne",
+      "Calculateur boîte défectueux",
+      "Résistance bobine anormale"
+    ]
   },
   "00259": {
     "systeme": "ABS",
     "libelle": "Soupape d'admission ABS avant droite -N99",
-    "description": "",
-    "commentaires": []
+    "description": "Défaut soupape admission ABS roue avant droite.",
+    "commentaires": [
+      "Soupape ABS N99 défectueuse",
+      "Câblage avant droit",
+      "Problème similare N101",
+      "Calculateur ABS sortie défectueuse"
+    ]
   },
   "00260": {
     "systeme": "ABS / Boîte",
     "libelle": "P0758 Electrovalve 2 -N89",
-    "description": "",
-    "commentaires": []
+    "description": "Défaut électrovanne 2 boîte automatique.",
+    "commentaires": [
+      "Electrovanne N89 défectueuse",
+      "Problème similare N88",
+      "Câblage spécifique N89",
+      "Résistance bobine hors spécification"
+    ]
   },
   "00261": {
     "systeme": "ABS",
     "libelle": "Soupape d'admission ABS essieu arrière -N103",
-    "description": "",
-    "commentaires": []
+    "description": "Défaut soupape admission ABS essieu arrière.",
+    "commentaires": [
+      "Soupape ABS arrière N103",
+      "Câblage vers l'arrière",
+      "Problème similare soupapes avant",
+      "Calculateur ABS gestion arrière"
+    ]
   },
   "00262": {
     "systeme": "ABS / Boîte",
     "libelle": "P0763 Electrovanne 3 -N90",
-    "description": "",
-    "commentaires": []
+    "description": "Défaut électrovanne 3 boîte automatique.",
+    "commentaires": [
+      "Electrovanne N90 défectueuse",
+      "Problème groupe électrovannes",
+      "Câblage N90 spécifique",
+      "Calculateur boîte sortie 3"
+    ]
   },
   "00263": {
     "systeme": "Boîte",
     "libelle": "Défaut boîte à vitesse",
-    "description": "",
-    "commentaires": []
+    "description": "Défaut général de la boîte de vitesses automatique.",
+    "commentaires": [
+      "Problème hydraulique boîte",
+      "Calculateur boîte défectueux",
+      "Capteurs boîte défaillants",
+      "Huile boîte dégradée"
+    ]
   },
   "00264": {
     "systeme": "ABS / Boîte",
     "libelle": "P0748 Electrovanne 4 -N91",
-    "description": "",
-    "commentaires": []
+    "description": "Défaut électrovanne 4 boîte automatique.",
+    "commentaires": [
+      "Electrovanne N91 défectueuse",
+      "Câblage vers N91",
+      "Problème similare autres électrovannes",
+      "Résistance bobine hors tolérance"
+    ]
   },
   "00265": {
     "systeme": "ABS",
     "libelle": "Soupape échappement ABS avant gauche -N102",
-    "description": "",
-    "commentaires": []
+    "description": "Défaut soupape échappement ABS avant gauche.",
+    "commentaires": [
+      "Soupape échappement N102",
+      "Câblage soupape avant gauche",
+      "Problème similare soupape admission",
+      "Calculateur ABS gestion échappement"
+    ]
   },
   "00266": {
     "systeme": "ABS / Boîte",
     "libelle": "P0773 Electrovanne 5 -N92",
-    "description": "",
-    "commentaires": []
+    "description": "Défaut électrovanne 5 boîte automatique.",
+    "commentaires": [
+      "Electrovanne N92 défectueuse",
+      "Problème électrovannes boîte",
+      "Câblage N92 spécifique",
+      "Calculateur boîte driver 5"
+    ]
   },
   "00267": {
     "systeme": "ABS",
     "libelle": "Soupape échappement ABS avant droite -N100",
-    "description": "",
-    "commentaires": []
+    "description": "Défaut soupape échappement ABS avant droite.",
+    "commentaires": [
+      "Soupape échappement N100",
+      "Câblage avant droit échappement",
+      "Problème similare N102",
+      "Calculateur ABS sortie échappement"
+    ]
   },
   "00268": {
     "systeme": "ABS / Boîte",
     "libelle": "P0748 Electrovanne 6 -N93",
-    "description": "",
-    "commentaires": []
+    "description": "Défaut électrovanne 6 boîte automatique.",
+    "commentaires": [
+      "Electrovanne N93 défectueuse",
+      "Problème similare N91/N92",
+      "Câblage vers N93",
+      "Résistance bobine anormale"
+    ]
   },
   "00269": {
     "systeme": "ABS",
     "libelle": "Soupape échappement ABS essieu arrière -N104",
-    "description": "",
-    "commentaires": []
+    "description": "Défaut soupape échappement ABS essieu arrière.",
+    "commentaires": [
+      "Soupape échappement arrière N104",
+      "Câblage arrière échappement",
+      "Problème similare avant",
+      "Calculateur ABS gestion arrière échappement"
+    ]
   },
   "00270": {
     "systeme": "ABS / Boîte",
     "libelle": "P1778 Electrovanne 7 -N94",
-    "description": "",
-    "commentaires": []
+    "description": "Défaut électrovanne 7 boîte automatique.",
+    "commentaires": [
+      "Electrovanne N94 défectueuse",
+      "Dernière électrovanne boîte",
+      "Câblage N94 spécifique",
+      "Calculateur boîte sortie 7"
+    ]
   },
   "00273": {
     "systeme": "ABS",
     "libelle": "Soupape admission ABS arrière droite -N133",
-    "description": "",
-    "commentaires": []
+    "description": "Défaut soupape admission ABS roue arrière droite.",
+    "commentaires": [
+      "Soupape admission arrière droite N133",
+      "Câblage spécifique roue arrière droite",
+      "Problème similare autres soupapes",
+      "Calculateur ABS sortie admission arrière"
+    ]
   },
   "00274": {
     "systeme": "ABS",
     "libelle": "Soupape admission ABS arrière gauche -N134",
-    "description": "",
-    "commentaires": []
+    "description": "Défaut soupape admission ABS roue arrière gauche.",
+    "commentaires": [
+      "Soupape admission arrière gauche N134",
+      "Câblage roue arrière gauche",
+      "Problème similare N133",
+      "Calculateur ABS gestion admission arrière"
+    ]
   },
   "00275": {
     "systeme": "ABS",
     "libelle": "Soupape échappement ABS arrière droite -N135",
-    "description": "",
-    "commentaires": []
+    "description": "Défaut soupape échappement ABS roue arrière droite.",
+    "commentaires": [
+      "Soupape échappement arrière droite N135",
+      "Câblage échappement arrière droit",
+      "Problème similare admission arrière",
+      "Calculateur ABS sortie échappement arrière"
+    ]
   },
   "00276": {
     "systeme": "ABS",
     "libelle": "Soupape échappement ABS arrière gauche -N136",
-    "description": "",
-    "commentaires": []
+    "description": "Défaut soupape échappement ABS roue arrière gauche.",
+    "commentaires": [
+      "Soupape échappement arrière gauche N136",
+      "Câblage échappement arrière gauche",
+      "Problème similare N135",
+      "Calculateur ABS gestion échappement arrière"
+    ]
   },
   "00277": {
     "systeme": "ABS",
     "libelle": "Soupape admission/échappement ABS avant gauche -N137",
-    "description": "",
-    "commentaires": []
+    "description": "Défaut soupape combinée admission/échappement avant gauche.",
+    "commentaires": [
+      "Soupape combinée N137 avant gauche",
+      "Câblage soupape combinée",
+      "Calculateur ABS sortie combinée",
+      "Problème soupape double fonction"
+    ]
   },
   "00278": {
     "systeme": "ABS",
     "libelle": "Soupape principale ABS -N105",
-    "description": "",
-    "commentaires": []
+    "description": "Défaut sur la soupape principale du système ABS.",
+    "commentaires": [
+      "Soupape principale N105",
+      "Câblage soupape principale",
+      "Calculateur ABS gestion principale",
+      "Résistance soupape principale anormale"
+    ]
   },
   "00279": {
     "systeme": "ABS / Différentiel",
     "libelle": "Soupape 1 différentiel blocage -N125",
-    "description": "",
-    "commentaires": []
+    "description": "Défaut soupape 1 du différentiel à blocage.",
+    "commentaires": [
+      "Soupape différentiel N125",
+      "Câblage vers différentiel",
+      "Calculateur différentiel",
+      "Problème blocage différentiel"
+    ]
   },
   "00280": {
     "systeme": "ABS / Différentiel",
     "libelle": "Soupape 2 différentiel blocage -N126",
-    "description": "",
-    "commentaires": []
+    "description": "Défaut soupape 2 du différentiel à blocage.",
+    "commentaires": [
+      "Soupape différentiel N126",
+      "Problème similare N125",
+      "Câblage spécifique soupape 2",
+      "Calculateur différentiel sortie 2"
+    ]
   },
   "00281": {
     "systeme": "ABS",
     "libelle": "Capteur vitesse -G68",
-    "description": "",
-    "commentaires": []
+    "description": "Défaut du capteur de vitesse véhicule.",
+    "commentaires": [
+      "Capteur vitesse G68",
+      "Câblage capteur vitesse",
+      "Roue phonique endommagée",
+      "Problème similare P0500"
+    ]
   },
   "00282": {
     "systeme": "Admission",
     "libelle": "Lève-papillon -V60",
-    "description": "",
-    "commentaires": []
+    "description": "Défaut du moteur d'entraînement du papillon.",
+    "commentaires": [
+      "Moteur papillon V60",
+      "Câblage moteur V60",
+      "Engrenages papillon usés",
+      "Problème similare P1537"
+    ]
   },
   "00283": {
     "systeme": "ABS",
     "libelle": "P1711 Capteur régime ABS avant gauche -G47",
-    "description": "",
-    "commentaires": []
+    "description": "Défaut capteur de régime ABS roue avant gauche.",
+    "commentaires": [
+      "Capteur ABS avant gauche G47",
+      "Câblage capteur avant gauche",
+      "Roue phonique ABS avant gauche",
+      "Écart capteur incorrect"
+    ]
   },
   "00284": {
     "systeme": "ABS",
     "libelle": "Soupape admission/échappement ABS avant droite -N138",
-    "description": "",
-    "commentaires": []
+    "description": "Défaut soupape combinée admission/échappement avant droite.",
+    "commentaires": [
+      "Soupape combinée N138 avant droite",
+      "Câblage avant droite combinée",
+      "Problème similare N137",
+      "Calculateur ABS gestion avant droite"
+    ]
   },
   "00285": {
     "systeme": "ABS",
     "libelle": "P1716 Capteur régime ABS avant droite -G45",
-    "description": "",
-    "commentaires": []
+    "description": "Défaut capteur de régime ABS roue avant droite.",
+    "commentaires": [
+      "Capteur ABS avant droite G45",
+      "Câblage capteur avant droite",
+      "Roue phonique avant droite",
+      "Problème similare G47"
+    ]
   },
   "00286": {
     "systeme": "ABS",
     "libelle": "Soupape admission/échappement ABS arrière gauche -N139",
-    "description": "",
-    "commentaires": []
+    "description": "Défaut soupape combinée admission/échappement arrière gauche.",
+    "commentaires": [
+      "Soupape combinée N139 arrière gauche",
+      "Câblage arrière gauche combinée",
+      "Problème similare N137/N138",
+      "Calculateur ABS gestion arrière gauche"
+    ]
   },
   "00287": {
     "systeme": "ABS",
     "libelle": "P1721 Capteur régime ABS arrière droite -G44",
-    "description": "",
-    "commentaires": []
+    "description": "Défaut capteur de régime ABS roue arrière droite.",
+    "commentaires": [
+      "Capteur ABS arrière droite G44",
+      "Câblage capteur arrière droite",
+      "Roue phonique arrière droite",
+      "Problème similare capteurs avant"
+    ]
   },
   "00289": {
     "systeme": "ABS",
     "libelle": "Soupape admission/échappement ABS arrière droite -N140",
-    "description": "",
-    "commentaires": []
+    "description": "Défaut soupape combinée admission/échappement arrière droite.",
+    "commentaires": [
+      "Soupape combinée N140 arrière droite",
+      "Câblage arrière droite combinée",
+      "Problème similare autres combinées",
+      "Calculateur ABS gestion arrière droite"
+    ]
   },
   "00290": {
     "systeme": "ABS",
     "libelle": "P1726 Capteur régime ABS arrière gauche -G46",
-    "description": "",
-    "commentaires": []
+    "description": "Défaut capteur de régime ABS roue arrière gauche.",
+    "commentaires": [
+      "Capteur ABS arrière gauche G46",
+      "Câblage capteur arrière gauche",
+      "Roue phonique arrière gauche",
+      "Problème similare G44"
+    ]
   },
   "00291": {
     "systeme": "ABS / Frein",
     "libelle": "Contacteur avertisseur pression -F116 / F117",
-    "description": "",
-    "commentaires": []
+    "description": "Défaut contacteur d'avertisseur de pression de frein.",
+    "commentaires": [
+      "Contacteur pression frein F116/F117",
+      "Câblage contacteur pression",
+      "Niveau liquide frein bas",
+      "Circuit avertisseur frein"
+    ]
   },
   "00292": {
     "systeme": "ABS",
     "libelle": "Alimentation énergie hydraulique — pression",
-    "description": "",
-    "commentaires": []
+    "description": "Problème de pression dans l'alimentation hydraulique ABS.",
+    "commentaires": [
+      "Pompe hydraulique ABS",
+      "Accumulateur pression ABS",
+      "Capteur pression hydraulique",
+      "Fuites hydrauliques ABS"
+    ]
   },
   "00293": {
     "systeme": "Boîte / ABS",
     "libelle": "P0705 Contacteur multifonction -F125",
-    "description": "",
-    "commentaires": []
+    "description": "Défaut du contacteur multifonction levier BVA.",
+    "commentaires": [
+      "Contacteur F125 levier BVA",
+      "Câblage vers contacteur",
+      "Levier BVA mécanique",
+      "Problème similare P0706"
+    ]
   },
   "00294": {
     "systeme": "Boîte",
     "libelle": "Contacteur pression 1",
-    "description": "",
-    "commentaires": []
+    "description": "Défaut contacteur de pression 1 boîte automatique.",
+    "commentaires": [
+      "Contacteur pression boîte F...",
+      "Câblage contacteur pression",
+      "Pression hydraulique boîte",
+      "Calculateur boîte lecture pression"
+    ]
   },
   "00295": {
     "systeme": "Boîte",
     "libelle": "Contacteur pression 2",
-    "description": "",
-    "commentaires": []
+    "description": "Défaut contacteur de pression 2 boîte automatique.",
+    "commentaires": [
+      "Contacteur pression 2 boîte",
+      "Problème similare contacteur 1",
+      "Câblage spécifique pression 2",
+      "Pression ligne spécifique boîte"
+    ]
   },
   "00296": {
     "systeme": "Boîte",
     "libelle": "P1704 Contacteur kickdown -F8",
-    "description": "",
-    "commentaires": []
+    "description": "Défaut contacteur kickdown boîte automatique.",
+    "commentaires": [
+      "Contacteur kickdown F8",
+      "Câblage pédale accélérateur",
+      "Pédale accélérateur mécanique",
+      "Commande kickdown boîte"
+    ]
   },
   "00297": {
     "systeme": "Boîte / ABS",
     "libelle": "P0715 / P0721 / P0722 Capteur régime boîte G38 — défaut",
-    "description": "Plusieurs variantes selon le sous-code.",
-    "commentaires": []
+    "description": "Défaut du capteur de régime de la boîte automatique.",
+    "commentaires": [
+      "Capteur régime boîte G38",
+      "Câblage capteur boîte",
+      "Roue phonique boîte",
+      "Problème mesure vitesse boîte"
+    ]
   },
   "00298": {
     "systeme": "Différentiel",
     "libelle": "Contacteur différentiel blocage -E121",
-    "description": "",
-    "commentaires": []
+    "description": "Défaut contacteur de commande du différentiel à blocage.",
+    "commentaires": [
+      "Contacteur différentiel E121",
+      "Câblage commande différentiel",
+      "Commande manuelle différentiel",
+      "Calculateur différentiel entrée"
+    ]
   },
   "00299": {
     "systeme": "Boîte",
     "libelle": "Contacteur programme -E122",
-    "description": "",
-    "commentaires": []
+    "description": "Défaut contacteur de sélection de programme boîte.",
+    "commentaires": [
+      "Contacteur programme E122",
+      "Câblage sélecteur programme",
+      "Sélecteur boîte mécanique/électronique",
+      "Calculateur boîte lecture programme"
+    ]
   },
   "00301": {
     "systeme": "ABS",
     "libelle": "Pompe retour ABS -V39",
-    "description": "",
-    "commentaires": []
+    "description": "Défaut de la pompe de retour du système ABS.",
+    "commentaires": [
+      "Pompe retour ABS V39",
+      "Câblage pompe retour",
+      "Calculateur ABS commande pompe",
+      "Résistance moteur pompe anormale"
+    ]
   },
   "00302": {
     "systeme": "ABS",
     "libelle": "Relais électrovalves ABS -J106",
-    "description": "",
-    "commentaires": []
+    "description": "Défaut du relais des électrovannes ABS.",
+    "commentaires": [
+      "Relais électrovannes ABS J106",
+      "Câblage relais J106",
+      "Alimentation électrovannes ABS",
+      "Calculateur ABS commande relais"
+    ]
   },
   "00519": {
     "systeme": "Moteur / Capteur",
     "libelle": "Capteur de pression de collecteur -G71 (écart / tension)",
-    "description": "",
-    "commentaires": []
+    "description": "Défaut du capteur de pression d'admission (MAP sensor).",
+    "commentaires": [
+      "Capteur pression admission G71",
+      "Câblage capteur pression",
+      "Référence pression atmosphérique",
+      "Problème mesure pression admission"
+    ]
   },
   "00520": {
     "systeme": "Moteur / Admission",
     "libelle": "P0721 Débitmètre d'air / massique -G70/-G19",
-    "description": "",
-    "commentaires": []
+    "description": "Défaut général du débitmètre d'air massique.",
+    "commentaires": [
+      "Débitmètre air G70 ou G19",
+      "Câblage débitmètre",
+      "Problème similare P0102/P0103",
+      "Mesure débit air incorrecte"
+    ]
   },
   "00522": {
     "systeme": "Moteur / Refroidissement",
     "libelle": "Capteur température liquide de refroidissement -G62",
-    "description": "",
-    "commentaires": []
+    "description": "Défaut général capteur température liquide refroidissement.",
+    "commentaires": [
+      "Capteur température G62",
+      "Câblage capteur température",
+      "Problème similare P0116-P0118",
+      "Mesure température moteur"
+    ]
   },
   "00523": {
     "systeme": "Moteur / Admission",
-    "libelle": "Capteur température d’air -G42 (trop élevée/trop basse)",
-    "description": "",
-    "commentaires": []
+    "libelle": "Capteur température d'air -G42 (trop élevée/trop basse)",
+    "description": "Défaut général capteur température air admission.",
+    "commentaires": [
+      "Capteur température air G42",
+      "Câblage capteur air",
+      "Problème similare P0112/P0113",
+      "Mesure température air admission"
+    ]
   },
   "00524": {
     "systeme": "Moteur / Cliquetis",
     "libelle": "P0712 Capteur cliquetis 1 -G61",
-    "description": "",
-    "commentaires": []
+    "description": "Défaut général capteur de cliquetis 1.",
+    "commentaires": [
+      "Capteur cliquetis G61",
+      "Câblage capteur cliquetis",
+      "Problème similare P0326/P0327",
+      "Détection cliquetis moteur"
+    ]
   },
   "00525": {
     "systeme": "Moteur / Lambda",
     "libelle": "P0713 Sonde lambda -G39",
-    "description": "",
-    "commentaires": []
+    "description": "Défaut général sonde lambda avant.",
+    "commentaires": [
+      "Sonde lambda G39",
+      "Câblage sonde lambda",
+      "Problème similare P0130-P0135",
+      "Mesure richesse échappement"
+    ]
   },
   "00527": {
     "systeme": "Moteur / Admission",
     "libelle": "Capteur température collecteur d'admission -G72",
-    "description": "",
-    "commentaires": []
+    "description": "Défaut capteur température collecteur admission.",
+    "commentaires": [
+      "Capteur température collecteur G72",
+      "Câblage capteur collecteur",
+      "Température air après compresseur",
+      "Problème similare G42"
+    ]
   },
   "00534": {
     "systeme": "Moteur / Huile",
     "libelle": "Capteur de température d'huile -G8",
-    "description": "",
-    "commentaires": []
+    "description": "Défaut capteur de température d'huile moteur.",
+    "commentaires": [
+      "Capteur température huile G8",
+      "Câblage capteur huile",
+      "Température huile moteur",
+      "Problème refroidissement huile"
+    ]
   },
   "00539": {
     "systeme": "Moteur / Carburant",
     "libelle": "Capteur température carburant -G81",
-    "description": "",
-    "commentaires": []
+    "description": "Défaut capteur de température du carburant.",
+    "commentaires": [
+      "Capteur température carburant G81",
+      "Câblage capteur carburant",
+      "Température gasoil ou essence",
+      "Correction injection température"
+    ]
   },
   "00547": {
     "systeme": "ABS",
     "libelle": "Contacteur contrôle de pression ABS -F137",
-    "description": "",
-    "commentaires": []
+    "description": "Défaut contacteur de contrôle de pression ABS.",
+    "commentaires": [
+      "Contacteur pression ABS F137",
+      "Câblage contacteur ABS",
+      "Pression circuit frein ABS",
+      "Contrôle fonctionnement ABS"
+    ]
   },
   "00560": {
     "systeme": "Moteur / EGR",
     "libelle": "Système de recirculation des gaz d'échappement",
-    "description": "",
-    "commentaires": []
+    "description": "Défaut général système EGR.",
+    "commentaires": [
+      "Système EGR général",
+      "Problème similare P0400-P0402",
+      "Contrôle pollution NOx",
+      "Multiple composants EGR"
+    ]
   },
   "00561": {
     "systeme": "Moteur / Mélange",
     "libelle": "Adaptation du mélange",
-    "description": "",
-    "commentaires": []
+    "description": "Problème d'adaptation du mélange air/carburant.",
+    "commentaires": [
+      "Adaptation mélange générale",
+      "Problème similare P0170-P0175",
+      "Correction à long terme",
+      "Multiple causes possibles"
+    ]
   },
   "00575": {
     "systeme": "Moteur / Turbo",
     "libelle": "Pression collecteur d'admission",
-    "description": "",
-    "commentaires": []
+    "description": "Problème de pression dans le collecteur d'admission.",
+    "commentaires": [
+      "Pression admission générale",
+      "Problème turbo ou compresseur",
+      "Capteur pression admission",
+      "Régulation pression suralimentation"
+    ]
   },
   "00585": {
     "systeme": "Moteur / EGR",
     "libelle": "Capteur température recirculation gaz d'échappement -G98",
-    "description": "",
-    "commentaires": []
+    "description": "Défaut général capteur température EGR.",
+    "commentaires": [
+      "Capteur température EGR G98",
+      "Câblage capteur EGR",
+      "Problème similare P1407/P1408",
+      "Température gaz recyclés"
+    ]
   },
   "00586": {
     "systeme": "Moteur / EGR",
     "libelle": "Régulation système de recirculation des gaz d'échappement",
-    "description": "",
-    "commentaires": []
+    "description": "Problème de régulation du système EGR.",
+    "commentaires": [
+      "Régulation EGR générale",
+      "VanEAP EGR commande",
+      "Capteur débit EGR",
+      "Boucle régulation EGR"
+    ]
   },
   "00607": {
     "systeme": "Moteur / Gestion",
     "libelle": "Thermomètre extérieur -G106",
-    "description": "",
-    "commentaires": []
+    "description": "Défaut capteur de température extérieure.",
+    "commentaires": [
+      "Capteur température extérieure G106",
+      "Câblage thermomètre extérieur",
+      "Affichage température extérieure",
+      "Correction moteur température air"
+    ]
   },
   "00608": {
     "systeme": "Moteur / Charge",
     "libelle": "Capteur de condition de charge -G119",
-    "description": "",
-    "commentaires": []
+    "description": "Défaut capteur de condition de charge moteur.",
+    "commentaires": [
+      "Capteur charge G119",
+      "Câblage capteur charge",
+      "Position papillon ou charge",
+      "Calcul charge moteur"
+    ]
   },
   "00623": {
     "systeme": "ABS / Boîte",
     "libelle": "Connexion électrique ABS / boîte de vitesses",
-    "description": "",
-    "commentaires": []
+    "description": "Problème de connexion électrique entre ABS et boîte.",
+    "commentaires": [
+      "Communication ABS-boîte",
+      "Câblage entre calculateurs",
+      "Bus données partagé",
+      "Problème similare P1606"
+    ]
   },
   "00638": {
     "systeme": "Transmission",
     "libelle": "P1766 / P1767 Moteur/boîte vitesse connexion électrique 2",
-    "description": "",
-    "commentaires": []
+    "description": "Problème connexion électrique moteur/boîte.",
+    "commentaires": [
+      "Communication moteur-boîte",
+      "Câblage entre ECU",
+      "Signaux partagés",
+      "Problème similare communication"
+    ]
   },
   "00642": {
     "systeme": "EDS / ABS",
     "libelle": "Valve de changement EDS avant droite -N166",
-    "description": "",
-    "commentaires": []
+    "description": "Défaut valve EDS (contrôle traction) avant droite.",
+    "commentaires": [
+      "Valve EDS avant droite N166",
+      "Câblage valve EDS",
+      "Système contrôle traction",
+      "Calculateur ABS/EDS"
+    ]
   },
   "00643": {
     "systeme": "EDS / ABS",
     "libelle": "Valve d'échappement avant droite -N167",
-    "description": "",
-    "commentaires": []
+    "description": "Défaut valve échappement EDS avant droite.",
+    "commentaires": [
+      "Valve échappement EDS N167",
+      "Câblage valve échappement",
+      "Problème similare N166",
+      "Système EDS spécifique"
+    ]
   },
   "00644": {
     "systeme": "EDS / ABS",
     "libelle": "Valve de changement EDS avant gauche -N168",
-    "description": "",
-    "commentaires": []
+    "description": "Défaut valve EDS avant gauche.",
+    "commentaires": [
+      "Valve EDS avant gauche N168",
+      "Câblage avant gauche EDS",
+      "Problème similare N166",
+      "Calculateur EDS gestion gauche"
+    ]
   },
   "00645": {
     "systeme": "EDS / ABS",
     "libelle": "Valve d'échappement avant gauche -N169",
-    "description": "",
-    "commentaires": []
+    "description": "Défaut valve échappement EDS avant gauche.",
+    "commentaires": [
+      "Valve échappement EDS N169",
+      "Câblage échappement gauche",
+      "Problème similare N167",
+      "Système EDS complet"
+    ]
   },
   "00646": {
     "systeme": "ABS / ASR",
     "libelle": "ABS-ASR/moteur connexion électrique 1",
-    "description": "",
-    "commentaires": []
+    "description": "Problème connexion électrique ABS-ASR/moteur.",
+    "commentaires": [
+      "Communication ABS-ASR-moteur",
+      "Câblage bus données",
+      "Système contrôle stabilité",
+      "Problème similare autres communications"
+    ]
   },
   "00647": {
     "systeme": "ABS / ASR",
     "libelle": "ABS-ASR/moteur connexion électrique 2",
-    "description": "",
-    "commentaires": []
+    "description": "Autre problème connexion ABS-ASR/moteur.",
+    "commentaires": [
+      "Problème similare 00646",
+      "Connexion secondaire",
+      "Signaux spécifiques partagés",
+      "Calculateurs multiples communication"
+    ]
   },
   "00649": {
     "systeme": "ABS",
     "libelle": "Soupape admission/échappement ABS essieu arrière -N160",
-    "description": "",
-    "commentaires": []
+    "description": "Défaut soupape combinée ABS essieu arrière.",
+    "commentaires": [
+      "Soupape combinée arrière N160",
+      "Câblage arrière combinée",
+      "Problème similare N137-N140",
+      "Calculateur ABS gestion arrière combinée"
+    ]
   },
   "00672": {
     "systeme": "ABS",
     "libelle": "Pompe hydraulique ABS avec résistance additionnelle",
-    "description": "",
-    "commentaires": []
+    "description": "Problème pompe hydraulique ABS avec sa résistance.",
+    "commentaires": [
+      "Pompe ABS et résistance",
+      "Câblage pompe+résistance",
+      "Contrôle courant pompe",
+      "Problème similare V39"
+    ]
   },
   "00675": {
     "systeme": "ABS",
     "libelle": "ILV: 0V ULV: 0V — roue avant gauche bloquée",
-    "description": "",
-    "commentaires": []
+    "description": "État électrique indiquant roue avant gauche bloquée.",
+    "commentaires": [
+      "Diagnostic électrique soupape",
+      "État soupape avant gauche",
+      "Calculateur ABS test",
+      "Vérification fonctionnement soupape"
+    ]
   },
   "00676": {
     "systeme": "ABS",
     "libelle": "ILV: Ubatt ULV: 0V — roue avant gauche bloquée",
-    "description": "",
-    "commentaires": []
+    "description": "Autre état électrique roue avant gauche bloquée.",
+    "commentaires": [
+      "Problème similare 00675",
+      "Test électrique différent",
+      "Diagnostic calculateur ABS",
+      "Vérification soupape spécifique"
+    ]
   },
   "00677": {
     "systeme": "ABS",
     "libelle": "ILV: Ubatt ULV: Ubatt — roue avant gauche libre",
-    "description": "",
-    "commentaires": []
+    "description": "État électrique roue avant gauche libre.",
+    "commentaires": [
+      "Soupape avant gauche état libre",
+      "Diagnostic fonctionnement normal",
+      "Test calculateur ABS",
+      "Vérification état repos"
+    ]
   },
   "00678": {
     "systeme": "ABS",
     "libelle": "ILV: Ubatt ULV: 0V — roue avant gauche libre",
-    "description": "",
-    "commentaires": []
+    "description": "Autre état électrique roue avant gauche libre.",
+    "commentaires": [
+      "Problème similare 00677",
+      "État électrique spécifique",
+      "Diagnostic calculateur",
+      "Test soupape avant gauche"
+    ]
   },
   "00680": {
     "systeme": "ABS",
     "libelle": "IRV: 0V URV: 0V — roue avant droite bloquée",
-    "description": "",
-    "commentaires": []
+    "description": "État électrique roue avant droite bloquée.",
+    "commentaires": [
+      "Diagnostic avant droite",
+      "Problème similare avant gauche",
+      "Soupape avant droite test",
+      "Calculateur ABS diagnostic droit"
+    ]
   },
   "00681": {
     "systeme": "ABS",
     "libelle": "IRV: Ubatt URV: 0V — roue avant droite bloquée",
-    "description": "",
-    "commentaires": []
+    "description": "Autre état électrique roue avant droite bloquée.",
+    "commentaires": [
+      "Problème similare 00680",
+      "Test électrique différent droit",
+      "Diagnostic spécifique avant droit",
+      "Vérification soupape avant droite"
+    ]
   },
   "00682": {
     "systeme": "ABS",
     "libelle": "IRV: Ubatt URV: Ubatt — roue avant droite libre",
-    "description": "",
-    "commentaires": []
+    "description": "État électrique roue avant droite libre.",
+    "commentaires": [
+      "Soupape avant droite état libre",
+      "Diagnostic fonctionnement normal droit",
+      "Test calculateur ABS droit",
+      "Vérification état repos avant droit"
+    ]
   },
   "00683": {
     "systeme": "ABS",
     "libelle": "IRV: Ubatt URV: 0V — roue avant droite libre",
-    "description": "",
-    "commentaires": []
+    "description": "Autre état électrique roue avant droite libre.",
+    "commentaires": [
+      "Problème similare 00682",
+      "État électrique spécifique droit",
+      "Diagnostic calculateur avant droit",
+      "Test soupape avant droite"
+    ]
   },
   "00685": {
     "systeme": "ABS",
     "libelle": "ILA: 0V ULA: 0V — roue arrière gauche bloquée",
-    "description": "",
-    "commentaires": []
+    "description": "État électrique roue arrière gauche bloquée.",
+    "commentaires": [
+      "Diagnostic arrière gauche",
+      "Soupape arrière gauche test",
+      "Calculateur ABS arrière gauche",
+      "Problème similare avant"
+    ]
   },
   "00686": {
     "systeme": "ABS",
     "libelle": "ILA: Ubatt ULA: 0V — roue arrière gauche bloquée",
-    "description": "",
-    "commentaires": []
+    "description": "Autre état électrique roue arrière gauche bloquée.",
+    "commentaires": [
+      "Problème similare 00685",
+      "Test électrique différent arrière gauche",
+      "Diagnostic spécifique arrière gauche",
+      "Vérification soupape arrière gauche"
+    ]
   },
   "00687": {
     "systeme": "ABS",
     "libelle": "ILA: Ubatt ULA: Ubatt — roue arrière gauche libre",
-    "description": "",
-    "commentaires": []
+    "description": "État électrique roue arrière gauche libre.",
+    "commentaires": [
+      "Soupape arrière gauche état libre",
+      "Diagnostic fonctionnement normal arrière gauche",
+      "Test calculateur ABS arrière gauche",
+      "Vérification état repos arrière gauche"
+    ]
   },
   "00688": {
     "systeme": "ABS",
     "libelle": "ILA: Ubatt ULA: 0V — roue arrière gauche libre",
-    "description": "",
-    "commentaires": []
+    "description": "Autre état électrique roue arrière gauche libre.",
+    "commentaires": [
+      "Problème similare 00687",
+      "État électrique spécifique arrière gauche",
+      "Diagnostic calculateur arrière gauche",
+      "Test soupape arrière gauche"
+    ]
   },
   "00690": {
     "systeme": "ABS",
     "libelle": "IRA: 0V URA: 0V — roue arrière droite bloquée",
-    "description": "",
-    "commentaires": []
+    "description": "État électrique roue arrière droite bloquée.",
+    "commentaires": [
+      "Diagnostic arrière droite",
+      "Soupape arrière droite test",
+      "Calculateur ABS arrière droite",
+      "Problème similare autres roues"
+    ]
   },
   "00691": {
     "systeme": "ABS",
     "libelle": "IRA: Ubatt URA: 0V — roue arrière droite bloquée",
-    "description": "",
-    "commentaires": []
+    "description": "Autre état électrique roue arrière droite bloquée.",
+    "commentaires": [
+      "Problème similare 00690",
+      "Test électrique différent arrière droite",
+      "Diagnostic spécifique arrière droite",
+      "Vérification soupape arrière droite"
+    ]
   },
   "00692": {
     "systeme": "ABS",
     "libelle": "IRA: Ubatt URA: Ubatt — roue arrière droite libre",
-    "description": "",
-    "commentaires": []
+    "description": "État électrique roue arrière droite libre.",
+    "commentaires": [
+      "Soupape arrière droite état libre",
+      "Diagnostic fonctionnement normal arrière droite",
+      "Test calculateur ABS arrière droite",
+      "Vérification état repos arrière droite"
+    ]
   },
   "00693": {
     "systeme": "ABS",
     "libelle": "IRA: Ubatt URA: 0V — roue arrière droite libre",
-    "description": "",
-    "commentaires": []
+    "description": "Autre état électrique roue arrière droite libre.",
+    "commentaires": [
+      "Problème similare 00692",
+      "État électrique spécifique arrière droite",
+      "Diagnostic calculateur arrière droite",
+      "Test soupape arrière droite"
+    ]
   },
   "00695": {
     "systeme": "ABS / EDS",
     "libelle": "Valves EDS / pompe hydraulique: Ubatt — roues gauche/droite bloquées",
-    "description": "",
-    "commentaires": []
+    "description": "État électrique système EDS avec roues bloquées.",
+    "commentaires": [
+      "Diagnostic système EDS",
+      "Valves EDS test électrique",
+      "Pompe hydraulique EDS",
+      "Calculateur ABS/EDS diagnostic"
+    ]
   },
   "00696": {
     "systeme": "ABS",
     "libelle": "Valve ABS réduction pression gauche -N170",
-    "description": "",
-    "commentaires": []
+    "description": "Défaut valve de réduction de pression ABS côté gauche.",
+    "commentaires": [
+      "Valve réduction pression N170",
+      "Câblage valve réduction",
+      "Système de répartition freinage",
+      "Calculateur ABS gestion répartition"
+    ]
   },
   "00697": {
     "systeme": "ABS",
     "libelle": "Valve ABS réduction pression droite -N171",
-    "description": "",
-    "commentaires": []
+    "description": "Défaut valve de réduction de pression ABS côté droit.",
+    "commentaires": [
+      "Valve réduction pression N171",
+      "Câblage valve réduction droit",
+      "Problème similare N170",
+      "Système répartition freinage droit"
+    ]
   },
   "00704": {
     "systeme": "ABS / EDS",
     "libelle": "Valves EDS/pompe hydraulique: Ubatt — roues bloquées",
-    "description": "",
-    "commentaires": []
+    "description": "Autre état électrique système EDS roues bloquées.",
+    "commentaires": [
+      "Problème similare 00695",
+      "Diagnostic EDS différent",
+      "Test électrique spécifique",
+      "Calculateur ABS/EDS test complet"
+    ]
   },
   "00824": {
     "systeme": "ASR",
     "libelle": "Témoin de contrôle ASR -K86",
-    "description": "",
-    "commentaires": []
+    "description": "Défaut du témoin de contrôle ASR (contrôle traction).",
+    "commentaires": [
+      "Témoin ASR K86",
+      "Câblage témoin ASR",
+      "Contrôle fonctionnement ASR",
+      "Combiné instruments témoin"
+    ]
   },
   "01040": {
     "systeme": "ABS / Boîte",
     "libelle": "Connexion électrique 2 ABS / boîte à vitesse",
-    "description": "",
-    "commentaires": []
+    "description": "Autre problème connexion électrique ABS/boîte.",
+    "commentaires": [
+      "Problème similare 00623",
+      "Connexion secondaire ABS-boîte",
+      "Câblage supplémentaire",
+      "Communication spécifique"
+    ]
   },
   "01041": {
     "systeme": "ASR",
     "libelle": "Fonctionnement ASR inacceptable",
-    "description": "",
-    "commentaires": []
+    "description": "Fonctionnement général du système ASR inacceptable.",
+    "commentaires": [
+      "Système ASR défaillant",
+      "Calculateur ASR défectueux",
+      "Capteurs roue ASR",
+      "Communication ASR-moteur"
+    ]
   },
   "01130": {
     "systeme": "ABS",
     "libelle": "Fonctionnement ABS",
-    "description": "",
-    "commentaires": []
+    "description": "Problème général de fonctionnement du système ABS.",
+    "commentaires": [
+      "Fonctionnement ABS général",
+      "Calculateur ABS défectueux",
+      "Système hydraulique ABS",
+      "Auto-test ABS échoué"
+    ]
   },
   "16509": {
     "systeme": "Moteur / Refroidissement",
     "libelle": "P0125 Température liquide de refroidissement pour régulation lambda non atteinte",
-    "description": "",
-    "commentaires": []
+    "description": "Température insuffisante pour activation de la régulation lambda.",
+    "commentaires": [
+      "Moteur ne chauffe pas",
+      "Thermostat bloqué ouvert",
+      "Capteur température défectueux",
+      "Circuit refroidissement trop efficace"
+    ]
   }
 }
