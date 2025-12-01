@@ -125,7 +125,6 @@
     "description": "Défaillance générale du processeur de calculateur.",
     "commentaires": []
   },
-  {
   "16486": {
     "systeme": "Débitmètre",
     "libelle": "P0102 Débitmètre massique -G70 signal trop faible",
@@ -228,7 +227,6 @@
     "description": "",
     "commentaires": []
   },
-  {
   "16520": {
     "systeme": "Lambda",
     "libelle": "P0136 Rangée 1 Sonde 2 panne électrique",
@@ -325,7 +323,6 @@
     "description": "",
     "commentaires": []
   },
-  {
   "16554": {
     "systeme": "Carburant",
     "libelle": "P0170 Rangée 1 système de correction de carburant – mauvais fonctionnement",
@@ -482,7 +479,6 @@
     "description": "",
     "commentaires": []
   },
-  {
   "16824": {
     "systeme": "Ventilation réservoir",
     "libelle": "P0440 Système de ventilation du réservoir – mauvais fonctionnement",
@@ -581,7 +577,7 @@
   },
   "17511": {
     "systeme": "Lambda",
-    "libelle": "P1102 Sonde 1 rangée 1 puissance chauffage trop faible",
+    "libelle": "P1103 Sonde 1 rangée 1 puissance chauffage trop faible",
     "description": "",
     "commentaires": []
   },
@@ -639,7 +635,6 @@
     "description": "",
     "commentaires": []
   },
-
   "17609": {
     "systeme": "Injection",
     "libelle": "P1201 Injecteur cylindre 1 - panne électrique",
@@ -688,7 +683,6 @@
     "description": "",
     "commentaires": []
   },
-
   "17621": {
     "systeme": "Injection",
     "libelle": "P1213 Injecteur cylindre 1 – court-circuit au plus",
@@ -709,7 +703,7 @@
   },
   "17624": {
     "systeme": "Injection",
-    "libelle": "P1516 Injecteur cylindre 4 – court-circuit au plus",
+    "libelle": "P1216 Injecteur cylindre 4 – court-circuit au plus",
     "description": "",
     "commentaires": []
   },
@@ -737,7 +731,6 @@
     "description": "",
     "commentaires": []
   },
-
   "17633": {
     "systeme": "Injection",
     "libelle": "P1225 Injecteur cylindre 1 – court-circuit à la masse",
@@ -786,7 +779,6 @@
     "description": "",
     "commentaires": []
   },
-
   "17645": {
     "systeme": "Injection",
     "libelle": "P1237 Injecteur cyl.1 – coupure",
@@ -889,7 +881,6 @@
     "description": "",
     "commentaires": []
   },
-
   "17747": {
     "systeme": "Synchro moteur",
     "libelle": "P1339 Capteurs vilebrequin/ régime moteur inversés",
@@ -920,7 +911,6 @@
     "description": "",
     "commentaires": []
   },
-
   "17799": {
     "systeme": "Arbre à cames",
     "libelle": "P1391 Capteur position AAC rangée 2 court-circuit masse",
@@ -957,7 +947,6 @@
     "description": "",
     "commentaires": []
   },
-  {
   "17808": {
     "systeme": "EGR",
     "libelle": "P1400 Électrovanne EGR -N18 panne électrique",
@@ -976,7 +965,6 @@
     "description": "",
     "commentaires": []
   },
-
   "17815": {
     "systeme": "EGR",
     "libelle": "P1407 Capteur température EGR G98 – signal trop faible",
@@ -1049,7 +1037,6 @@
     "description": "",
     "commentaires": []
   },
-
   "17833": {
     "systeme": "Filtre charbon",
     "libelle": "P1425 Électrovanne N80 court-circuit à la masse",
@@ -1122,7 +1109,6 @@
     "description": "",
     "commentaires": []
   },
-
   "17908": {
     "systeme": "Pompe essence",
     "libelle": "P1500 Relais pompe essence panne électrique",
@@ -1141,7 +1127,6 @@
     "description": "",
     "commentaires": []
   },
-
   "17913": {
     "systeme": "Ralenti",
     "libelle": "P1505 Contacteur charge nulle ne ferme pas",
@@ -1178,7 +1163,6 @@
     "description": "",
     "commentaires": []
   },
-
   "17945": {
     "systeme": "Papillon",
     "libelle": "P1537 Défaut papillon",
@@ -1197,7 +1181,16 @@
     "description": "",
     "commentaires": []
   },
-
+  "17965": {
+    "systeme": "Turbo",
+    "libelle": "P1557 Charge Pressure Control: Positive Deviation",
+    "description": "Surpression turbo détectée.",
+    "commentaires": [
+      "Wastegate grippée",
+      "Électrovanne N75 défaillante",
+      "Durite de commande turbo pincée ou fuyarde"
+    ]
+  },
   "17988": {
     "systeme": "Papillon",
     "libelle": "P1580 Entraînement papillon banc 1 mauvais fonctionnement",
@@ -1210,7 +1203,6 @@
     "description": "",
     "commentaires": []
   },
-
   "18008": {
     "systeme": "Électrique",
     "libelle": "P1600 Tension contact 15 trop faible",
@@ -1223,7 +1215,6 @@
     "description": "",
     "commentaires": []
   },
-
   "18014": {
     "systeme": "ABS",
     "libelle": "P1606 Info ABS mauvaise / panne électrique",
@@ -1248,14 +1239,12 @@
     "description": "",
     "commentaires": []
   },
-
   "18062": {
     "systeme": "Combiné",
     "libelle": "P1654 Lire mémoire défaut combiné d’instruments",
     "description": "",
     "commentaires": []
   },
-  {
   "00257": {
     "systeme": "ABS",
     "libelle": "Soupape d'admission ABS avant gauche -N101",
@@ -1400,7 +1389,6 @@
     "description": "",
     "commentaires": []
   },
-
   "00283": {
     "systeme": "ABS",
     "libelle": "P1711 Capteur régime ABS avant gauche -G47",
@@ -1443,35 +1431,30 @@
     "description": "",
     "commentaires": []
   },
-
   "00291": {
     "systeme": "ABS / Frein",
     "libelle": "Contacteur avertisseur pression -F116 / F117",
     "description": "",
     "commentaires": []
   },
-
   "00292": {
     "systeme": "ABS",
     "libelle": "Alimentation énergie hydraulique — pression",
     "description": "",
     "commentaires": []
   },
-
   "00293": {
     "systeme": "Boîte / ABS",
     "libelle": "P0705 Contacteur multifonction -F125",
     "description": "",
     "commentaires": []
   },
-
   "00294": {
     "systeme": "Boîte",
     "libelle": "Contacteur pression 1",
     "description": "",
     "commentaires": []
   },
-
   "00295": {
     "systeme": "Boîte",
     "libelle": "Contacteur pression 2",
@@ -1490,7 +1473,6 @@
     "description": "Plusieurs variantes selon le sous-code.",
     "commentaires": []
   },
-
   "00298": {
     "systeme": "Différentiel",
     "libelle": "Contacteur différentiel blocage -E121",
@@ -1503,7 +1485,6 @@
     "description": "",
     "commentaires": []
   },
-  {
   "00301": {
     "systeme": "ABS",
     "libelle": "Pompe retour ABS -V39",
@@ -1516,9 +1497,105 @@
     "description": "",
     "commentaires": []
   },
+  "00519": {
+    "systeme": "Moteur / Capteur",
+    "libelle": "Capteur de pression de collecteur -G71 (écart / tension)",
+    "description": "",
+    "commentaires": []
+  },
+  "00520": {
+    "systeme": "Moteur / Admission",
+    "libelle": "P0721 Débitmètre d'air / massique -G70/-G19",
+    "description": "",
+    "commentaires": []
+  },
+  "00522": {
+    "systeme": "Moteur / Refroidissement",
+    "libelle": "Capteur température liquide de refroidissement -G62",
+    "description": "",
+    "commentaires": []
+  },
+  "00523": {
+    "systeme": "Moteur / Admission",
+    "libelle": "Capteur température d’air -G42 (trop élevée/trop basse)",
+    "description": "",
+    "commentaires": []
+  },
+  "00524": {
+    "systeme": "Moteur / Cliquetis",
+    "libelle": "P0712 Capteur cliquetis 1 -G61",
+    "description": "",
+    "commentaires": []
+  },
+  "00525": {
+    "systeme": "Moteur / Lambda",
+    "libelle": "P0713 Sonde lambda -G39",
+    "description": "",
+    "commentaires": []
+  },
+  "00527": {
+    "systeme": "Moteur / Admission",
+    "libelle": "Capteur température collecteur d'admission -G72",
+    "description": "",
+    "commentaires": []
+  },
+  "00534": {
+    "systeme": "Moteur / Huile",
+    "libelle": "Capteur de température d'huile -G8",
+    "description": "",
+    "commentaires": []
+  },
+  "00539": {
+    "systeme": "Moteur / Carburant",
+    "libelle": "Capteur température carburant -G81",
+    "description": "",
+    "commentaires": []
+  },
   "00547": {
     "systeme": "ABS",
     "libelle": "Contacteur contrôle de pression ABS -F137",
+    "description": "",
+    "commentaires": []
+  },
+  "00560": {
+    "systeme": "Moteur / EGR",
+    "libelle": "Système de recirculation des gaz d'échappement",
+    "description": "",
+    "commentaires": []
+  },
+  "00561": {
+    "systeme": "Moteur / Mélange",
+    "libelle": "Adaptation du mélange",
+    "description": "",
+    "commentaires": []
+  },
+  "00575": {
+    "systeme": "Moteur / Turbo",
+    "libelle": "Pression collecteur d'admission",
+    "description": "",
+    "commentaires": []
+  },
+  "00585": {
+    "systeme": "Moteur / EGR",
+    "libelle": "Capteur température recirculation gaz d'échappement -G98",
+    "description": "",
+    "commentaires": []
+  },
+  "00586": {
+    "systeme": "Moteur / EGR",
+    "libelle": "Régulation système de recirculation des gaz d'échappement",
+    "description": "",
+    "commentaires": []
+  },
+  "00607": {
+    "systeme": "Moteur / Gestion",
+    "libelle": "Thermomètre extérieur -G106",
+    "description": "",
+    "commentaires": []
+  },
+  "00608": {
+    "systeme": "Moteur / Charge",
+    "libelle": "Capteur de condition de charge -G119",
     "description": "",
     "commentaires": []
   },
@@ -1726,395 +1803,10 @@
     "description": "",
     "commentaires": []
   },
-  
-  "00519": {
-    "systeme": "Moteur / Capteur",
-    "libelle": "Capteur de pression de collecteur -G71 (écart / tension)",
-    "description": "",
-    "commentaires": []
-  },
-  "00520": {
-    "systeme": "Moteur / Admission",
-    "libelle": "P0721 Débitmètre d'air / massique -G70/-G19",
-    "description": "",
-    "commentaires": []
-  },
-  "00522": {
-    "systeme": "Moteur / Refroidissement",
-    "libelle": "Capteur température liquide de refroidissement -G62",
-    "description": "",
-    "commentaires": []
-  },
-  "00523": {
-    "systeme": "Moteur / Admission",
-    "libelle": "Capteur température d’air -G42 (trop élevée/trop basse)",
-    "description": "",
-    "commentaires": []
-  },
-  "00524": {
-    "systeme": "Moteur / Cliquetis",
-    "libelle": "P0712 Capteur cliquetis 1 -G61",
-    "description": "",
-    "commentaires": []
-  },
-  "00525": {
-    "systeme": "Moteur / Lambda",
-    "libelle": "P0713 Sonde lambda -G39",
-    "description": "",
-    "commentaires": []
-  },
-  "00527": {
-    "systeme": "Moteur / Admission",
-    "libelle": "Capteur température collecteur d'admission -G72",
-    "description": "",
-    "commentaires": []
-  },
-  "00534": {
-    "systeme": "Moteur / Huile",
-    "libelle": "Capteur de température d'huile -G8",
-    "description": "",
-    "commentaires": []
-  },
-  "00539": {
-    "systeme": "Moteur / Carburant",
-    "libelle": "Capteur température carburant -G81",
-    "description": "",
-    "commentaires": []
-  },
-  "00560": {
-    "systeme": "Moteur / EGR",
-    "libelle": "Système de recirculation des gaz d'échappement",
-    "description": "",
-    "commentaires": []
-  },
-  "00561": {
-    "systeme": "Moteur / Mélange",
-    "libelle": "Adaptation du mélange",
-    "description": "",
-    "commentaires": []
-  },
-  "00575": {
-    "systeme": "Moteur / Turbo",
-    "libelle": "Pression collecteur d'admission",
-    "description": "",
-    "commentaires": []
-  },
-  "00585": {
-    "systeme": "Moteur / EGR",
-    "libelle": "Capteur température recirculation gaz d'échappement -G98",
-    "description": "",
-    "commentaires": []
-  },
-  "00586": {
-    "systeme": "Moteur / EGR",
-    "libelle": "Régulation système de recirculation des gaz d'échappement",
-    "description": "",
-    "commentaires": []
-  },
-  "00607": {
-    "systeme": "Moteur / Gestion",
-    "libelle": "Thermomètre extérieur -G106",
-    "description": "",
-    "commentaires": []
-  },
-  "00608": {
-    "systeme": "Moteur / Charge",
-    "libelle": "Capteur de condition de charge -G119",
-    "description": "",
-    "commentaires": []
-  },
-  "16486": {
-    "systeme": "Moteur / Admission",
-    "libelle": "P0102 Débitmètre massique -G70 - signal trop faible",
-    "description": "",
-    "commentaires": []
-  },
-  "16487": {
-    "systeme": "Moteur / Admission",
-    "libelle": "P0103 Débitmètre massique -G70 - signal trop fort",
-    "description": "",
-    "commentaires": []
-  },
-  "16496": {
-    "systeme": "Moteur / Admission",
-    "libelle": "P0112 Capteur température air aspiré -G42 - signal trop faible",
-    "description": "",
-    "commentaires": []
-  },
-  "16497": {
-    "systeme": "Moteur / Admission",
-    "libelle": "P0113 Capteur température air aspiré -G42 - signal trop fort",
-    "description": "",
-    "commentaires": []
-  },
-  "16500": {
-    "systeme": "Moteur / Refroidissement",
-    "libelle": "P0116 Capteur température liquide de refroidissement -G62 - signal inacceptable",
-    "description": "",
-    "commentaires": []
-  },
-  "16501": {
-    "systeme": "Moteur / Refroidissement",
-    "libelle": "P0117 Capteur température liquide de refroidissement -G62 - signal trop faible",
-    "description": "",
-    "commentaires": []
-  },
-  "16502": {
-    "systeme": "Moteur / Refroidissement",
-    "libelle": "P0118 Capteur température liquide de refroidissement -G62 - signal trop fort",
-    "description": "",
-    "commentaires": []
-  },
-  "16504": {
-    "systeme": "Moteur / Papillon",
-    "libelle": "P0120 Potentiomètre de papillon -G69 - panne électrique",
-    "description": "",
-    "commentaires": []
-  },
-  "16505": {
-    "systeme": "Moteur / Papillon",
-    "libelle": "P0121 Potentiomètre de papillon -G69 - signal inacceptable",
-    "description": "",
-    "commentaires": []
-  },
-  "16506": {
-    "systeme": "Moteur / Papillon",
-    "libelle": "P0122 Potentiomètre de papillon -G69 - signal trop faible",
-    "description": "",
-    "commentaires": []
-  },
-  "16507": {
-    "systeme": "Moteur / Papillon",
-    "libelle": "P0123 Potentiomètre de papillon -G69 - signal trop fort",
-    "description": "",
-    "commentaires": []
-  },
   "16509": {
     "systeme": "Moteur / Refroidissement",
     "libelle": "P0125 Température liquide de refroidissement pour régulation lambda non atteinte",
     "description": "",
     "commentaires": []
-  },
-
-  "16514": {
-    "systeme": "Moteur / Lambda",
-    "libelle": "P0130 Rangée 1, sonde 1 - panne électronique",
-    "description": "",
-    "commentaires": []
-  },
-  "16515": {
-    "systeme": "Moteur / Lambda",
-    "libelle": "P0131 Rangée 1, sonde 1 - tension trop faible",
-    "description": "",
-    "commentaires": []
-  },
-  "16516": {
-    "systeme": "Moteur / Lambda",
-    "libelle": "P0132 Rangée 1, sonde 1 - tension trop forte",
-    "description": "",
-    "commentaires": []
-  },
-  "16517": {
-    "systeme": "Moteur / Lambda",
-    "libelle": "P0133 Rangée 1, sonde 1 - signal trop lent",
-    "description": "",
-    "commentaires": []
-  },
-  "16518": {
-    "systeme": "Moteur / Lambda",
-    "libelle": "P0134 Rangée 1, sonde 1 - aucune activité",
-    "description": "",
-    "commentaires": []
-  },
-  "16519": {
-    "systeme": "Moteur / Lambda",
-    "libelle": "P0135 Rangée 1, sonde 1 - chauffage, panne électrique",
-    "description": "",
-    "commentaires": []
-  },
-
-  "16554": {
-    "systeme": "Moteur / Mélange",
-    "libelle": "P0170 Rangée 1, calcul carburant - mauvais fonctionnement",
-    "description": "",
-    "commentaires": []
-  },
-  "16555": {
-    "systeme": "Moteur / Mélange",
-    "libelle": "P0171 Rangée 1, système trop pauvre",
-    "description": "",
-    "commentaires": []
-  },
-  "16556": {
-    "systeme": "Moteur / Mélange",
-    "libelle": "P0172 Rangée 1, système trop riche",
-    "description": "",
-    "commentaires": []
-  },
-  "16684": {
-    "systeme": "Moteur / Allumage",
-    "libelle": "P0300 Ratés d'allumage cylindre(s)",
-    "description": "",
-    "commentaires": []
-  },
-  "16685": {
-    "systeme": "Moteur / Allumage",
-    "libelle": "P0301 Ratés cylindre 1",
-    "description": "",
-    "commentaires": []
-  },
-  "16686": {
-    "systeme": "Moteur / Allumage",
-    "libelle": "P0302 Ratés cylindre 2",
-    "description": "",
-    "commentaires": []
-  },
-  "16687": {
-    "systeme": "Moteur / Allumage",
-    "libelle": "P0303 Ratés cylindre 3",
-    "description": "",
-    "commentaires": []
-  },
-  "16688": {
-    "systeme": "Moteur / Allumage",
-    "libelle": "P0304 Ratés cylindre 4",
-    "description": "",
-    "commentaires": []
-  },
-  "16706": {
-    "systeme": "Moteur / Capteur régime",
-    "libelle": "P0322 Capteur régime moteur -G28 - aucun signal",
-    "description": "",
-    "commentaires": []
-  },
-  "16711": {
-    "systeme": "Moteur / Cliquetis",
-    "libelle": "P0327 Capteur cliquetis 1 -G61 - signal trop faible",
-    "description": "",
-    "commentaires": []
-  },
-  "16725": {
-    "systeme": "Moteur / Arbre à cames",
-    "libelle": "P0341 Capteur position arbre à cames -G40 - signal inacceptable",
-    "description": "",
-    "commentaires": []
-  },
-  "16784": {
-    "systeme": "Moteur / EGR",
-    "libelle": "P0400 Système recirculation gaz échappement - mauvais fonctionnement",
-    "description": "",
-    "commentaires": []
-  },
-  "16785": {
-    "systeme": "Moteur / EGR",
-    "libelle": "P0401 EGR - passage trop étroit",
-    "description": "",
-    "commentaires": []
-  },
-  "16786": {
-    "systeme": "Moteur / EGR",
-    "libelle": "P0402 EGR - passage trop gros",
-    "description": "",
-    "commentaires": []
-  },
-
-  "16806": {
-    "systeme": "Moteur / Catalyseur",
-    "libelle": "P0422 Rangée 1, catalyseur principal - fonctionnement insuffisant",
-    "description": "",
-    "commentaires": []
-  },
-  "16816": {
-    "systeme": "Moteur / Catalyseur",
-    "libelle": "P0432 Rangée 2, catalyseur principal - fonctionnement insuffisant",
-    "description": "",
-    "commentaires": []
-  },
-  "17535": {
-    "systeme": "Moteur / Mélange",
-    "libelle": "P1127 Rangée 1, adaptation mélange - système trop riche",
-    "description": "",
-    "commentaires": []
-  },
-  "17536": {
-    "systeme": "Moteur / Mélange",
-    "libelle": "P1128 Rangée 1, adaptation mélange - système trop pauvre",
-    "description": "",
-    "commentaires": []
-  },
-  "17609": {
-    "systeme": "Moteur / Injection",
-    "libelle": "P1201 Injecteur cylindre 1 -N30 - panne électrique",
-    "description": "",
-    "commentaires": []
-  },
-  "17610": {
-    "systeme": "Moteur / Injection",
-    "libelle": "P1202 Injecteur cylindre 2 -N31 - panne électrique",
-    "description": "",
-    "commentaires": []
-  },
-  "17733": {
-    "systeme": "Moteur / Cliquetis",
-    "libelle": "P1325 Réglage cliquetis cylindre 1 - limite atteinte",
-    "description": "",
-    "commentaires": []
-  },
-  "17808": {
-    "systeme": "Moteur / EGR",
-    "libelle": "P1400 Electrovalve EGR -N18 - panne électrique",
-    "description": "",
-    "commentaires": []
-  },
-  "17809": {
-    "systeme": "Moteur / EGR",
-    "libelle": "P1401 Valve EGR -N18 court-circuit à la masse",
-    "description": "",
-    "commentaires": []
-  },
-  "17908": {
-    "systeme": "Moteur / Alimentation carburant",
-    "libelle": "P1500 Relais pompe à essence -J17 - panne électrique",
-    "description": "",
-    "commentaires": []
-  },
-  "17910": {
-    "systeme": "Moteur / Alimentation carburant",
-    "libelle": "P1502 Relais pompe à essence -J17 - court-circuit au plus",
-    "description": "",
-    "commentaires": []
-  },
-  "17965": {
-    "systeme": "Turbo",
-    "libelle": "P1557 Charge Pressure Control: Positive Deviation",
-    "description": "Surpression turbo détectée.",
-    "commentaires": [
-      "Wastegate grippée",
-      "Électrovanne N75 défaillante",
-      "Durite de commande turbo pincée ou fuyarde"
-    ]
-  },
-  "17988": {
-    "systeme": "Moteur / Papillon",
-    "libelle": "P1580 Entraînement papillon rangée 1 - mauvais fonctionnement",
-    "description": "",
-    "commentaires": []
-  },
-  "18008": {
-    "systeme": "Alimentation",
-    "libelle": "P1600 Tension alimentation contact 15 - trop faible",
-    "description": "",
-    "commentaires": []
-  },
-  "18010": {
-    "systeme": "Alimentation",
-    "libelle": "P1602 Tension alimentation contact 30 - trop faible",
-    "description": "",
-    "commentaires": []
   }
 }
-
-
-
-
-
