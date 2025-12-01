@@ -1,3008 +1,2147 @@
-"00257": {
-  "systeme": "ABS",
-  "libelle": "Soupape d'admission ABS avant gauche -N101"
-},
-"00258": {
-  "systeme": "Boîte auto",
-  "libelle": "P0753 Electrovalve 1 -N88"
-},
-"00259": {
-  "systeme": "ABS",
-  "libelle": "Soupape d'admission ABS avant droite -N99"
-},
-"00260": {
-  "systeme": "Boîte auto",
-  "libelle": "P0758 Electrovalve 2 -N89"
-},
-"00261": {
-  "systeme": "ABS",
-  "libelle": "Soupape d'admission ABS essieu arrière -N103"
-},
-"00262": {
-  "systeme": "Boîte auto",
-  "libelle": "P0763 Electrovalve 3 -N90"
-},
-"00263": {
-  "systeme": "Boîte auto",
-  "libelle": "Boîte à vitesse"
-},
-"00264": {
-  "systeme": "Boîte auto",
-  "libelle": "P0748 Electrovalve 4 -N91"
-},
-"00265": {
-  "systeme": "ABS",
-  "libelle": "Soupape d'échappement ABS avant gauche -N102"
-},
-"00266": {
-  "systeme": "Boîte auto",
-  "libelle": "P0773 Electrovalve 5 -N92"
-},
-"00267": {
-  "systeme": "ABS",
-  "libelle": "Soupape d'échappement ABS avant droite -N100"
-},
-"00268": {
-  "systeme": "Boîte auto",
-  "libelle": "P0748 Electrovalve 6 -N93"
-},
-"00269": {
-  "systeme": "ABS",
-  "libelle": "Soupape d'échappement ABS essieu arrière -N104"
-},
-"00270": {
-  "systeme": "Boîte auto",
-  "libelle": "P1778 Electrovalve 7 -N94"
-},
-"00271": {
-  "systeme": "Divers",
-  "libelle": "Voir groupe réparation 1"
-},
-"00273": {
-  "systeme": "ABS",
-  "libelle": "Soupape d'admission ABS arrière droite -N133"
-},
-"00274": {
-  "systeme": "ABS",
-  "libelle": "Soupape d'admission ABS arrière gauche -N134"
-},
-"00275": {
-  "systeme": "ABS",
-  "libelle": "Soupape d'échappement ABS arrière droite -N135"
-},
-"00276": {
-  "systeme": "ABS",
-  "libelle": "Soupape d'échappement ABS arrière gauche -N136"
-},
-"00277": {
-  "systeme": "ABS",
-  "libelle": "Soupape d'admission/échappement ABS avant gauche -N137"
-},
-"00278": {
-  "systeme": "ABS",
-  "libelle": "Soupape principale ABS -N105"
-},
-"00279": {
-  "systeme": "Différentiel",
-  "libelle": "Soupape 1 différentiel à blocage -N125"
-},
-"00280": {
-  "systeme": "Différentiel",
-  "libelle": "Soupape 2 différentiel à blocage -N126"
-},
-"00281": {
-  "systeme": "ABS",
-  "libelle": "Capteur de vitesse -G68"
-},
-"00282": {
-  "systeme": "Moteur",
-  "libelle": "Lève-papillon -V60"
-},
-"00283": {
-  "systeme": "ABS",
-  "libelle": "P1711 Capteur de régime ABS avant gauche -G47"
-},
-"00284": {
-  "systeme": "ABS",
-  "libelle": "Soupape d'admission/échappement ABS avant droite -N138"
-},
-"00285": {
-  "systeme": "ABS",
-  "libelle": "P1716 Capteur de régime ABS avant droite -G45"
-},
-"00286": {
-  "systeme": "ABS",
-  "libelle": "Soupape d'admission/échappement ABS arrière gauche -N139"
-},
-"00287": {
-  "systeme": "ABS",
-  "libelle": "P1721 Capteur de régime arrière droite -G44"
-},
-"00289": {
-  "systeme": "ABS",
-  "libelle": "Soupape d'admission/échappement ABS arrière droite -N140"
-},
-"00290": {
-  "systeme": "ABS",
-  "libelle": "P1726 Capteur de régime arrière gauche -G46"
-},
-"00291": {
-  "systeme": "Pression",
-  "libelle": "Contacteur avertisseur de pression -F116 / -F117"
-},
-"00292": {
-  "systeme": "ABS",
-  "libelle": "Alimentation énergie hydraulique niveau de pression"
-},
-"00293": {
-  "systeme": "Boîte auto",
-  "libelle": "P0705 Contacteur multifonctions -F125"
-},
-"00294": {
-  "systeme": "Boîte auto",
-  "libelle": "Contacteur de pression 1 pour condition boîte vitesses"
-},
-"00295": {
-  "systeme": "Boîte auto",
-  "libelle": "Contacteur de pression 2 pour condition boîte vitesses"
-},
-"00296": {
-  "systeme": "Boîte auto",
-  "libelle": "P1704 Contacteur kickdown -F8"
-},
-"00297": {
-  "systeme": "Boîte auto",
-  "libelle": "P0715 / P0721 / P0722 - Capteur de régime boîte -G38"
-},
-"00298": {
-  "systeme": "Différentiel",
-  "libelle": "Contacteur différentiel à blocage -E121"
-},
-"00299": {
-  "systeme": "Boîte auto",
-  "libelle": "Contacteur de programme -E122"
-},
-"00300": {
-  "systeme": "Boîte auto",
-  "libelle": "P0712 Capteur de température d’huile de boîte – signal trop bas -G93"
-},
-"00300B": {
-  "systeme": "Boîte auto",
-  "libelle": "P0713 Capteur de température d’huile de boîte – signal trop élevé -G93"
-},
-"00301": {
-  "systeme": "ABS",
-  "libelle": "Pompe retour ABS -V39"
-},
-"00302": {
-  "systeme": "ABS",
-  "libelle": "Relais électrovalves ABS -J106"
-},
-"00303": {
-  "systeme": "Boîte auto",
-  "libelle": "Contacteur sélecteur de fonctions -E91"
-},
-"00304": {
-  "systeme": "Ventilation",
-  "libelle": "Commande régulateur surpresseur ventilation"
-},
-"00305": {
-  "systeme": "Carburant",
-  "libelle": "Signal indicateur carburant"
-},
-"00306": {
-  "systeme": "Air secondaire",
-  "libelle": "Système d'air secondaire rangée de cylindres 1"
-},
-"00307": {
-  "systeme": "Air secondaire",
-  "libelle": "Système d'air secondaire rangée de cylindres 2"
-},
-"00308": {
-  "systeme": "Toit",
-  "libelle": "Tension d'alimentation moteur toit coulissant/rideau"
-},
-"00309": {
-  "systeme": "Lave-glace",
-  "libelle": "Pompe de mesure liquide nettoyant -V135"
-},
-"00310": {
-  "systeme": "Catalyseur",
-  "libelle": "Thermocapteur 1 catalyseur -G20"
-},
-"00312": {
-  "systeme": "Catalyseur",
-  "libelle": "Thermocapteur 2 catalyseur -G132"
-},
-"00313": {
-  "systeme": "Catalyseur",
-  "libelle": "Catalyseur"
-},
-"00314": {
-  "systeme": "EGR",
-  "libelle": "Valve 2 voies recirculation gaz d'échappement -N161"
-},
-"00447": {
-  "systeme": "Tension",
-  "libelle": "Fonctionnement limité par suite de surtension"
-},
-"00501": {
-  "systeme": "Huile",
-  "libelle": "Témoin niveau d'huile -K38"
-},
-"00512": {
- "systeme": "Allumage",
-  "libelle": "P0341 Capteur Hall - signal incorrect"
-},
-"00513": {
-  "systeme": "Moteur",
-  "libelle": "P0506/P0507 Capteur régime moteur -G28"
-},
-"00514": {
-  "systeme": "Moteur",
-  "libelle": "P0336 Capteur de point de référence -G4"
-},
-"00515": {
-  "systeme": "Allumage",
-  "libelle": "Capteur Hall -G40 pas de signal"
-},
-"00516": {
-  "systeme": "Moteur",
-  "libelle": "Contacteur charge nulle -F60"
-},
-"00517": {
-  "systeme": "Boîte auto",
-  "libelle": "P0705 Contacteur charge pleine -F81"
-},
-"00518": {
-  "systeme": "Papillon",
-  "libelle": "Potentiomètre de papillon -G69"
-},
-"00519": {
-  "systeme": "Admission",
-  "libelle": "Capteur pression collecteur -G71"
-},
-"00520": {
-  "systeme": "Débit d'air",
-  "libelle": "P0721 Débitmètre d'air -G70"
-},
-"00521": {
-  "systeme": "Carburant",
-  "libelle": "Potentiomètre CO -G74"
-},
-"00522": {
-  "systeme": "Refroidissement",
-  "libelle": "Capteur température liquide -G62"
-},
-"00523": {
-  "systeme": "Admission",
-  "libelle": "Capteur température air -G42"
-},
-"00524": {
-  "systeme": "Clicquetis",
-  "libelle": "Capteur cliquetis 1 -G61"
-},
-"00525": {
-  "systeme": "Lambda",
-  "libelle": "Sonde lambda -G39"
-},
-"00526": {
-  "systeme": "Frein",
-  "libelle": "Contacteur feu stop -F"
-},
-"00527": {
-  "systeme": "Admission",
-  "libelle": "Capteur température collecteur -G72"
-},
-"00528": {
-  "systeme": "Niveau",
-  "libelle": "Capteur niveau -F96"
-},
-"00529": {
-  "systeme": "Moteur",
-  "libelle": "Absence information régime moteur"
-},
-"00530": {
-  "systeme": "Papillon",
-  "libelle": "Lève-papillon/potentiomètre -G88"
-},
-"00531": {
-  "systeme": "Débit d'air",
-  "libelle": "Tension référence débitmètre massique"
-},
-"00532": {
-  "systeme": "Tension",
-  "libelle": "Tension d’alimentation incorrecte"
-},
-"00533": {
-  "systeme": "Ralenti",
-  "libelle": "Régulation régime de ralenti"
-},
-"00534": {
-  "systeme": "Huile",
-  "libelle": "Capteur température d'huile -G8"
-},
-"00535": {
-  "systeme": "Clicquetis",
-  "libelle": "Premier réglage cliquetis"
-},
-"00536": {
-  "systeme": "Clicquetis",
-  "libelle": "Deuxième réglage cliquetis"
-},
-"00537": {
-  "systeme": "Lambda",
-  "libelle": "Régulation lambda"
-},
-"00538": {
-  "systeme": "Tension",
-  "libelle": "Tension de référence"
-},
-"00539": {
-  "systeme": "Carburant",
-  "libelle": "Capteur température carburant -G81"
-},
-"00540": {
-  "systeme": "Clicquetis",
-  "libelle": "Capteur cliquetis 2 -G66"
-},
-"00541": {
-  "systeme": "Injection",
-  "libelle": "Potentiomètre course de pompe -G99"
-},
-"00542": {
-  "systeme": "Injection",
-  "libelle": "Capteur course aiguille injecteur -G80"
-},
-"00543": {
-  "systeme": "Moteur",
-  "libelle": "Dépassement tours moteur max"
-},
-"00544": {
-  "systeme": "Turbo",
-  "libelle": "Dépassement pression suralimentation"
-},
-"00545": {
-  "systeme": "Moteur",
-  "libelle": "P1780/P1781/P1782 Connexion moteur/boîte vitesse"
-},
-"00546": {
-  "systeme": "Données",
-  "libelle": "Câble données défectueux"
-},
-"00547": {
-  "systeme": "ABS",
-  "libelle": "Contacteur pression ABS -F137"
-},
-"00548": {
-  "systeme": "Tension",
-  "libelle": "P0560 Tension alimentation mémoire pannes"
-},
-"00549": {
-  "systeme": "Moteur",
-  "libelle": "Signal de consommation"
-},
-"00550": {
-  "systeme": "Injection",
-  "libelle": "Réglage début d’injection"
-},
-"00551": {
-  "systeme": "Catalyseur",
-  "libelle": "Surchauffement catalyseur"
-},
-"00552": {
-  "systeme": "Débit air",
-  "libelle": "Potentiomètre sur débitmètre d’air -G19"
-},
-"00553": {
-  "systeme": "Débit air",
-  "libelle": "Débitmètre massique -G70"
-},
-"00554": {
-  "systeme": "Lambda",
-  "libelle": "Régulation lambda 2"
-},
-"00555": {
-  "systeme": "Lambda",
-  "libelle": "Sonde lambda 2 -G108"
-},
-"00556": {
-  "systeme": "EGR",
-  "libelle": "Potentiomètre recirculation gaz échappement -G212"
-},
-"00557": {
-  "systeme": "Direction assistée",
-  "libelle": "Contacteur pression direction assistée -F88"
-},
-"00558": {
-  "systeme": "Carburant",
-  "libelle": "Limite réglage mélange pauvre"
-},
-"00559": {
-  "systeme": "Carburant",
-  "libelle": "Limite réglage mélange riche"
-},
-"00560": {
-  "systeme": "EGR",
-  "libelle": "Système recirculation gaz échappement"
-},
-"00561": {
-  "systeme": "Carburant",
-  "libelle": "Adaptation du mélange"
-},
-"00575": {
-  "systeme": "Admission",
-  "libelle": "Pression collecteur d’admission"
-},
-"00577": {
-  "systeme": "Clicquetis",
-  "libelle": "Réglage cliquetis 1er cylindre"
-},
-"00578": {
-  "systeme": "Clicquetis",
-  "libelle": "Réglage cliquetis 2e cylindre"
-},
-"00579": {
-  "systeme": "Clicquetis",
-  "libelle": "Réglage cliquetis 3e cylindre"
-},
-"00580": {
-  "systeme": "Clicquetis",
-  "libelle": "Réglage cliquetis 4e cylindre"
-},
-"00581": {
-  "systeme": "Clicquetis",
-  "libelle": "Réglage cliquetis 5e cylindre"
-},
-"00582": {
-  "systeme": "Clicquetis",
-  "libelle": "Réglage cliquetis 6e cylindre"
-},
-"00583": {
-  "systeme": "Clicquetis",
-  "libelle": "Réglage cliquetis 7e cylindre"
-},
-"00584": {
-  "systeme": "Clicquetis",
-  "libelle": "Réglage cliquetis 8e cylindre"
-},
-"00585": {
-  "systeme": "EGR",
-  "libelle": "Capteur température recirculation gaz échappement -G98"
-},
-"00586": {
-  "systeme": "EGR",
-  "libelle": "Régulation système EGR"
-},
-"00587": {
-  "systeme": "Carburant",
-  "libelle": "Limite réglage doseur mélange"
-},
-"00588": {
-  "systeme": "Airbag",
-  "libelle": "Allumeur airbag conducteur -N95"
-},
-"00589": {
-  "systeme": "Airbag",
-  "libelle": "Allumeur airbag passager 1 -N131"
-},
-"00590": {
-  "systeme": "Airbag",
-  "libelle": "Allumeur airbag passager 2 -N132"
-},
-"00591": {
-  "systeme": "Airbag",
-  "libelle": "Contacteur ceinture conducteur -E24"
-},
-"00592": {
-  "systeme": "Airbag",
-  "libelle": "Contacteur ceinture passager -E25"
-},
-"00593": {
-  "systeme": "Airbag",
-  "libelle": "Contact siège passager -F151"
-},
-"00594": {
-  "systeme": "Airbag",
-  "libelle": "Circuit allumage airbag"
-},
-"00595": {
-  "systeme": "Airbag",
-  "libelle": "Données d’accident enregistrées"
-},
-"00596": {
-  "systeme": "ABS",
-  "libelle": "Court-circuit électrovalve"
-},
-"00597": {
-  "systeme": "ABS",
-  "libelle": "P1728 Impulsions tours roue différentes"
-},
-"00598": {
-  "systeme": "ABS",
-  "libelle": "Panne hydraulique/mécanique"
-},
-"00599": {
-  "systeme": "ABS",
-  "libelle": "Acceptabilité contacteur pression/feu stop"
-},
-"00600": {
-  "systeme": "Chauffage/Clim",
-  "libelle": "Potentiomètre moteur de réglage valve température -G92"
-},
-"00601": {
-  "systeme": "Chauffage/Clim",
-  "libelle": "Potentiomètre moteur de réglage valve centrale -G112"
-},
-"00602": {
-  "systeme": "Chauffage/Clim",
-  "libelle": "Potentiomètre moteur valve relais espace-pieds/désembuage -G1"
-},
-"00603": {
-  "systeme": "Chauffage/Clim",
-  "libelle": "Moteur valve relais espace-pieds/désembuage -V85"
-},
-"00604": {
-  "systeme": "Admission air",
-  "libelle": "Potentiomètre moteur de réglage valve d’admission d’air -G113"
-},
-"00605": {
-  "systeme": "Ventilation",
-  "libelle": "Valve 2 voies ventilation/circulation -N63"
-},
-"00606": {
-  "systeme": "Chauffage",
-  "libelle": "Valve 2 voies robinet chauffage -N147"
-},
-"00607": {
-  "systeme": "Température",
-  "libelle": "Thermomètre extérieur -G106"
-},
-"00608": {
-  "systeme": "Charge",
-  "libelle": "Capteur de condition de charge -G119"
-},
-"00609": {
-  "systeme": "Allumage",
-  "libelle": "Sortie d’allumage 1"
-},
-"00610": {
-  "systeme": "Allumage",
-  "libelle": "Sortie d’allumage 2"
-},
-"00611": {
-  "systeme": "Allumage",
-  "libelle": "Sortie d’allumage 3"
-},
-"00612": {
-  "systeme": "Allumage",
-  "libelle": "Sortie d’allumage 4"
-},
-"00613": {
-  "systeme": "Allumage",
-  "libelle": "Sortie d’allumage 5"
-},
-"00614": {
-  "systeme": "Allumage",
-  "libelle": "Sortie d’allumage 6"
-},
-"00615": {
-  "systeme": "Allumage",
-  "libelle": "Sortie d’allumage 7"
-},
-"00616": {
-  "systeme": "Allumage",
-  "libelle": "Sortie d’allumage 8"
-},
-"00617": {
-  "systeme": "Airbag",
-  "libelle": "Capteur déclenchement différencié gauche -G104"
-},
-"00618": {
-  "systeme": "Airbag",
-  "libelle": "Capteur déclenchement différencié droite -G105"
-},
-"00619": {
-  "systeme": "Airbag",
-  "libelle": "Câble entrée capteur gauche"
-},
-"00620": {
-  "systeme": "Airbag",
-  "libelle": "Câble entrée capteur droite"
-},
-"00621": {
-  "systeme": "ABS",
-  "libelle": "Valve réduction pression -N155"
-},
-"00622": {
-  "systeme": "Carburant",
-  "libelle": "Purger eau filtre à carburant"
-},
-"00623": {
-  "systeme": "ABS",
-  "libelle": "Connexion électrique ABS/boîte vitesse"
-},
-"00624": {
-  "systeme": "Climatisation",
-  "libelle": "Intervention compresseur climatisation"
-},
-"00625": {
-  "systeme": "Vitesse",
-  "libelle": "Signal de vitesse"
-},
-"00626": {
-  "systeme": "Préchauffage",
-  "libelle": "Témoin temps de préchauffage -K29"
-},
-"00627": {
-  "systeme": "Niveau eau",
-  "libelle": "Témoin niveau d'eau -G120"
-},
-"00628": {
-  "systeme": "Actuateur",
-  "libelle": "Contrôle position actuateur"
-},
-"00629": {
-  "systeme": "Frein",
-  "libelle": "Contacteur pédale de frein -F47"
-},
-"00630": {
-  "systeme": "Climatisation",
-  "libelle": "Climatisation enclenchée -F47"
-},
-"00633": {
-  "systeme": "Allumage",
-  "libelle": "Câbles allumeur / capteur déclenchement"
-},
-"00634": {
-  "systeme": "EDS",
-  "libelle": "Résistance additionnelle pour EDS -N159"
-},
-"00635": {
-  "systeme": "Lambda",
-  "libelle": "Chauffage sonde lambda avant catalyseur"
-},
-"00636": {
-  "systeme": "Suspension",
-  "libelle": "Capteur accélération avant droite -G121"
-},
-"00637": {
-  "systeme": "Suspension",
-  "libelle": "Capteur accélération avant gauche -G122"
-},
-"00638": {
-  "systeme": "Boîte auto",
-  "libelle": "P1766 / P1767 Connexion moteur/boîte vitesse"
-},
-"00639": {
-  "systeme": "Frein",
-  "libelle": "Capteur décélération -G123"
-},
-"00640": {
-  "systeme": "Lambda",
-  "libelle": "Relais chauffage sonde lambda -J278"
-},
-"00641": {
-  "systeme": "ATF",
-  "libelle": "Température ATF"
-},
-"00642": {
-  "systeme": "EDS",
-  "libelle": "Valve changement EDS avant droite -N166"
-},
-"00643": {
-  "systeme": "EDS",
-  "libelle": "Valve échappement avant droite -N167"
-},
-"00644": {
-  "systeme": "EDS",
-  "libelle": "Valve changement EDS avant gauche -N168"
-},
-"00645": {
-  "systeme": "EDS",
-  "libelle": "Valve échappement avant gauche -N169"
-},
-"00646": {
-  "systeme": "ABS/ASR",
-  "libelle": "Connexion électrique moteur 1"
-},
-"00647": {
-  "systeme": "ABS/ASR",
-  "libelle": "Connexion électrique moteur 2"
-},
-"00648": {
-  "systeme": "Lambda",
-  "libelle": "Chauffage sonde lambda après catalyseur"
-},
-"00649": {
-  "systeme": "ABS",
-  "libelle": "Soupape admission/échappement ABS arrière -N160"
-},
-"00650": {
-  "systeme": "Embrayage",
-  "libelle": "Contacteur pédale embrayage -F36"
-},
-"00651": {
-  "systeme": "Allumage",
-  "libelle": "Câbles système allumage"
-},
-"00652": {
-  "systeme": "Boîte auto",
-  "libelle": "P0730 à P0734 Mauvaise vitesse / rapports mal réglés"
-},
-"00653": {
-  "systeme": "Boîte auto",
-  "libelle": "Acceptabilité sélecteur/boîte vitesse"
-},
-"00654": {
-  "systeme": "Airbag",
-  "libelle": "Allumeur tendeur ceinture conducteur -N153"
-},
-"00655": {
-  "systeme": "Airbag",
-  "libelle": "Allumeur tendeur ceinture passager -N154"
-},
-"00656": {
-  "systeme": "Airbag",
-  "libelle": "Capteur siège occupé -G128"
-},
-"00657": {
-  "systeme": "Ventilation",
-  "libelle": "Moteur réglage valve grille milieu -V102"
-},
-"00658": {
-  "systeme": "ECU",
-  "libelle": "Unité de commande"
-},
-"00659": {
-  "systeme": "ECU",
-  "libelle": "Autotest"
-},
-"00660": {
-  "systeme": "Papillon / boîte",
-  "libelle": "Contacteur kickdown / potentiomètre papillon"
-},
-"00661": {
-  "systeme": "Température",
-  "libelle": "Thermomètre"
-},
-"00662": {
-  "systeme": "Moteur",
-  "libelle": "Compteur de tours"
-},
-"00663": {
-  "systeme": "Vitesse",
-  "libelle": "Compteur de vitesse"
-},
-"00664": {
-  "systeme": "Carburant",
-  "libelle": "Indicateur carburant"
-},
-"00665": {
-  "systeme": "Sécurité",
-  "libelle": "Témoin ceintures -K19"
-},
-"00666": {
-  "systeme": "Avertisseur",
-  "libelle": "Gong"
-},
-"00667": {
-  "systeme": "Température",
-  "libelle": "Signal température extérieure"
-},
-"00668": {
-  "systeme": "Tension",
-  "libelle": "Tension de bord contact 30"
-},
-"00669": {
-  "systeme": "Avertisseur",
-  "libelle": "Deuxième témoin indicateur de panne -K97"
-},
-"00670": {
-  "systeme": "Papillon",
-  "libelle": "Capteur lève-papillon -G127"
-},
-"00671": {
-  "systeme": "Régulateur",
-  "libelle": "Système de vitesse: tension signal incorrecte"
-},
-"00672": {
-  "systeme": "ABS",
-  "libelle": "Pompe hydraulique ABS avec résistance additionnelle"
-},
-"00673": {
-  "systeme": "Frein",
-  "libelle": "Enfoncer la pédale de frein"
-},
-"00674": {
-  "systeme": "Frein",
-  "libelle": "Lâcher les freins"
-},
-"00675": {
-  "systeme": "ABS",
-  "libelle": "ILV/ULV roue avant gauche bloquée"
-},
-"00676": {
-  "systeme": "ABS",
-  "libelle": "ILV/ULV roue avant gauche bloquée"
-},
-"00677": {
-  "systeme": "ABS",
-  "libelle": "ILV/ULV roue gauche libre"
-},
-"00678": {
-  "systeme": "ABS",
-  "libelle": "ILV/ULV roue avant gauche libre"
-},
-"00679": {
-  "systeme": "Lambda",
-  "libelle": "Chauffage sonde lambda 2 avant catalyseur"
-},
-"00680": {
-  "systeme": "ABS",
-  "libelle": "IRV/URV roue droite avant bloquée"
-},
-"00681": {
-  "systeme": "ABS",
-  "libelle": "IRV/URV roue droite bloquée"
-},
-"00682": {
-  "systeme": "ABS",
-  "libelle": "IRV/URV roue droite libre"
-},
-"00683": {
-  "systeme": "ABS",
-  "libelle": "IRV/URV roue droite libre"
-},
-"00684": {
-  "systeme": "Lambda",
-  "libelle": "Chauffage sonde lambda 2 après catalyseur"
-},
-"00685": {
-  "systeme": "ABS",
-  "libelle": "ILA/ULA roue arrière gauche bloquée"
-},
-"00686": {
-  "systeme": "ABS",
-  "libelle": "ILA/ULA roue arrière gauche bloquée"
-},
-"00687": {
-  "systeme": "ABS",
-  "libelle": "ILA/ULA roue arrière gauche libre"
-},
-"00688": {
-  "systeme": "ABS",
-  "libelle": "ILA/ULA roue arrière gauche libre"
-},
-"00689": {
-  "systeme": "Admission",
-  "libelle": "Air parasite dans système d’admission"
-},
-"00690": {
-  "systeme": "ABS",
-  "libelle": "IRA/URA roue arrière droite bloquée"
-},
-"00691": {
-  "systeme": "ABS",
-  "libelle": "IRA/URA roue arrière droite bloquée"
-},
-"00692": {
-  "systeme": "ABS",
-  "libelle": "IRA/URA roue arrière droite libre"
-},
-"00693": {
-  "systeme": "ABS",
-  "libelle": "IRA/URA roue arrière droite libre"
-},
-"00694": {
-  "systeme": "Éclairage",
-  "libelle": "Eclairage/contacteur/instruments"
-},
-"00695": {
-  "systeme": "EDS",
-  "libelle": "Valves EDS/pompe hydraulique roues bloquées"
-},
-"00696": {
-  "systeme": "ABS",
-  "libelle": "Valve ABS réduction pression gauche -N170"
-},
-"00697": {
-  "systeme": "ABS",
-  "libelle": "Valve ABS réduction pression droite -N171"
-},
-"00698": {
-  "systeme": "Prise",
-  "libelle": "Régulateur prise de courant augmentée"
-},
-"00699": {
-  "systeme": "Lambda",
-  "libelle": "Sonde lambda après catalyseur -G130"
-},
-"00700": {
-  "systeme": "Lambda",
-  "libelle": "Sonde lambda 2 après catalyseur -G131"
-},
-"00701": {
-  "systeme": "Refroidissement",
-  "libelle": "Test température élevée liquide de refroidissement"
-},
-"00702": {
-  "systeme": "Carburant",
-  "libelle": "Capteur composition carburant -G133"
-},
-"00703": {
-  "systeme": "Moteur",
-  "libelle": "Reconnaissance régime ralenti potentiomètre papillon"
-},
-"00704": {
-  "systeme": "EDS",
-  "libelle": "Valves EDS/pompe hydraulique roues bloquées"
-},
-"00705": {
-  "systeme": "Ventilation",
-  "libelle": "Relais 1er étage turbine centrifuge -J279"
-},
-"00706": {
-  "systeme": "Ventilation",
-  "libelle": "Relais 2e étage turbine centrifuge -J513"
-},
-"00707": {
-  "systeme": "Ventilation",
-  "libelle": "Valve grille centrale -N236"
-},
-"00708": {
-  "systeme": "Ventilation",
-  "libelle": "Attention : mise en route ventilateur"
-},
-"00709": {
-  "systeme": "Soleil",
-  "libelle": "Photocellule rayons solaires -G134"
-},
-"00710": {
-  "systeme": "Clim",
-  "libelle": "Moteur valve désembuage -V107"
-},
-"00711": {
-  "systeme": "Clim",
-  "libelle": "Moteur valve espace-pieds gauche -V108"
-},
-"00712": {
-  "systeme": "Clim",
-  "libelle": "Moteur valve espace-pieds droite -V109"
-},
-"00713": {
-  "systeme": "Clim",
-  "libelle": "Moteur grille tableau bord gauche milieu -V110"
-},
-"00714": {
-  "systeme": "Clim",
-  "libelle": "Moteur grille tableau bord droite milieu -V111"
-},
-"00715": {
-  "systeme": "Clim",
-  "libelle": "Moteur réglage grille espace-pieds arrière -V112"
-},
-"00716": {
-  "systeme": "Clim",
-  "libelle": "Moteur valve circulation -V113"
-},
-"00717": {
-  "systeme": "Clim",
-  "libelle": "Moteur valve absorption/filtre charbon -V114"
-},
-"00718": {
-  "systeme": "Aération",
-  "libelle": "Contacteur grille aération gauche supérieure -F179"
-},
-"00719": {
-  "systeme": "Aération",
-  "libelle": "Contacteur grille aération droite supérieure -F180"
-},
-"00720": {
-  "systeme": "Aération",
-  "libelle": "Contacteur grille aération gauche inférieure -F181"
-},
-"00721": {
-  "systeme": "Aération",
-  "libelle": "Contacteur grille aération droite inférieure -F182"
-},
-"00722": {
-  "systeme": "Aération",
-  "libelle": "Contacteur grille tableau bord gauche milieu -F183"
-},
-"00723": {
-  "systeme": "Aération",
-  "libelle": "Contacteur grille tableau bord droite milieu -F184"
-},
-"00724": {
-  "systeme": "Aération",
-  "libelle": "Contacteur aération espace-pieds gauche arrière -F185"
-},
-"00725": {
-  "systeme": "Aération",
-  "libelle": "Contacteur aération espace-pieds droite arrière -F186"
-},
-"00726": {
-  "systeme": "Aération",
-  "libelle": "Contacteur espace-pieds milieu arrière -F187"
-},
-"00727": {
-  "systeme": "Clim",
-  "libelle": "Potentiomètre valve désembuage -G135"
-},
-"00728": {
-  "systeme": "Clim",
-  "libelle": "Potentiomètre grille tableau bord gauche -G136"
-},
-"00729": {
-  "systeme": "Clim",
-  "libelle": "Potentiomètre grille tableau bord droite -G137"
-},
-"00730": {
-  "systeme": "Clim",
-  "libelle": "Potentiomètre grille centrale -G138"
-},
-"00731": {
-  "systeme": "Clim",
-  "libelle": "Potentiomètre valve espace-pieds gauche -G139"
-},
-"00732": {
-  "systeme": "Clim",
-  "libelle": "Potentiomètre valve espace-pieds droite -G140"
-},
-"00733": {
-  "systeme": "Clim",
-  "libelle": "Potentiomètre grille espace-pieds arrière -G141"
-},
-"00734": {
-  "systeme": "Clim",
-  "libelle": "Potentiomètre grille centrale tableau de bord -G142"
-},
-"00735": {
-  "systeme": "Clim",
-  "libelle": "Potentiomètre valve circulation -G143"
-},
-"00736": {
-  "systeme": "Clim",
-  "libelle": "Potentiomètre valve absorption -G144"
-},
-"00737": {
-  "systeme": "Chauffage",
-  "libelle": "Soupape régulation chauffage gauche -N175"
-},
-"00738": {
-  "systeme": "Chauffage",
-  "libelle": "Soupape régulation chauffage droite -N176"
-},
-"00739": {
-  "systeme": "Refroidissement",
-  "libelle": "Pompe circulation liquide supplémentaire -V50"
-},
-"00740": {
-  "systeme": "Moteur",
-  "libelle": "Capteur reconnaissance cylindre 1 -G145"
-},
-"00741": {
-  "systeme": "Frein",
-  "libelle": "Contrôle pédale de frein"
-},
-"00742": {
-  "systeme": "Batterie",
-  "libelle": "Batterie en rangée - système ventilation"
-},
-"00743": {
-  "systeme": "Batterie",
-  "libelle": "Capteur ventilation batterie -G146"
-},
-"00744": {
-  "systeme": "Batterie",
-  "libelle": "Régulation température batteries"
-},
-"00745": {
-  "systeme": "Batterie",
-  "libelle": "Contrôle isolation"
-},
-"00746": {
-  "systeme": "Batterie",
-  "libelle": "Batterie en rangée – cellule HS"
-},
-"00747": {
-  "systeme": "Batterie",
-  "libelle": "Thermocapteur première batterie -G52"
-},
-"00748": {
-  "systeme": "Batterie",
-  "libelle": "Thermocapteur dernière batterie -G53"
-},
-"00749": {
-  "systeme": "Ventilation",
-  "libelle": "Soupape de ventilation"
-},
-"00750": {
-  "systeme": "Avertisseur",
-  "libelle": "Témoin indicateur de panne"
-},
-"00751": {
-  "systeme": "Batterie",
-  "libelle": "Indication capacité batterie"
-},
-"00752": {
-  "systeme": "Batterie",
-  "libelle": "Ventilateur et chauffage batterie"
-},
-"00753": {
-  "systeme": "ABS",
-  "libelle": "Connexions impulsions nombre tours roue"
-},
-"00754": {
-  "systeme": "Avertisseur",
-  "libelle": "Témoin avertisseur"
-},
-"00755": {
-  "systeme": "Huile",
-  "libelle": "Témoin pression d'huile -K3"
-},
-"00756": {
-  "systeme": "Aération",
-  "libelle": "Thermocapteur grille aération gauche -G150"
-},
-"00757": {
-  "systeme": "Aération",
-  "libelle": "Thermocapteur grille aération gauche -G151"
-},
-"00758": {
-  "systeme": "Air secondaire",
-  "libelle": "Système injection air secondaire"
-},
-"00759": {
-  "systeme": "Clim",
-  "libelle": "Moteur réglage température écoulement gauche -G155"
-},
-"00760": {
-  "systeme": "Clim",
-  "libelle": "Moteur réglage température écoulement droite -G156"
-},
-"00761": {
-  "systeme": "ECU",
-  "libelle": "Panne enregistrée dans appareil de réglage"
-},
-"00762": {
-  "systeme": "Injection",
-  "libelle": "Pulvérisateur -N181"
-},
-"00763": {
-  "systeme": "Gaz",
-  "libelle": "Capteur pression gaz conducteur -G147"
-},
-"00764": {
-  "systeme": "Gaz",
-  "libelle": "Capteur pression gaz passager -G148"
-},
-"00765": {
-  "systeme": "Injection",
-  "libelle": "Capteur course registre pompe injection -G149"
-},
-"00766": {
-  "systeme": "Aération",
-  "libelle": "Thermocapteur première grille -G152"
-},
-"00767": {
-  "systeme": "Aération",
-  "libelle": "Thermocapteur écoulement dernier évaporateur -G153"
-},
-"00768": {
-  "systeme": "Aération",
-  "libelle": "Thermocapteur dernier échangeur air -G154"
-},
-"00769": {
-  "systeme": "Refroidissement",
-  "libelle": "Capteur température sortie moteur -G82"
-},
-"00770": {
-  "systeme": "Refroidissement",
-  "libelle": "Capteur température sortie radiateur -G83"
-},
-"00771": {
-  "systeme": "Niveau",
-  "libelle": "Flotteur -G"
-},
-"00772": {
-  "systeme": "Huile",
-  "libelle": "Contacteur pression huile -F22"
-},
-"00773": {
-  "systeme": "Huile",
-  "libelle": "Capteur pression huile -G10"
-},
-"00774": {
-  "systeme": "Niveau",
-  "libelle": "Capteur niveau arrière gauche -G76"
-},
-"00775": {
-  "systeme": "Niveau",
-  "libelle": "Capteur niveau arrière droite -G76"
-},
-"00776": {
-  "systeme": "Niveau",
-  "libelle": "Capteur niveau avant gauche -G76"
-},
-"00777": {
-  "systeme": "Injection",
-  "libelle": "Capteur position accélérateur -G79"
-},
-"00778": {
-  "systeme": "Direction",
-  "libelle": "Capteur angle direction -G85"
-},
-"00779": {
-  "systeme": "Température",
-  "libelle": "Capteur température extérieure -G17"
-},
-"00780": {
-  "systeme": "Châssis",
-  "libelle": "Capteur vitesse verticale -G90"
-},
-"00781": {
-  "systeme": "Suspension",
-  "libelle": "Moteur réglage avant gauche -V76"
-},
-"00782": {
-  "systeme": "Suspension",
-  "libelle": "Moteur réglage avant droite -V77"
-},
-"00783": {
-  "systeme": "Suspension",
-  "libelle": "Moteur réglage arrière gauche -V78"
-},
-"00784": {
-  "systeme": "Suspension",
-  "libelle": "Moteur réglage arrière droite -V79"
-},
-"00785": {
-  "systeme": "TDB",
-  "libelle": "Capteur température tableau de bord -G56"
-},
-"00786": {
-  "systeme": "Température",
-  "libelle": "Thermocapteur contre toit -G86"
-},
-"00787": {
-  "systeme": "Admission",
-  "libelle": "Thermocapteur canal aspiration air -G89"
-},
-"00788": {
-  "systeme": "Aération",
-  "libelle": "Valve 2 voies espace-pieds/désembuage -N118"
-},
-"00789": {
-  "systeme": "Feux",
-  "libelle": "Contacteur de recul -F41"
-},
-"00790": {
-  "systeme": "Ventilation",
-  "libelle": "Valve ventilation/circulation"
-},
-"00791": {
-  "systeme": "Clim",
-  "libelle": "Thermocontacteur évaporateur -E33"
-},
-"00792": {
-  "systeme": "Clim",
-  "libelle": "Contacteur pression climatisation -F129"
-},
-"00793": {
-  "systeme": "Frein",
-  "libelle": "Capteur position pédale frein -G100"
-},
-"00794": {
-  "systeme": "ABS",
-  "libelle": "Capteur pompe hydraulique -G101"
-},
-"00795": {
-  "systeme": "Suspension",
-  "libelle": "Capteur mouvement ressort arrière -G102"
-},
-"00796": {
-  "systeme": "Ventilation",
-  "libelle": "Ventilateur aspiration thermocapteur TDB -V42"
-},
-"00797": {
-  "systeme": "Soleil",
-  "libelle": "Photocellule mesure rayons solaires -G107"
-},
-"00798": {
-  "systeme": "Moteur",
-  "libelle": "Test segments"
-},
-"00799": {
-  "systeme": "Refroidissement",
-  "libelle": "Capteur température liquide refroidissement -G110"
-},
-"01016": {
-  "systeme": "Amortisseur",
-  "libelle": "Valve décompression amortisseur retenue -N106"
-},
-"01017": {
-  "systeme": "Amortisseur",
-  "libelle": "Compresseur amortisseur retenue -V65"
-},
-"01018": {
-  "systeme": "Refroidissement",
-  "libelle": "Ventilateur d'air refroidissant -V7"
-},
-"01019": {
-  "systeme": "Relais",
-  "libelle": "Relais"
-},
-"01020": {
-  "systeme": "Refroidissement",
-  "libelle": "Pompe à eau -V36"
-},
-"01021": {
-  "systeme": "Différentiel",
-  "libelle": "Témoin blocage différentiel -K81"
-},
-"01022": {
-  "systeme": "Éclairage",
-  "libelle": "Éclairage"
-},
-"01023": {
-  "systeme": "Avertisseur",
-  "libelle": "Avertisseur sonore / gong -H3"
-},
-"01024": {
-  "systeme": "Pluie",
-  "libelle": "Capteur de pluie -G213"
-},
-"01025": {
-  "systeme": "TDB",
-  "libelle": "Commande indicateur pannes défectueuse"
-},
-"01026": {
-  "systeme": "Ventilation",
-  "libelle": "Ventilateur dernier évaporateur -V20"
-},
-"01027": {
-  "systeme": "Ventilation",
-  "libelle": "Ventilateur air chaud arrière -V47"
-},
-"01028": {
-  "systeme": "Ventilation",
-  "libelle": "Relais surpresseur -J323"
-},
-"01028B": {
-  "systeme": "Ventilation",
-  "libelle": "Surpresseur arrière -V20"
-},
-"01029": {
-  "systeme": "Climatisation",
-  "libelle": "Relais climatisation -J32"
-},
-"01039": {
-  "systeme": "Refroidissement",
-  "libelle": "Capteur température liquide refroidissement -G2"
-},
-"01040": {
-  "systeme": "ABS/Boîte",
-  "libelle": "Connexion électrique 2 ABS/boîte"
-},
-"01041": {
-  "systeme": "ASR",
-  "libelle": "Fonctionnement ASR inacceptable"
-},
-"01042": {
-  "systeme": "ECU",
-  "libelle": "Appareil de réglage non codé"
-},
-"01043": {
-  "systeme": "ECU",
-  "libelle": "Mauvaise version logiciel"
-},
-"01044": {
-  "systeme": "ECU",
-  "libelle": "P1749 Appareil réglage mal codé"
-},
-"01045": {
-  "systeme": "Boîte auto",
-  "libelle": "Contacteur tiptronic -F189"
-},
-"01046": {
-  "systeme": "Frein",
-  "libelle": "Témoin épaisseur plaquettes -K32"
-},
-"01047": {
-  "systeme": "Frein",
-  "libelle": "Témoin système frein double circuit -K7"
-},
-"01048": {
-  "systeme": "Diesel",
-  "libelle": "Témoin électronique diesel -K104"
-},
-"01049": {
-  "systeme": "Tension",
-  "libelle": "Contact tension bord 50"
-},
-"01050": {
-  "systeme": "Préchauffage",
-  "libelle": "Surveillance bougie préchauffage"
-},
-"01051": {
-  "systeme": "Injection",
-  "libelle": "Moteur réglage quantité carburant -V117"
-},
-"01052": {
-  "systeme": "Charge",
-  "libelle": "Potentiomètre signal charge -G157"
-},
-"01053": {
-  "systeme": "Injection",
-  "libelle": "Valve début injection -N182"
-},
-"01054": {
-  "systeme": "Tension",
-  "libelle": "Relais tension contact 30 -J317"
-},
-"01055": {
-  "systeme": "Injection",
-  "libelle": "Capteur début alimentation -G158"
-},
-"01056": {
-  "systeme": "Charge",
-  "libelle": "Fonction charge compensation"
-},
-"01057": {
-  "systeme": "Charge",
-  "libelle": "Fonction charge tension constante"
-},
-"01058": {
-  "systeme": "Charge",
-  "libelle": "Fonction charge courant constant"
-},
-"01059": {
-  "systeme": "Rotor",
-  "libelle": "Capteur position rotor -G159"
-},
-"01060": {
-  "systeme": "Température",
-  "libelle": "Thermocapteur enroulement fond rainuré -G160"
-},
-"01061": {
-  "systeme": "Température",
-  "libelle": "Thermocapteur enroulement tête -G161"
-},
-"01070": {
-  "systeme": "Démarrage",
-  "libelle": "Relais démarrage -J53"
-},
-"01071": {
-  "systeme": "Embrayage",
-  "libelle": "Capteur course embrayage -G162"
-},
-"01072": {
-  "systeme": "Embrayage",
-  "libelle": "Clapet dépression réglage embrayage -N183"
-},
-"01073": {
-  "systeme": "Embrayage",
-  "libelle": "Système pression embrayage"
-},
-"01074": {
-  "systeme": "Embrayage",
-  "libelle": "Clapet ventilation réglage embrayage -N184"
-},
-"01075": {
-  "systeme": "Embrayage",
-  "libelle": "Relais pompe dépression -J318"
-},
-"01076": {
-  "systeme": "Embrayage",
-  "libelle": "Relais pompe hydraulique -J319"
-},
-"01077": {
-  "systeme": "Frein",
-  "libelle": "Contacteur dépression correcteur freinage -F190"
-},
-"01078": {
-  "systeme": "Boîte auto",
-  "libelle": "Contacteur vitesse enclenchée -F191"
-},
-"01079": {
-  "systeme": "Hydraulique",
-  "libelle": "Relais système commande hydraulique -J320"
-},
-"01080": {
-  "systeme": "Direction assistée",
-  "libelle": "Contacteur direction assistée -F192"
-},
-"01081": {
-  "systeme": "Hydraulique",
-  "libelle": "Valve passage prioritaire -N185"
-},
-"01082": {
-  "systeme": "Carburant",
-  "libelle": "Témoin réserve carburant -K105"
-},
-"01083": {
-  "systeme": "Lave-glace",
-  "libelle": "Témoin niveau liquide lave-glace -K106"
-},
-"01084": {
-  "systeme": "Température",
-  "libelle": "Témoin avertisseur température 0°C -K107"
-},
-"01085": {
-  "systeme": "Température",
-  "libelle": "Témoin avertisseur température 4°C -K108"
-},
-"01086": {
-  "systeme": "Vitesse",
-  "libelle": "Capteur indicateur vitesse -G22"
-},
-"01087": {
-  "systeme": "Moteur",
-  "libelle": "Réglage de base non effectué"
-},
-"01088": {
-  "systeme": "Carburant",
-  "libelle": "Adaptation mélange 2"
-},
-"01089": {
-  "systeme": "Capote",
-  "libelle": "Contacteur étrier vitre arrière horizontal -F204"
-},
-"01090": {
-  "systeme": "Capote",
-  "libelle": "Contacteur étrier vitre arrière vertical -F203"
-},
-"01091": {
-  "systeme": "Capote",
-  "libelle": "Contacteur capote avant -F202"
-},
-"01092": {
-  "systeme": "Capote",
-  "libelle": "Contacteur capote ouverte -F171"
-},
-"01093": {
-  "systeme": "Capote",
-  "libelle": "Contacteur couvercle capote supérieur -F201"
-},
-"01094": {
-  "systeme": "Capote",
-  "libelle": "Contacteur 3 couvercle capote gauche -F195"
-},
-"01095": {
-  "systeme": "Capote",
-  "libelle": "Contacteur 2 couvercle capote gauche -F197"
-},
-"01096": {
-  "systeme": "Capote",
-  "libelle": "Contacteur 1 couvercle capote gauche -F199"
-},
-"01097": {
-  "systeme": "Capote",
-  "libelle": "Contacteur capote verrouillée -F172"
-},
-"01098": {
-  "systeme": "Coffre",
-  "libelle": "Contacteur hayon fermé -F206"
-},
-"01099": {
-  "systeme": "Coffre",
-  "libelle": "Contacteur coffre verrouillé"
-},
-"01100": {
-  "systeme": "Coffre",
-  "libelle": "Contacteur coffre déverrouillé"
-},
-"01101": {
-  "systeme": "Capote",
-  "libelle": "Contacteur blocage déverrouillage -F205"
-},
-"01102": {
-  "systeme": "Capote",
-  "libelle": "Contacteur 3 couvercle capote droite -F196"
-},
-"01103": {
-  "systeme": "Capote",
-  "libelle": "Contacteur 2 couvercle capote droite -F198"
-},
-"01104": {
-  "systeme": "Capote",
-  "libelle": "Contacteur 1 couvercle capote droite -F200"
-},
-"01105": {
-  "systeme": "Hydraulique",
-  "libelle": "Electrovalve 8 -N186"
-},
-"01106": {
-  "systeme": "Vitres",
-  "libelle": "Relais ouverture vitres -J291"
-},
-"01107": {
-  "systeme": "Capote",
-  "libelle": "Témoin capote -K98"
-},
-"01108": {
-  "systeme": "Vitres",
-  "libelle": "Relais fermeture vitres -J292"
-},
-"01109": {
-  "systeme": "Hydraulique",
-  "libelle": "Relais pompe hydraulique -J321"
-},
-"01110": {
-  "systeme": "Capote",
-  "libelle": "Aimant blocage déverrouillage -N187"
-},
-"01111": {
-  "systeme": "Serrure",
-  "libelle": "Moteur réglage 1 serrure capot coffre"
-},
-"01112": {
-  "systeme": "Alimentation",
-  "libelle": "Alimentation moteurs réglage 1 et 2"
-},
-"01113": {
-  "systeme": "Serrure",
-  "libelle": "Moteur réglage 2 serrure capot coffre"
-},
-"01114": {
-  "systeme": "Frein",
-  "libelle": "Contacteur frein à main -F9"
-},
-"01115": {
-  "systeme": "ECU",
-  "libelle": "Seulement 3 bytes d’espace"
-},
-"01116": {
-  "systeme": "Capote",
-  "libelle": "Moteur déverrouillage capote"
-},
-"01117": {
-  "systeme": "Alternateur",
-  "libelle": "Signal charge alternateur DF"
-},
-"01118": {
-  "systeme": "Préchauffage",
-  "libelle": "Préchauffage moteur"
-},
-"01119": {
-  "systeme": "Boîte",
-  "libelle": "Signal reconnaissance vitesse enclenchée"
-},
-"01120": {
-  "systeme": "Distribution",
-  "libelle": "Réglage arbre à cames 1"
-},
-"01121": {
-  "systeme": "Distribution",
-  "libelle": "Réglage arbre à cames 2"
-},
-"01122": {
-  "systeme": "Allumage",
-  "libelle": "Capteur Hall 2 -G163"
-},
-"01123": {
-  "systeme": "Commande",
-  "libelle": "Erreur de commande"
-},
-"01124": {
-  "systeme": "Charge",
-  "libelle": "Surveillance temps charge"
-},
-"01125": {
-  "systeme": "Admission",
-  "libelle": "Inversion collecteur admission"
-},
-"01126": {
-  "systeme": "Moteur",
-  "libelle": "Signal nombre de tours moteur"
-},
-"01127": {
-  "systeme": "Carburant",
-  "libelle": "Témoin réserve carburant -K16"
-},
-"01128": {
-  "systeme": "Antidémarrage",
-  "libelle": "Unité lecture antidémarrage -D2"
-},
-"01129": {
-  "systeme": "Contact",
-  "libelle": "Contact S -H15"
-},
-"01130": {
-  "systeme": "ABS",
-  "libelle": "Fonctionnement ABS"
-},
-"01131": {
-  "systeme": "Éclairage",
-  "libelle": "Commande clignotants"
-},
-"01132": {
-  "systeme": "Infra-rouge",
-  "libelle": "Capteur infrarouge avant -G166"
-},
-"01133": {
-  "systeme": "Infra-rouge",
-  "libelle": "Capteur infrarouge arrière -G166"
-},
-"01134": {
-  "systeme": "Alerte",
-  "libelle": "Corne d’alarme -H12"
-},
-"01135": {
-  "systeme": "Sécurité",
-  "libelle": "Capteurs surveillance intérieur"
-},
-"01136": {
-  "systeme": "Démarrage",
-  "libelle": "Moteur démarrage antidémarrage"
-},
-"01137": {
-  "systeme": "Centralisation",
-  "libelle": "Contacteur verrouillage central"
-},
-"01138": {
-  "systeme": "Centralisation",
-  "libelle": "Contacteur déverrouillage porte conducteur"
-},
-"01139": {
-  "systeme": "Centralisation",
-  "libelle": "Contacteur déverrouillage porte passager"
-},
-"01140": {
-  "systeme": "Centralisation",
-  "libelle": "Contacteur déverrouillage hayon"
-},
-"01141": {
-  "systeme": "Coffre",
-  "libelle": "Contacteur verrouillage hayon -E165"
-},
-"01142": {
-  "systeme": "Centralisation",
-  "libelle": "Moteurs verrouillage porte conducteur + clapet réservoir fermé"
-},
-"01143": {
-  "systeme": "Centralisation",
-  "libelle": "Moteurs verrouillage porte conducteur + clapet réservoir ouvert"
-},
-"01144": {
-  "systeme": "Centralisation",
-  "libelle": "Moteur ouverture porte passager"
-},
-"01145": {
-  "systeme": "Centralisation",
-  "libelle": "Moteurs ouverture portes arrière"
-},
-"01146": {
-  "systeme": "Centralisation",
-  "libelle": "Moteurs porte passager + portes arrière"
-},
-"01147": {
-  "systeme": "Coffre",
-  "libelle": "Moteur verrouillage hayon -V120"
-},
-"01148": {
-  "systeme": "Sécurité",
-  "libelle": "Enclenchement verrouillage Safe"
-},
-"01149": {
-  "systeme": "Sécurité",
-  "libelle": "Coupure verrouillage Safe"
-},
-"01150": {
-  "systeme": "TDB",
-  "libelle": "Compteurs analogues"
-},
-"01151": {
-  "systeme": "Diesel",
-  "libelle": "Contacteur blocage moteur diesel -F207"
-},
-"01152": {
-  "systeme": "Boîte auto",
-  "libelle": "Contacteur vitesse enclenchée -F209"
-},
-"01153": {
-  "systeme": "Économie",
-  "libelle": "Contacteur Ecomatic -E163"
-},
-"01154": {
-  "systeme": "Embrayage",
-  "libelle": "Contacteur pression embrayage -F120"
-},
-"01155": {
-  "systeme": "Embrayage",
-  "libelle": "Embrayage"
-},
-"01156": {
-  "systeme": "Boîte auto",
-  "libelle": "Contacteur reconnaissance vitesse enclenchée -F208"
-},
-"01157": {
-  "systeme": "Alerte",
-  "libelle": "Tension alimentation corne alarme"
-},
-"01158": {
-  "systeme": "Alerte",
-  "libelle": "Tension alimentation clignotants"
-},
-"01159": {
-  "systeme": "Centralisation",
-  "libelle": "Câbles verrouillage Safe"
-},
-"01160": {
-  "systeme": "Refroidissement",
-  "libelle": "Relais bougies préchauffage liquide refroidissement -J325"
-},
-"01161": {
-  "systeme": "Distribution",
-  "libelle": "Final valve réglage arbre à cames"
-},
-"01162": {
-  "systeme": "Moteur",
-  "libelle": "Raté de cylindre"
-},
-"01163": {
-  "systeme": "Allumage",
-  "libelle": "Éclatement d'étincelle"
-},
-"01164": {
-  "systeme": "ESP",
-  "libelle": "Fonction ESP"
-},
-"01165": {
-  "systeme": "Papillon",
-  "libelle": "Unité réglage papillon -J338"
-},
-"01166": {
-  "systeme": "Couple",
-  "libelle": "Signal couple moteur"
-},
-"01167": {
-  "systeme": "Moteur",
-  "libelle": "Soupape butée pleine charge -N194"
-},
-"01168": {
-  "systeme": "Moteur",
-  "libelle": "Valve réglage augmentation régime -N177"
-},
-"01169": {
-  "systeme": "Porte",
-  "libelle": "Contacteur porte conducteur -F2"
-},
-"01170": {
-  "systeme": "Injection",
-  "libelle": "Capteur durée injection -G175"
-},
-"01172": {
-  "systeme": "Sièges",
-  "libelle": "Thermocapteur chauffage siège conducteur -G59"
-},
-"01173": {
-  "systeme": "Sièges",
-  "libelle": "Moteur réglage longueur siège conducteur -V28"
-},
-"01174": {
-  "systeme": "Sièges",
-  "libelle": "Moteur réglage hauteur siège conducteur -V138"
-},
-"01175": {
-  "systeme": "Sièges",
-  "libelle": "Contacteur réglage chauffage siège conducteur -E94"
-},
-"01176": {
-  "systeme": "Sécurité",
-  "libelle": "Clé"
-},
-"01177": {
-  "systeme": "Moteur",
-  "libelle": "Appareil de réglage moteur"
-},
-"01179": {
-  "systeme": "Sécurité",
-  "libelle": "Mauvaise programmation clé"
-},
-"01180": {
-  "systeme": "Moteur",
-  "libelle": "Coupure moteur/compresseur climatisation"
-},
-"01181": {
-  "systeme": "Antidémarrage",
-  "libelle": "Initialisation : seulement 2 clés programmées"
-},
-"01182": {
-  "systeme": "Suspension",
-  "libelle": "Adaptation hauteur"
-},
-"01183": {
-  "systeme": "Catalyseur",
-  "libelle": "Témoin catalyseur -K72"
-},
-"01184": {
-  "systeme": "Température",
-  "libelle": "Capteur température écoulement arrière -G174"
-},
-"01185": {
-  "systeme": "Ventilation",
-  "libelle": "Surpresseur ventilation arrière -V80"
-},
-"01186": {
-  "systeme": "Ventilation",
-  "libelle": "Moteur distribution air arrière -V136"
-},
-"01187": {
-  "systeme": "Ventilation",
-  "libelle": "Moteur valve température arrière -V137"
-},
-"01188": {
-  "systeme": "Magnétique",
-  "libelle": "Appareil réglage/connexion magnétique"
-},
-"01189": {
-  "systeme": "Ventilation",
-  "libelle": "Moteur distribution air avant -V145"
-},
-"01190": {
-  "systeme": "Ventilation",
-  "libelle": "Appareil réglage/moteurs réglage connexion électrique"
-},
-"01191": {
-  "systeme": "Sièges",
-  "libelle": "Moteurs réglage sièges"
-},
-"01192": {
-  "systeme": "Boîte auto",
-  "libelle": "Couplage transition transformateur couple"
-},
-"01193": {
-  "systeme": "Chauffage",
-  "libelle": "Relais faible capacité chauffage -J359"
-},
-"01194": {
-  "systeme": "Chauffage",
-  "libelle": "Relais forte capacité chauffage -J360"
-},
-"01195": {
-  "systeme": "ECU",
-  "libelle": "FIN"
-},
-"01196": {
-  "systeme": "Boîte vitesse",
-  "libelle": "Moteur/boîte vitesse - databus"
-},
-"01197": {
-  "systeme": "Databus",
-  "libelle": "Databus entraînement mauvaise version programme"
-},
-"01198": {
-  "systeme": "Databus",
-  "libelle": "Databus confort mauvaise version programme"
-},
-"01199": {
-  "systeme": "Moteur/ABS",
-  "libelle": "Connexion électrique moteur/ABS"
-},
-"01200": {
-  "systeme": "ABS",
-  "libelle": "Tension alimentation soupapes ABS"
-},
-"01201": {
-  "systeme": "ABS",
-  "libelle": "Tension alimentation pompe ABS"
-},
-"01202": {
-  "systeme": "Diagnostic",
-  "libelle": "Câble diagnostic"
-},
-"01208": {
-  "systeme": "ECU",
-  "libelle": "Modification fichiers données appareil réglage"
-},
-"01235": {
-  "systeme": "Air secondaire",
-  "libelle": "Valve injection air secondaire -N112"
-},
-"01236": {
-  "systeme": "Boîte",
-  "libelle": "Aimant verrouillage sélecteur -N110"
-},
-"01237": {
-  "systeme": "Carburant",
-  "libelle": "Valve arrêt alimentation carburant -N109"
-},
-"01238": {
-  "systeme": "Allumage",
-  "libelle": "Réglage angle allumage"
-},
-"01239": {
-  "systeme": "Admission",
-  "libelle": "Valve ventilation lève-papillon -N97"
-},
-"01240": {
-  "systeme": "Admission",
-  "libelle": "Valve purge lève-papillon -N117"
-},
-"01241": {
-  "systeme": "Carbone actif",
-  "libelle": "Electrovalve 2 filtre charbon -N115"
-},
-"01242": {
-  "systeme": "ECU",
-  "libelle": "Étape finale appareil réglage"
-},
-"01243": {
-  "systeme": "Admission",
-  "libelle": "Soupape inversion collecteur admission -N156"
-},
-"01244": {
-  "systeme": "Lambda",
-  "libelle": "Relais réglage chauffage sonde lambda -J208"
-},
-"01245": {
-  "systeme": "Pression",
-  "libelle": "Régulateur pression différentielle"
-},
-"01246": {
-  "systeme": "Chauffage",
-  "libelle": "Relais chauffage collecteur -J81"
-},
-"01247": {
-  "systeme": "Carbone actif",
-  "libelle": "Electrovalve 1 filtre charbon -N80"
-},
-"01248": {
-  "systeme": "Carburant",
-  "libelle": "Valve 2 voies enrichissement charge pleine -N54"
-},
-"01249": {
-  "systeme": "Injection",
-  "libelle": "P0201 Injecteur cylindre 1 -N30"
-},
-"01250": {
-  "systeme": "Injection",
-  "libelle": "P0202 Injecteur cylindre 2 -N31"
-},
-"01251": {
-  "systeme": "Injection",
-  "libelle": "P0203 Injecteur cylindre 3 -N32"
-},
-"01252": {
-  "systeme": "Injection",
-  "libelle": "P0204 Injecteur cylindre 4 -N33"
-},
-"01253": {
-  "systeme": "Injection",
-  "libelle": "P0205 Injecteur cylindre 5 -N83"
-},
-"01254": {
-  "systeme": "Injection",
-  "libelle": "P0206 Injecteur cylindre 6 -N84"
-},
-"01255": {
-  "systeme": "Injection",
-  "libelle": "P0207 Injecteur cylindre 7 -N85"
-},
-"01256": {
-  "systeme": "Injection",
-  "libelle": "P0208 Injecteur cylindre 8 -N86"
-},
-"01257": {
-  "systeme": "Ralenti",
-  "libelle": "Soupape stabilisation ralenti -N71"
-},
-"01258": {
-  "systeme": "Starter",
-  "libelle": "Lève-soupape starter -V63"
-},
-"01259": {
-  "systeme": "Carburant",
-  "libelle": "Relais pompe essence -V63"
-},
-"01260": {
-  "systeme": "Admission",
-  "libelle": "Soupape décélération -N65"
-},
-"01261": {
-  "systeme": "Lambda",
-  "libelle": "Soupape impulsion réglage lambda -N7"
-},
-"01262": {
-  "systeme": "Turbo",
-  "libelle": "Électrovalve limiteur pression turbo -N75"
-},
-"01263": {
-  "systeme": "Carburant",
-  "libelle": "Gicleur démarrage à froid -N17"
-},
-"01264": {
-  "systeme": "Air secondaire",
-  "libelle": "Relais pompe air secondaire -J299"
-},
-"01265": {
-  "systeme": "EGR",
-  "libelle": "Electrovalve recirculation gaz échappement -N18"
-},
-"01266": {
-  "systeme": "Préchauffage",
-  "libelle": "Relais bougies préchauffage -J52"
-},
-"01267": {
-  "systeme": "Préchauffage",
-  "libelle": "Connexion auto relais préchauffage"
-},
-"01268": {
-  "systeme": "Injection",
-  "libelle": "Régulateur injection -N146"
-},
-"01269": {
-  "systeme": "Injection",
-  "libelle": "Soupape début injection -N108"
-},
-"01270": {
-  "systeme": "Climatisation",
-  "libelle": "Connexion magnétique compression climatisation -N25"
-},
-"01271": {
-  "systeme": "Climatisation",
-  "libelle": "Moteur valve régulation température -V68"
-},
-"01272": {
-  "systeme": "Climatisation",
-  "libelle": "Moteur valve centrale -V70"
-},
-"01273": {
-  "systeme": "Ventilation",
-  "libelle": "Surpresseur ventilation -V2"
-},
-"01274": {
-  "systeme": "Climatisation",
-  "libelle": "Moteur réglage admission air -V71"
-},
-"01275": {
-  "systeme": "Sécurité",
-  "libelle": "Mettre commutateur clé hors service airbags latéraux arrière -E280"
-},
-"01276": {
-  "systeme": "ABS",
-  "libelle": "Pompe ABS hydraulique -V64"
-},
-"01277": {
-  "systeme": "ABS",
-  "libelle": "Relais pompe ABS hydraulique -J185"
-},
-"01278": {
-  "systeme": "EDS",
-  "libelle": "Coupure EDS -J263"
-},
-"16486": {
-  "systeme": "Débitmètre",
-  "libelle": "P0102 Débitmètre massique -G70 signal trop faible"
-},
-"16487": {
-  "systeme": "Débitmètre",
-  "libelle": "P0103 Débitmètre massique -G70 signal trop fort"
-},
-"16496": {
-  "systeme": "Température air",
-  "libelle": "P0112 Capteur température air aspiré -G42 signal trop faible"
-},
-"16497": {
-  "systeme": "Température air",
-  "libelle": "P0113 Capteur température air aspiré -G42 signal trop fort"
-},
-"16500": {
-  "systeme": "Refroidissement",
-  "libelle": "P0116 Capteur température liquide refroidissement -G62 signal inacceptable"
-},
-"16501": {
-  "systeme": "Refroidissement",
-  "libelle": "P0117 Capteur température liquide refroidissement -G62 signal trop faible"
-},
-"16502": {
-  "systeme": "Refroidissement",
-  "libelle": "P0118 Capteur température liquide refroidissement -G62 signal trop fort"
-},
-"16504": {
-  "systeme": "Papillon",
-  "libelle": "P0120 Potentiomètre papillon -G69 panne électrique"
-},
-"16505": {
-  "systeme": "Papillon",
-  "libelle": "P0121 Potentiomètre papillon -G69 signal inacceptable"
-},
-"16506": {
-  "systeme": "Papillon",
-  "libelle": "P0122 Potentiomètre papillon -G69 signal trop faible"
-},
-"16507": {
-  "systeme": "Papillon",
-  "libelle": "P0123 Potentiomètre papillon -G69 signal trop fort"
-},
-"16509": {
-  "systeme": "Lambda",
-  "libelle": "P0125 Température liquide refroidissement non atteinte pour régulation lambda"
-},
-"16514": {
-  "systeme": "Lambda",
-  "libelle": "P0130 Rangée 1 sonde 1 panne électrique"
-},
-"16515": {
-  "systeme": "Lambda",
-  "libelle": "P0131 Rangée 1 sonde 1 tension trop faible"
-},
-"16516": {
-  "systeme": "Lambda",
-  "libelle": "P0132 Rangée 1 sonde 1 tension trop forte"
-},
-"16517": {
-  "systeme": "Lambda",
-  "libelle": "P0133 Rangée 1 sonde 1 signal trop lent"
-},
-"16518": {
-  "systeme": "Lambda",
-  "libelle": "P0134 Rangée 1 sonde 1 aucune activité"
-},
-"16519": {
-  "systeme": "Lambda",
-  "libelle": "P0135 Rangée 1 sonde 1 chauffage panne électrique"
-},
-"16520": {
-  "systeme": "Lambda",
-  "libelle": "P0136 Rangée 1 sonde 2 panne électrique"
-},
-"16521": {
-  "systeme": "Lambda",
-  "libelle": "P0137 Rangée 1 sonde 2 tension trop faible"
-},
-"16522": {
-  "systeme": "Lambda",
-  "libelle": "P0138 Rangée 1 sonde 2 tension trop forte"
-},
-"16523": {
-  "systeme": "Lambda",
-  "libelle": "P0139 Rangée 1 sonde 2 signal trop lent"
-},
-"16524": {
-  "systeme": "Lambda",
-  "libelle": "P0140 Rangée 1 sonde 2 aucune activité"
-},
-"16525": {
-  "systeme": "Lambda",
-  "libelle": "P0141 Rangée 1 sonde 2 chauffage panne électrique"
-},
-"16534": {
-  "systeme": "Lambda",
-  "libelle": "P0150 Rangée 2 sonde 1 panne électrique"
-},
-"16536": {
-  "systeme": "Lambda",
-  "libelle": "P0152 Rangée 2 sonde 1 tension trop forte"
-},
-"16537": {
-  "systeme": "Lambda",
-  "libelle": "P0153 Rangée 2 sonde 1 signal trop lent"
-},
-"16538": {
-  "systeme": "Lambda",
-  "libelle": "P0154 Rangée 2 sonde 1 aucune activité"
-},
-"16539": {
-  "systeme": "Lambda",
-  "libelle": "P0155 Rangée 2 sonde 1 chauffage panne"
-},
-"16540": {
-  "systeme": "Lambda",
-  "libelle": "P0156 Rangée 2 sonde 2 panne électrique"
-},
-"16542": {
-  "systeme": "Lambda",
-  "libelle": "P0158 Rangée 2 sonde 2 tension trop forte"
-},
-"16543": {
-  "systeme": "Lambda",
-  "libelle": "P0159 Rangée 2 sonde 2 signal trop faible"
-},
-"16544": {
-  "systeme": "Lambda",
-  "libelle": "P0160 Rangée 2 sonde 2 aucune activité"
-},
-"16545": {
-  "systeme": "Lambda",
-  "libelle": "P0161 Sonde 2 rangée 2 chauffage panne"
-},
-"16554": {
-  "systeme": "Mélange",
-  "libelle": "P0170 System mélange rangée 1 mauvais fonctionnement"
-},
-"16555": {
-  "systeme": "Mélange",
-  "libelle": "P0171 Mélange rangée 1 trop pauvre"
-},
-"16556": {
-  "systeme": "Mélange",
-  "libelle": "P0172 Mélange rangée 1 trop riche"
-},
-"16557": {
-  "systeme": "Mélange",
-  "libelle": "P0173 Mauvais fonctionnement mélange rangée 2"
-},
-"16558": {
-  "systeme": "Mélange",
-  "libelle": "P0174 Mélange rangée 2 trop pauvre"
-},
-"16559": {
-  "systeme": "Mélange",
-  "libelle": "P0175 Mélange rangée 2 trop riche"
-},
-"16684": {
-  "systeme": "Allumage",
-  "libelle": "P0300 Ratés de combustion aléatoires"
-},
-"16685": {
-  "systeme": "Allumage",
-  "libelle": "P0301 Ratés cylindre 1"
-},
-"16686": {
-  "systeme": "Allumage",
-  "libelle": "P0302 Ratés cylindre 2"
-},
-"16687": {
-  "systeme": "Allumage",
-  "libelle": "P0303 Ratés cylindre 3"
-},
-"16688": {
-  "systeme": "Allumage",
-  "libelle": "P0304 Ratés cylindre 4"
-},
-"16689": {
-  "systeme": "Allumage",
-  "libelle": "P0305 Ratés cylindre 5"
-},
-"16690": {
-  "systeme": "Allumage",
-  "libelle": "P0306 Ratés cylindre 6"
-},
-"16691": {
-  "systeme": "Allumage",
-  "libelle": "P0307 Ratés cylindre 7"
-},
-"16692": {
-  "systeme": "Allumage",
-  "libelle": "P0308 Ratés cylindre 8"
-},
-"16706": {
-  "systeme": "Régime moteur",
-  "libelle": "P0322 Capteur régime G28 aucun signal"
-},
-"16711": {
-  "systeme": "Cliquetis",
-  "libelle": "P0327 Capteur cliquetis 1 signal trop faible"
-},
-"16716": {
-  "systeme": "Cliquetis",
-  "libelle": "P0332 Capteur cliquetis 2 signal trop fort"
-},
-"16721": {
-  "systeme": "Vilebrequin",
-  "libelle": "P0337 Capteur point référence signal trop faible"
-},
-"16725": {
-  "systeme": "Arbre à cames",
-  "libelle": "P0341 Capteur position arbre à cames signal inacceptable"
-},
-"16784": {
-  "systeme": "EGR",
-  "libelle": "P0400 Système EGR mauvais fonctionnement"
-},
-"16785": {
-  "systeme": "EGR",
-  "libelle": "P0401 Système EGR passage trop étroit"
-},
-"16786": {
-  "systeme": "EGR",
-  "libelle": "P0402 Système EGR passage trop gros"
-},
-"16795": {
-  "systeme": "Air secondaire",
-  "libelle": "P0411 Débit air secondaire insuffisant"
-},
-"16806": {
-  "systeme": "Catalyseur",
-  "libelle": "P0422 Catalyseur rangée 1 fonctionnement insuffisant"
-},
-"16816": {
-  "systeme": "Catalyseur",
-  "libelle": "P0432 Catalyseur rangée 2 fonctionnement insuffisant"
-},
-"16824": {
-  "systeme": "Évaporation",
-  "libelle": "P0440 Ventilation réservoir mauvais fonctionnement"
-},
-"16825": {
-  "systeme": "Évaporation",
-  "libelle": "P0441 Ventilation réservoir passage insuffisant"
-},
-"16826": {
-  "systeme": "Évaporation",
-  "libelle": "P0442 Petite fuite ventilation réservoir"
-},
-"16836": {
-  "systeme": "Évaporation",
-  "libelle": "P0452 Capteur pression EVAP signal trop faible"
-},
-"16837": {
-  "systeme": "Évaporation",
-  "libelle": "P0453 Capteur pression EVAP signal trop fort"
-},
-"16839": {
-  "systeme": "Évaporation",
-  "libelle": "P0455 Grosse fuite système EVAP"
-},
-"16845": {
-  "systeme": "Carburant",
-  "libelle": "P0461 Signal niveau carburant inacceptable"
-},
-"16885": {
-  "systeme": "Vitesse",
-  "libelle": "P0501 Capteur vitesse signal inacceptable"
-},
-"16890": {
-  "systeme": "Ralenti",
-  "libelle": "P0506 Ralenti trop bas"
-},
-"16891": {
-  "systeme": "Ralenti",
-  "libelle": "P0507 Ralenti trop haut"
-},
-"16894": {
-  "systeme": "Papillon",
-  "libelle": "P0510 Contacteur charge nulle mauvais fonctionnement"
-},
-"16989": {
-  "systeme": "ECU",
-  "libelle": "P0605 Appareil réglage défectueux"
-},
-"17090": {
-  "systeme": "Boîte auto",
-  "libelle": "P0706 Capteur position volant/F125 signal inacceptable"
-},
-"17091": {
-  "systeme": "Boîte auto",
-  "libelle": "P0707 Capteur position volant/F125 signal trop faible"
-},
-"17509": {
-  "systeme": "Lambda",
-  "libelle": "P1101 Sonde 1 rangée 1 tension trop faible"
-},
-"17510": {
-  "systeme": "Lambda",
-  "libelle": "P1102 Sonde 1 rangée 1 court-circuit"
-},
-"17511": {
-  "systeme": "Lambda",
-  "libelle": "P1102 Chauffage sonde puissance trop faible"
-},
-"17512": {
-  "systeme": "Lambda",
-  "libelle": "P1104 Sonde 2 rangée 1 tension trop basse"
-},
-"17513": {
-  "systeme": "Lambda",
-  "libelle": "P1105 Sonde 2 rangée 1 court-circuit"
-},
-"17514": {
-  "systeme": "Lambda",
-  "libelle": "P1106 Sonde 1 rangée 2 tension trop faible"
-},
-"17515": {
-  "systeme": "Lambda",
-  "libelle": "P1107 Sonde 1 rangée 2 court-circuit"
-},
-"17516": {
-  "systeme": "Lambda",
-  "libelle": "P1108 Chauffage sonde rangée 2 puissance trop faible"
-},
-"17517": {
-  "systeme": "Lambda",
-  "libelle": "P1109 Sonde 2 rangée 2 tension trop faible"
-},
-"17518": {
-  "systeme": "Lambda",
-  "libelle": "P1110 Sonde 2 rangée 2 court-circuit"
-},
-"17535": {
-  "systeme": "Mélange",
-  "libelle": "P1127 Mélange rangée 1 trop riche"
-},
-"17536": {
-  "systeme": "Mélange",
-  "libelle": "P1128 Mélange rangée 1 trop pauvre"
-},
-"17609": {
-  "systeme": "Injection",
-  "libelle": "P1201 Injecteur 1 panne électrique"
-},
-"17610": {
-  "systeme": "Injection",
-  "libelle": "P1202 Injecteur 2 panne électrique"
-},
-"17611": {
-  "systeme": "Injection",
-  "libelle": "P1203 Injecteur 3 panne électrique"
-},
-"17612": {
-  "systeme": "Injection",
-  "libelle": "P1204 Injecteur 4 panne électrique"
-},
-"17613": {
-  "systeme": "Injection",
-  "libelle": "P1205 Injecteur 5 panne électrique"
-},
-"17614": {
-  "systeme": "Injection",
-  "libelle": "P1206 Injecteur 6 panne électrique"
-},
-"17615": {
-  "systeme": "Injection",
-  "libelle": "P1207 Injecteur 7 panne électrique"
-},
-"17616": {
-  "systeme": "Injection",
-  "libelle": "P1208 Injecteur 8 panne électrique"
-},
-"17621": {
-  "systeme": "Injection",
-  "libelle": "P1213 Injecteur 1 court-circuit au plus"
-},
-"17622": {
-  "systeme": "Injection",
-  "libelle": "P1214 Injecteur 2 court-circuit au plus"
-},
-"17623": {
-  "systeme": "Injection",
-  "libelle": "P1215 Injecteur 3 court-circuit au plus"
-},
-"17624": {
-  "systeme": "Injection",
-  "libelle": "P1516 Injecteur 4 court-circuit au plus"
-},
-"17625": {
-  "systeme": "Injection",
-  "libelle": "P1217 Injecteur 5 court-circuit au plus"
-},
-"17626": {
-  "systeme": "Injection",
-  "libelle": "P1218 Injecteur 6 court-circuit au plus"
-},
-"17627": {
-  "systeme": "Injection",
-  "libelle": "P1219 Injecteur 7 court-circuit au plus"
-},
-"17628": {
-  "systeme": "Injection",
-  "libelle": "P1220 Injecteur 8 court-circuit au plus"
-},
-"17633": {
-  "systeme": "Injection",
-  "libelle": "P1225 Injecteur 1 court-circuit à la masse"
-},
-"17634": {
-  "systeme": "Injection",
-  "libelle": "P1226 Injecteur 2 court-circuit à la masse"
-},
-"17635": {
-  "systeme": "Injection",
-  "libelle": "P1227 Injecteur 3 court-circuit à la masse"
-},
-"17636": {
-  "systeme": "Injection",
-  "libelle": "P1228 Injecteur 4 court-circuit à la masse"
-},
-"17637": {
-  "systeme": "Injection",
-  "libelle": "P1229 Injecteur 5 court-circuit à la masse"
-},
-"17638": {
-  "systeme": "Injection",
-  "libelle": "P1230 Injecteur 6 court-circuit à la masse"
-},
-"17639": {
-  "systeme": "Injection",
-  "libelle": "P1231 Injecteur 7 court-circuit à la masse"
-},
-"17640": {
-  "systeme": "Injection",
-  "libelle": "P1232 Injecteur 8 court-circuit à la masse"
-},
-"17645": {
-  "systeme": "Injection",
-  "libelle": "P1237 Injecteur 1 coupure"
-},
-"17646": {
-  "systeme": "Injection",
-  "libelle": "P1238 Injecteur 2 coupure"
-},
-"17647": {
-  "systeme": "Injection",
-  "libelle": "P1239 Injecteur 3 coupure"
-},
-"17648": {
-  "systeme": "Injection",
-  "libelle": "P1240 Injecteur 4 coupure"
-},
-"17649": {
-  "systeme": "Injection",
-  "libelle": "P1241 Injecteur 5 coupure"
-},
-"17650": {
-  "systeme": "Injection",
-  "libelle": "P1242 Injecteur 6 coupure"
-},
-"17651": {
-  "systeme": "Injection",
-  "libelle": "P1243 Injecteur 7 coupure"
-},
-"17652": {
-  "systeme": "Injection",
-  "libelle": "P1244 Injecteur 8 coupure"
-},
-"17656": {
-  "systeme": "Injection",
-  "libelle": "P1250 Régulation début injection différence réglage"
-},
-"17733": {
-  "systeme": "Cliquetis",
-  "libelle": "P1325 Réglage cliquetis cylindre 1 limite atteinte"
-},
-"17734": {
-  "systeme": "Cliquetis",
-  "libelle": "P1326 Réglage cliquetis cyl.2 limite atteinte"
-},
-"17735": {
-  "systeme": "Cliquetis",
-  "libelle": "P1327 Réglage cliquetis cyl.3 limite atteinte"
-},
-"17736": {
-  "systeme": "Cliquetis",
-  "libelle": "P1328 Réglage cliquetis cyl.4 limite atteinte"
-},
-"17737": {
-  "systeme": "Cliquetis",
-  "libelle": "P1329 Réglage cliquetis cyl.5 limite atteinte"
-},
-"17738": {
-  "systeme": "Cliquetis",
-  "libelle": "P1330 Réglage cliquetis cyl.6 limite atteinte"
-},
-"17739": {
-  "systeme": "Cliquetis",
-  "libelle": "P1331 Réglage cliquetis cyl.7 limite atteinte"
-},
-"17740": {
-  "systeme": "Cliquetis",
-  "libelle": "P1332 Réglage cliquetis cyl.8 limite atteinte"
-},
-"17747": {
-  "systeme": "Allumage",
-  "libelle": "P1339 Capteur position vilebrequin inversé"
-},
-"17748": {
-  "systeme": "Distribution",
-  "libelle": "P1340 Capteur position AAC G40/G28 mauvaise info"
-},
-"17749": {
-  "systeme": "Allumage",
-  "libelle": "P1341 Allumage cylindre 1 court-circuit masse"
-},
-"17751": {
-  "systeme": "Allumage",
-  "libelle": "P1343 Allumage cylindre 2 court-circuit masse"
-},
-"17753": {
-  "systeme": "Allumage",
-  "libelle": "P1345 Allumage cylindre 3 court-circuit masse"
-},
-"17799": {
-  "systeme": "Arbre à cames",
-  "libelle": "P1391 Capteur AAC rangée 2 court-circuit masse"
-},
-"17800": {
-  "systeme": "Arbre à cames",
-  "libelle": "P1392 Capteur AAC rangée 2 coupure/court-circuit"
-},
-"17801": {
-  "systeme": "Allumage",
-  "libelle": "P1393 Sortie allumage 1 panne électrique"
-},
-"17802": {
-  "systeme": "Allumage",
-  "libelle": "P1394 Sortie allumage 2 panne électrique"
-},
-"17803": {
-  "systeme": "Allumage",
-  "libelle": "P1395 Sortie allumage 3 panne électrique"
-},
-"17804": {
-  "systeme": "Vilebrequin",
-  "libelle": "P1396 Capteur régime G28 dent manquante"
-},
-"17808": {
-  "systeme": "EGR",
-  "libelle": "P1400 Electrovalve EGR -N18 panne électrique"
-},
-"17809": {
-  "systeme": "EGR",
-  "libelle": "P1401 Valve EGR court-circuit masse"
-},
-"17810": {
-  "systeme": "EGR",
-  "libelle": "P1402 Valve EGR court-circuit au plus"
-},
-"17815": {
-  "systeme": "EGR",
-  "libelle": "P1407 Capteur température EGR signal trop faible"
-},
-"17816": {
-  "systeme": "EGR",
-  "libelle": "P1408 Capteur température EGR signal trop fort"
-},
-"17817": {
-  "systeme": "Évaporation",
-  "libelle": "P1409 Electrovalve filtre charbon panne électrique"
-},
-"17818": {
-  "systeme": "Évaporation",
-  "libelle": "P1410 Electrovalve filtre charbon court-circuit au plus"
-},
-"17819": {
-  "systeme": "Air secondaire",
-  "libelle": "P1411 Débit air secondaire rangée 2 passage étroit"
-},
-"17822": {
-  "systeme": "Air secondaire",
-  "libelle": "P1414 Détection fuite air secondaire rangée 2"
-},
-"17826": {
-  "systeme": "Carburant",
-  "libelle": "P1418 Flotteur G signal trop fort"
-},
-"17828": {
-  "systeme": "Air secondaire",
-  "libelle": "P1420 Soupape injection air secondaire panne"
-},
-"17829": {
-  "systeme": "Air secondaire",
-  "libelle": "P1421 Soupape air secondaire court-circuit masse"
-},
-"17830": {
-  "systeme": "Air secondaire",
-  "libelle": "P1422 Soupape air secondaire court-circuit plus"
-},
-"17831": {
-  "systeme": "Air secondaire",
-  "libelle": "P1423 Air secondaire rangée 1 passage étroit"
-},
-"17832": {
-  "systeme": "Air secondaire",
-  "libelle": "P1424 Air secondaire rangée 1 détection fuite"
-},
-"17833": {
-  "systeme": "Évaporation",
-  "libelle": "P1425 Electrovalve charbon court-circuit masse"
-},
-"17834": {
-  "systeme": "Évaporation",
-  "libelle": "P1426 Electrovalve charbon coupure"
-},
-"17842": {
-  "systeme": "Air secondaire",
-  "libelle": "P1434 Relais pompe air secondaire court-circuit plus"
-},
-"17844": {
-  "systeme": "Air secondaire",
-  "libelle": "P1436 Relais pompe air secondaire panne él."
-},
-"17848": {
-  "systeme": "EGR",
-  "libelle": "P1440 Electrovalve EGR coupure"
-},
-"17858": {
-  "systeme": "Air secondaire",
-  "libelle": "P1450 Système air secondaire court-circuit plus"
-},
-"17859": {
-  "systeme": "Air secondaire",
-  "libelle": "P1451 Système air secondaire court-circuit masse"
-},
-"17860": {
-  "systeme": "Air secondaire",
-  "libelle": "P1452 Système air secondaire coupure"
-},
-"17878": {
-  "systeme": "EVAP",
-  "libelle": "P1470 Pompe diagnostic fuite EVAP panne él."
-},
-"17879": {
-  "systeme": "EVAP",
-  "libelle": "P1471 Pompe diagnostic fuite EVAP court-circuit plus"
-},
-"17883": {
-  "systeme": "EVAP",
-  "libelle": "P1475 Pompe diagnostic fuite mauvais fonctionnement"
-},
-"17884": {
-  "systeme": "EVAP",
-  "libelle": "P1476 Pompe diagnostic fuite mauvais fonctionnement"
-},
-"17908": {
-  "systeme": "Carburant",
-  "libelle": "P1500 Relais pompe essence panne"
-},
-"17910": {
-  "systeme": "Carburant",
-  "libelle": "P1502 Relais pompe essence court-circuit plus"
-},
-"17912": {
-  "systeme": "Admission",
-  "libelle": "P1504 Système aspiration air fuite détectée"
-},
-"17913": {
-  "systeme": "Papillon",
-  "libelle": "P1505 Contact charge nulle F60 ne ferme pas"
-},
-"17914": {
-  "systeme": "Papillon",
-  "libelle": "P1506 Contact charge nulle F60 n'ouvre pas"
-},
-"17917": {
-  "systeme": "Ralenti",
-  "libelle": "P1509 Soupape stabilisation ralenti - panne"
-},
-"17918": {
-  "systeme": "Ralenti",
-  "libelle": "P1510 Soupape stabilisation ralenti court-circuit plus"
-},
-"17919": {
-  "systeme": "Admission",
-  "libelle": "P1511 Soupape inversion collecteur admission panne"
-},
-"17920": {
-  "systeme": "Admission",
-  "libelle": "P1512 Soupape inversion collecteur court-circuit plus"
-},
-"17945": {
-  "systeme": "ECU",
-  "libelle": "P1537 Défaut non spécifié"
-},
-"17951": {
-  "systeme": "Papillon",
-  "libelle": "P1543 Capteur angle papillon signal trop faible"
-},
-"17952": {
-  "systeme": "Papillon",
-  "libelle": "P1544 Capteur angle papillon signal trop fort"
-},
-"17988": {
-  "systeme": "Papillon",
-  "libelle": "P1580 Entraînement papillon rangée 1 mauvais fonctionnement"
-},
-"17990": {
-  "systeme": "Ralenti",
-  "libelle": "P1582 Ralenti limite adaptation atteinte"
-},
-"18008": {
-  "systeme": "Tension",
-  "libelle": "P1600 Tension alimentation contact 15 trop faible"
-},
-"18010": {
-  "systeme": "Tension",
-  "libelle": "P1602 Tension alimentation contact 30 trop faible"
-},
-"18014": {
-  "systeme": "ABS/ECU",
-  "libelle": "P1606 Info conditions route / couple moteur panne"
-},
-"18019": {
-  "systeme": "Alerte",
-  "libelle": "P1611 Témoin panne court-circuit masse"
-},
-"18020": {
-  "systeme": "ECU",
-  "libelle": "P1612 Mauvais codage ECU"
-},
-"18021": {
-  "systeme": "Alerte",
-  "libelle": "P1613 Témoin panne court-circuit plus"
-},
-"18062": {
-  "systeme": "TDB",
-  "libelle": "P1654 Lire mémoire défaut combiné instruments"
-},
-"P0217": {
-  "systeme": "Température moteur",
-  "libelle": "P0217 Lampe température – moteur surchauffé"
-},
-"P0218": {
-  "systeme": "Transmission",
-  "libelle": "P0218 Lampe température – transmission surchauffée"
-},
-"P0326": {
-  "systeme": "Cliquetis",
-  "libelle": "P0326 Capteur de cliquetis 1 -G61 signal inacceptable"
-},
-"P0351": {
-  "systeme": "Allumage",
-  "libelle": "P0351 Commande d'allumage cylindre 1 mauvais fonctionnement"
-},
-"P0352": {
-  "systeme": "Allumage",
-  "libelle": "P0352 Commande d'allumage cylindre 2 mauvais fonctionnement"
-},
-"P0420": {
-  "systeme": "Catalyseur",
-  "libelle": "P0420 Rangée de cylindres 1 système catalyseurs fonctionnement insuffisant"
-},
-"P0443": {
-  "systeme": "Évaporation",
-  "libelle": "P0443 Electrovalve filtre à charbon d'absorption -N80 panne électrique"
-},
-"P0500": {
-  "systeme": "Vitesse véhicule",
-  "libelle": "P0500 Capteur de vitesse – aucun signal"
-},
-"P0560": {
-  "systeme": "Tension alimentation",
-  "libelle": "P0560 Tension d'alimentation signal inacceptable"
-},
-"P0561": {
-  "systeme": "Tension alimentation",
-  "libelle": "P0561 Voltage pile instable"
-},
-"P0562": {
-  "systeme": "Tension alimentation",
-  "libelle": "P0562 Tension d'alimentation trop faible"
-},
-"P0563": {
-  "systeme": "Tension alimentation",
-  "libelle": "P0563 Tension d'alimentation trop forte"
-},
-"P0565": {
-  "systeme": "Régulateur de vitesse",
-  "libelle": "P0565 Régulateur de vitesse circuit ne fonctionne pas"
-},
-"P0571": {
-  "systeme": "Frein / régulateur",
-  "libelle": "P0571 Régulateur de vitesse / contacteur feu stop circuit A défaut"
-},
-"P0572": {
-  "systeme": "Frein",
-  "libelle": "P0572 Bouton de frein voltage bas"
-},
-"P0573": {
-  "systeme": "Frein",
-  "libelle": "P0573 Bouton de frein voltage élevé"
-},
-"P0600": {
-  "systeme": "Databus",
-  "libelle": "P0600 Databus 'entraînement' manque d'info"
-},
-"P0601": {
-  "systeme": "ECU",
-  "libelle": "P0601 Appareil de réglage défectueux"
-},
-"P0602": {
-  "systeme": "Programmation ECU",
-  "libelle": "P0602 Programmation appareil de réglage mauvais fonctionnement"
-},
-"P0604": {
-  "systeme": "ECU",
-  "libelle": "P0604 Appareil de réglage défectueux"
-},
-"P0606": {
-  "systeme": "ECU",
-  "libelle": "P0606 Appareil de réglage défectueux"
-}
+{
+  "P0217": {
+    "systeme": "Moteur",
+    "libelle": "Lampe température – moteur surchauffé",
+    "description": "Température moteur trop élevée, surchauffe détectée.",
+    "commentaires": []
+  },
+  "P0218": {
+    "systeme": "Boîte de vitesses",
+    "libelle": "Lampe température – transmission surchauffée",
+    "description": "Température de la transmission trop élevée, surchauffe détectée.",
+    "commentaires": []
+  },
+  "P0326": {
+    "systeme": "Moteur",
+    "libelle": "Capteur de cliquetis 1 -G61 - signal inacceptable",
+    "description": "Le signal du capteur de cliquetis 1 est hors tolérance.",
+    "commentaires": []
+  },
+  "P0351": {
+    "systeme": "Allumage",
+    "libelle": "Commande d'allumage cylindre 1 - mauvais fonctionnement",
+    "description": "Défaut sur le circuit de commande de la bobine du cylindre 1.",
+    "commentaires": []
+  },
+  "P0352": {
+    "systeme": "Allumage",
+    "libelle": "Commande d'allumage cylindre 2 - mauvais fonctionnement",
+    "description": "Défaut sur le circuit de commande de la bobine du cylindre 2.",
+    "commentaires": []
+  },
+  "P0420": {
+    "systeme": "Dépollution",
+    "libelle": "Rangée de cylindres 1, système catalyseurs - fonctionnement insuffisant",
+    "description": "Efficacité du catalyseur rangée 1 jugée insuffisante.",
+    "commentaires": []
+  },
+  "P0443": {
+    "systeme": "Dépollution",
+    "libelle": "Electrovalve de filtre à charbon d'absorption -N80 - panne électrique",
+    "description": "Problème électrique sur l'électrovanne de purge du canister (N80).",
+    "commentaires": []
+  },
+  "P0500": {
+    "systeme": "ABS / Vitesse",
+    "libelle": "Capteur de vitesse – aucun signal",
+    "description": "Absence de signal en provenance du capteur de vitesse véhicule.",
+    "commentaires": []
+  },
+  "P0560": {
+    "systeme": "Alimentation",
+    "libelle": "Tension d'alimentation - signal inacceptable",
+    "description": "La tension de bord mesurée est hors plage attendue.",
+    "commentaires": []
+  },
+  "P0561": {
+    "systeme": "Alimentation",
+    "libelle": "Voltage pile – instable",
+    "description": "Variation excessive ou instabilité de la tension de batterie.",
+    "commentaires": []
+  },
+  "P0562": {
+    "systeme": "Alimentation",
+    "libelle": "Tension d'alimentation - tension trop faible",
+    "description": "La tension d'alimentation est trop basse.",
+    "commentaires": []
+  },
+  "P0563": {
+    "systeme": "Alimentation",
+    "libelle": "Tension d'alimentation - tension trop forte",
+    "description": "La tension d'alimentation est trop élevée.",
+    "commentaires": []
+  },
+  "P0565": {
+    "systeme": "Régulateur de vitesse",
+    "libelle": "Régulateur de vitesse – circuit ne fonctionne pas",
+    "description": "Défaut sur le circuit de commande du régulateur de vitesse.",
+    "commentaires": []
+  },
+  "P0571": {
+    "systeme": "Régulateur de vitesse",
+    "libelle": "Régulateur de vitesse / contacteur feu stop circuit A génère défaut",
+    "description": "Problème de cohérence entre le contacteur de frein et le régulateur.",
+    "commentaires": []
+  },
+  "P0572": {
+    "systeme": "Régulateur de vitesse",
+    "libelle": "Bouton de frein – voltage bas",
+    "description": "Tension trop faible sur le circuit du contacteur de frein.",
+    "commentaires": []
+  },
+  "P0573": {
+    "systeme": "Régulateur de vitesse",
+    "libelle": "Bouton de frein – voltage élevé",
+    "description": "Tension trop élevée sur le circuit du contacteur de frein.",
+    "commentaires": []
+  },
+  "P0600": {
+    "systeme": "Communication",
+    "libelle": "Databus 'entraînement' manque d'info",
+    "description": "Perte ou absence d'informations sur le bus de données groupe motopropulseur.",
+    "commentaires": []
+  },
+  "P0601": {
+    "systeme": "Calculateur",
+    "libelle": "Appareil de réglage défectueux",
+    "description": "Défaut interne de mémoire/contrôle dans le calculateur.",
+    "commentaires": []
+  },
+  "P0602": {
+    "systeme": "Calculateur",
+    "libelle": "Programmation d'appareil de réglage - mauvais fonctionnement",
+    "description": "Problème de programmation ou de codage du calculateur.",
+    "commentaires": []
+  },
+  "P0604": {
+    "systeme": "Calculateur",
+    "libelle": "Appareil de réglage défectueux",
+    "description": "Erreur interne de mémoire RAM du calculateur.",
+    "commentaires": []
+  },
+  "P0606": {
+    "systeme": "Calculateur",
+    "libelle": "Appareil de réglage défectueux",
+    "description": "Défaillance générale du processeur de calculateur.",
+    "commentaires": []
+  },
+  {
+  "16486": {
+    "systeme": "Débitmètre",
+    "libelle": "P0102 Débitmètre massique -G70 signal trop faible",
+    "description": "",
+    "commentaires": []
+  },
+  "16487": {
+    "systeme": "Débitmètre",
+    "libelle": "P0103 Débitmètre massique -G70 signal trop fort",
+    "description": "",
+    "commentaires": []
+  },
+  "16496": {
+    "systeme": "Admission",
+    "libelle": "P0112 Capteur température d'air aspiré -G42 signal trop faible",
+    "description": "",
+    "commentaires": []
+  },
+  "16497": {
+    "systeme": "Admission",
+    "libelle": "P0113 Capteur température d'air aspiré -G42 signal trop fort",
+    "description": "",
+    "commentaires": []
+  },
+  "16500": {
+    "systeme": "Refroidissement",
+    "libelle": "P0116 Capteur température liquide refroidissement -G62 signal inacceptable",
+    "description": "",
+    "commentaires": []
+  },
+  "16501": {
+    "systeme": "Refroidissement",
+    "libelle": "P0117 Capteur température liquide refroidissement -G62 signal trop faible",
+    "description": "",
+    "commentaires": []
+  },
+  "16502": {
+    "systeme": "Refroidissement",
+    "libelle": "P0118 Capteur température liquide refroidissement -G62 signal trop fort",
+    "description": "",
+    "commentaires": []
+  },
+  "16504": {
+    "systeme": "Papillon",
+    "libelle": "P0120 Potentiomètre de papillon -G69 panne électrique",
+    "description": "",
+    "commentaires": []
+  },
+  "16505": {
+    "systeme": "Papillon",
+    "libelle": "P0121 Potentiomètre de papillon -G69 signal inacceptable",
+    "description": "",
+    "commentaires": []
+  },
+  "16506": {
+    "systeme": "Papillon",
+    "libelle": "P0122 Potentiomètre de papillon -G69 signal trop faible",
+    "description": "",
+    "commentaires": []
+  },
+  "16507": {
+    "systeme": "Papillon",
+    "libelle": "P0123 Potentiomètre de papillon -G69 signal trop fort",
+    "description": "",
+    "commentaires": []
+  },
+  "16514": {
+    "systeme": "Lambda",
+    "libelle": "P0130 Rangée 1 Sonde 1 - panne électrique",
+    "description": "",
+    "commentaires": []
+  },
+  "16515": {
+    "systeme": "Lambda",
+    "libelle": "P0131 Rangée 1 Sonde 1 - tension trop faible",
+    "description": "",
+    "commentaires": []
+  },
+  "16516": {
+    "systeme": "Lambda",
+    "libelle": "P0132 Rangée 1 Sonde 1 - tension trop forte",
+    "description": "",
+    "commentaires": []
+  },
+  "16517": {
+    "systeme": "Lambda",
+    "libelle": "P0133 Rangée 1 Sonde 1 - signal trop lent",
+    "description": "",
+    "commentaires": []
+  },
+  "16518": {
+    "systeme": "Lambda",
+    "libelle": "P0134 Rangée 1 Sonde 1 - aucune activité",
+    "description": "",
+    "commentaires": []
+  },
+  "16519": {
+    "systeme": "Lambda",
+    "libelle": "P0135 Rangée 1 Sonde 1 chauffage - panne électrique",
+    "description": "",
+    "commentaires": []
+  },
+  {
+  "16520": {
+    "systeme": "Lambda",
+    "libelle": "P0136 Rangée 1 Sonde 2 panne électrique",
+    "description": "",
+    "commentaires": []
+  },
+  "16521": {
+    "systeme": "Lambda",
+    "libelle": "P0137 Rangée 1 Sonde 2 tension trop faible",
+    "description": "",
+    "commentaires": []
+  },
+  "16522": {
+    "systeme": "Lambda",
+    "libelle": "P0138 Rangée 1 Sonde 2 tension trop forte",
+    "description": "",
+    "commentaires": []
+  },
+  "16523": {
+    "systeme": "Lambda",
+    "libelle": "P0139 Rangée 1 Sonde 2 signal trop lent",
+    "description": "",
+    "commentaires": []
+  },
+  "16524": {
+    "systeme": "Lambda",
+    "libelle": "P0140 Rangée 1 Sonde 2 aucune activité",
+    "description": "",
+    "commentaires": []
+  },
+  "16525": {
+    "systeme": "Lambda",
+    "libelle": "P0141 Rangée 1 Sonde 2 chauffage panne électrique",
+    "description": "",
+    "commentaires": []
+  },
+  "16534": {
+    "systeme": "Lambda",
+    "libelle": "P0150 Rangée 2 Sonde 1 panne électrique",
+    "description": "",
+    "commentaires": []
+  },
+  "16536": {
+    "systeme": "Lambda",
+    "libelle": "P0152 Rangée 2 Sonde 1 tension trop forte",
+    "description": "",
+    "commentaires": []
+  },
+  "16537": {
+    "systeme": "Lambda",
+    "libelle": "P0153 Rangée 2 Sonde 1 signal trop lent",
+    "description": "",
+    "commentaires": []
+  },
+  "16538": {
+    "systeme": "Lambda",
+    "libelle": "P0154 Rangée 2 Sonde 1 aucune activité",
+    "description": "",
+    "commentaires": []
+  },
+  "16539": {
+    "systeme": "Lambda",
+    "libelle": "P0155 Rangée 2 Sonde 1 chauffage panne électrique",
+    "description": "",
+    "commentaires": []
+  },
+  "16540": {
+    "systeme": "Lambda",
+    "libelle": "P0156 Rangée 2 Sonde 2 panne électrique",
+    "description": "",
+    "commentaires": []
+  },
+  "16542": {
+    "systeme": "Lambda",
+    "libelle": "P0158 Rangée 2 Sonde 2 tension trop forte",
+    "description": "",
+    "commentaires": []
+  },
+  "16543": {
+    "systeme": "Lambda",
+    "libelle": "P0159 Rangée 2 Sonde 2 signal trop faible",
+    "description": "",
+    "commentaires": []
+  },
+  "16544": {
+    "systeme": "Lambda",
+    "libelle": "P0160 Rangée 2 Sonde 2 aucune activité",
+    "description": "",
+    "commentaires": []
+  },
+  "16545": {
+    "systeme": "Lambda",
+    "libelle": "P0161 Rangée 2 Sonde 2 chauffage panne électrique",
+    "description": "",
+    "commentaires": []
+  },
+  {
+  "16554": {
+    "systeme": "Carburant",
+    "libelle": "P0170 Rangée 1 système de correction de carburant – mauvais fonctionnement",
+    "description": "",
+    "commentaires": []
+  },
+  "16555": {
+    "systeme": "Carburant",
+    "libelle": "P0171 Rangée 1 – mélange trop pauvre",
+    "description": "",
+    "commentaires": []
+  },
+  "16556": {
+    "systeme": "Carburant",
+    "libelle": "P0172 Rangée 1 – mélange trop riche",
+    "description": "",
+    "commentaires": []
+  },
+  "16557": {
+    "systeme": "Carburant",
+    "libelle": "P0173 Rangée 1 – mauvais fonctionnement",
+    "description": "",
+    "commentaires": []
+  },
+  "16558": {
+    "systeme": "Carburant",
+    "libelle": "P0174 Rangée 2 – mélange trop pauvre",
+    "description": "",
+    "commentaires": []
+  },
+  "16559": {
+    "systeme": "Carburant",
+    "libelle": "P0175 Rangée 2 – mélange trop riche",
+    "description": "",
+    "commentaires": []
+  },
+  "16684": {
+    "systeme": "Allumage",
+    "libelle": "P0300 Détection de ratés de combustion – aléatoire",
+    "description": "",
+    "commentaires": []
+  },
+  "16685": {
+    "systeme": "Allumage",
+    "libelle": "P0301 Ratés de combustion cylindre 1",
+    "description": "",
+    "commentaires": []
+  },
+  "16686": {
+    "systeme": "Allumage",
+    "libelle": "P0302 Ratés de combustion cylindre 2",
+    "description": "",
+    "commentaires": []
+  },
+  "16687": {
+    "systeme": "Allumage",
+    "libelle": "P0303 Ratés de combustion cylindre 3",
+    "description": "",
+    "commentaires": []
+  },
+  "16688": {
+    "systeme": "Allumage",
+    "libelle": "P0304 Ratés de combustion cylindre 4",
+    "description": "",
+    "commentaires": []
+  },
+  "16689": {
+    "systeme": "Allumage",
+    "libelle": "P0305 Ratés de combustion cylindre 5",
+    "description": "",
+    "commentaires": []
+  },
+  "16690": {
+    "systeme": "Allumage",
+    "libelle": "P0306 Ratés de combustion cylindre 6",
+    "description": "",
+    "commentaires": []
+  },
+  "16691": {
+    "systeme": "Allumage",
+    "libelle": "P0307 Ratés de combustion cylindre 7",
+    "description": "",
+    "commentaires": []
+  },
+  "16692": {
+    "systeme": "Allumage",
+    "libelle": "P0308 Ratés de combustion cylindre 8",
+    "description": "",
+    "commentaires": []
+  },
+  "16706": {
+    "systeme": "Moteur",
+    "libelle": "P0322 Capteur régime moteur -G28 aucun signal",
+    "description": "",
+    "commentaires": []
+  },
+  "16711": {
+    "systeme": "Cliquetis",
+    "libelle": "P0327 Capteur de cliquetis 1 -G61 signal trop faible",
+    "description": "",
+    "commentaires": []
+  },
+  "16716": {
+    "systeme": "Cliquetis",
+    "libelle": "P0332 Capteur de cliquetis 2 signal trop fort",
+    "description": "",
+    "commentaires": []
+  },
+  "16721": {
+    "systeme": "Moteur",
+    "libelle": "P0337 Capteur point de référence -G4 signal trop faible",
+    "description": "",
+    "commentaires": []
+  },
+  "16725": {
+    "systeme": "Distribution",
+    "libelle": "P0341 Capteur position arbre à cames - signal inacceptable",
+    "description": "",
+    "commentaires": []
+  },
+  "16784": {
+    "systeme": "EGR",
+    "libelle": "P0400 Recirculation gaz d'échappement – mauvais fonctionnement",
+    "description": "",
+    "commentaires": []
+  },
+  "16785": {
+    "systeme": "EGR",
+    "libelle": "P0401 Recirculation gaz d'échappement – passage trop étroit",
+    "description": "",
+    "commentaires": []
+  },
+  "16786": {
+    "systeme": "EGR",
+    "libelle": "P0402 Recirculation gaz d'échappement – passage trop important",
+    "description": "",
+    "commentaires": []
+  },
+  "16795": {
+    "systeme": "Air secondaire",
+    "libelle": "P0411 Système air secondaire – débit insuffisant",
+    "description": "",
+    "commentaires": []
+  },
+  "16806": {
+    "systeme": "Catalyseur",
+    "libelle": "P0422 Rangée 1 catalyseur principal – efficacité insuffisante",
+    "description": "",
+    "commentaires": []
+  },
+  "16816": {
+    "systeme": "Catalyseur",
+    "libelle": "P0432 Rangée 2 catalyseur principal – efficacité insuffisante",
+    "description": "",
+    "commentaires": []
+  },
+  {
+  "16824": {
+    "systeme": "Ventilation réservoir",
+    "libelle": "P0440 Système de ventilation du réservoir – mauvais fonctionnement",
+    "description": "",
+    "commentaires": []
+  },
+  "16825": {
+    "systeme": "Ventilation réservoir",
+    "libelle": "P0441 Passage insuffisant dans le système de ventilation du réservoir",
+    "description": "",
+    "commentaires": []
+  },
+  "16826": {
+    "systeme": "Ventilation réservoir",
+    "libelle": "P0442 Détection de légère fuite dans le système de ventilation du réservoir",
+    "description": "",
+    "commentaires": []
+  },
+  "16836": {
+    "systeme": "Ventilation réservoir",
+    "libelle": "P0452 Capteur pression système ventilation réservoir – signal trop faible",
+    "description": "",
+    "commentaires": []
+  },
+  "16837": {
+    "systeme": "Ventilation réservoir",
+    "libelle": "P0453 Capteur pression système ventilation réservoir – signal trop fort",
+    "description": "",
+    "commentaires": []
+  },
+  "16839": {
+    "systeme": "Ventilation réservoir",
+    "libelle": "P0455 Détection de grosse fuite dans le système de ventilation du réservoir",
+    "description": "",
+    "commentaires": []
+  },
+  "16845": {
+    "systeme": "Carburant",
+    "libelle": "P0461 Signal de niveau de carburant – signal inacceptable",
+    "description": "",
+    "commentaires": []
+  },
+  "16885": {
+    "systeme": "Vitesse véhicule",
+    "libelle": "P0501 Signal de vitesse véhicule – signal inacceptable",
+    "description": "",
+    "commentaires": []
+  },
+  "16890": {
+    "systeme": "Ralenti",
+    "libelle": "P0506 Régulation du régime de ralenti – régime trop bas",
+    "description": "",
+    "commentaires": []
+  },
+  "16891": {
+    "systeme": "Ralenti",
+    "libelle": "P0507 Régime de ralenti trop élevé",
+    "description": "",
+    "commentaires": []
+  },
+  "16894": {
+    "systeme": "Boîte auto",
+    "libelle": "P0510 Contacteur de charge nulle - mauvais fonctionnement",
+    "description": "",
+    "commentaires": []
+  },
+  "16989": {
+    "systeme": "Calculateur",
+    "libelle": "P0605 Appareil de réglage défectueux",
+    "description": "",
+    "commentaires": []
+  },
+  "17090": {
+    "systeme": "Boîte auto",
+    "libelle": "P0706 Capteur position de volant -F125 signal inacceptable",
+    "description": "",
+    "commentaires": []
+  },
+  "17091": {
+    "systeme": "Boîte auto",
+    "libelle": "P0707 Capteur position de volant -F125 signal trop faible",
+    "description": "",
+    "commentaires": []
+  },
+  "17509": {
+    "systeme": "Lambda",
+    "libelle": "P1101 Sonde 1 rangée 1 tension trop faible / air parasite",
+    "description": "",
+    "commentaires": []
+  },
+  "17510": {
+    "systeme": "Lambda",
+    "libelle": "P1102 Sonde 1 rangée 1 court-circuit préchauffage",
+    "description": "",
+    "commentaires": []
+  },
+  "17511": {
+    "systeme": "Lambda",
+    "libelle": "P1102 Sonde 1 rangée 1 puissance chauffage trop faible",
+    "description": "",
+    "commentaires": []
+  },
+  "17512": {
+    "systeme": "Lambda",
+    "libelle": "P1104 Sonde 2 rangée 1 tension trop basse / air parasite",
+    "description": "",
+    "commentaires": []
+  },
+  "17513": {
+    "systeme": "Lambda",
+    "libelle": "P1105 Sonde 2 rangée 1 court-circuit préchauffage",
+    "description": "",
+    "commentaires": []
+  },
+  "17514": {
+    "systeme": "Lambda",
+    "libelle": "P1106 Sonde 1 rangée 2 tension trop faible / air parasite",
+    "description": "",
+    "commentaires": []
+  },
+  "17515": {
+    "systeme": "Lambda",
+    "libelle": "P1107 Sonde 1 rangée 2 court-circuit préchauffage",
+    "description": "",
+    "commentaires": []
+  },
+  "17516": {
+    "systeme": "Lambda",
+    "libelle": "P1108 Sonde 1 rangée 2 puissance chauffage trop faible",
+    "description": "",
+    "commentaires": []
+  },
+  "17517": {
+    "systeme": "Lambda",
+    "libelle": "P1109 Sonde 2 rangée 2 tension trop faible / air parasite",
+    "description": "",
+    "commentaires": []
+  },
+  "17518": {
+    "systeme": "Lambda",
+    "libelle": "P1110 Sonde 2 rangée 2 court-circuit préchauffage",
+    "description": "",
+    "commentaires": []
+  },
+  "17535": {
+    "systeme": "Carburant",
+    "libelle": "P1127 Rangée 1 mélange trop riche",
+    "description": "",
+    "commentaires": []
+  },
+  "17536": {
+    "systeme": "Carburant",
+    "libelle": "P1128 Rangée 1 mélange trop pauvre",
+    "description": "",
+    "commentaires": []
+  },
+{
+  "17609": {
+    "systeme": "Injection",
+    "libelle": "P1201 Injecteur cylindre 1 - panne électrique",
+    "description": "",
+    "commentaires": []
+  },
+  "17610": {
+    "systeme": "Injection",
+    "libelle": "P1202 Injecteur cylindre 2 - panne électrique",
+    "description": "",
+    "commentaires": []
+  },
+  "17611": {
+    "systeme": "Injection",
+    "libelle": "P1203 Injecteur cylindre 3 - panne électrique",
+    "description": "",
+    "commentaires": []
+  },
+  "17612": {
+    "systeme": "Injection",
+    "libelle": "P1204 Injecteur cylindre 4 - panne électrique",
+    "description": "",
+    "commentaires": []
+  },
+  "17613": {
+    "systeme": "Injection",
+    "libelle": "P1205 Injecteur cylindre 5 - panne électrique",
+    "description": "",
+    "commentaires": []
+  },
+  "17614": {
+    "systeme": "Injection",
+    "libelle": "P1206 Injecteur cylindre 6 - panne électrique",
+    "description": "",
+    "commentaires": []
+  },
+  "17615": {
+    "systeme": "Injection",
+    "libelle": "P1207 Injecteur cylindre 7 - panne électrique",
+    "description": "",
+    "commentaires": []
+  },
+  "17616": {
+    "systeme": "Injection",
+    "libelle": "P1208 Injecteur cylindre 8 - panne électrique",
+    "description": "",
+    "commentaires": []
+  },
 
+  "17621": {
+    "systeme": "Injection",
+    "libelle": "P1213 Injecteur cylindre 1 – court-circuit au plus",
+    "description": "",
+    "commentaires": []
+  },
+  "17622": {
+    "systeme": "Injection",
+    "libelle": "P1214 Injecteur cylindre 2 – court-circuit au plus",
+    "description": "",
+    "commentaires": []
+  },
+  "17623": {
+    "systeme": "Injection",
+    "libelle": "P1215 Injecteur cylindre 3 – court-circuit au plus",
+    "description": "",
+    "commentaires": []
+  },
+  "17624": {
+    "systeme": "Injection",
+    "libelle": "P1516 Injecteur cylindre 4 – court-circuit au plus",
+    "description": "",
+    "commentaires": []
+  },
+  "17625": {
+    "systeme": "Injection",
+    "libelle": "P1217 Injecteur cylindre 5 – court-circuit au plus",
+    "description": "",
+    "commentaires": []
+  },
+  "17626": {
+    "systeme": "Injection",
+    "libelle": "P1218 Injecteur cylindre 6 – court-circuit au plus",
+    "description": "",
+    "commentaires": []
+  },
+  "17627": {
+    "systeme": "Injection",
+    "libelle": "P1219 Injecteur cylindre 7 – court-circuit au plus",
+    "description": "",
+    "commentaires": []
+  },
+  "17628": {
+    "systeme": "Injection",
+    "libelle": "P1220 Injecteur cyl. 8 – court-circuit au plus",
+    "description": "",
+    "commentaires": []
+  },
+
+  "17633": {
+    "systeme": "Injection",
+    "libelle": "P1225 Injecteur cylindre 1 – court-circuit à la masse",
+    "description": "",
+    "commentaires": []
+  },
+  "17634": {
+    "systeme": "Injection",
+    "libelle": "P1226 Injecteur cylindre 2 – court-circuit à la masse",
+    "description": "",
+    "commentaires": []
+  },
+  "17635": {
+    "systeme": "Injection",
+    "libelle": "P1227 Injecteur cylindre 3 – court-circuit à la masse",
+    "description": "",
+    "commentaires": []
+  },
+  "17636": {
+    "systeme": "Injection",
+    "libelle": "P1228 Injecteur cylindre 4 – court-circuit à la masse",
+    "description": "",
+    "commentaires": []
+  },
+  "17637": {
+    "systeme": "Injection",
+    "libelle": "P1229 Injecteur cylindre 5 – court-circuit à la masse",
+    "description": "",
+    "commentaires": []
+  },
+  "17638": {
+    "systeme": "Injection",
+    "libelle": "P1230 Injecteur cylindre 6 – court-circuit à la masse",
+    "description": "",
+    "commentaires": []
+  },
+  "17639": {
+    "systeme": "Injection",
+    "libelle": "P1231 Injecteur cylindre 7 – court-circuit à la masse",
+    "description": "",
+    "commentaires": []
+  },
+  "17640": {
+    "systeme": "Injection",
+    "libelle": "P1232 Injecteur cylindre 8 – court-circuit à la masse",
+    "description": "",
+    "commentaires": []
+  },
+
+  "17645": {
+    "systeme": "Injection",
+    "libelle": "P1237 Injecteur cyl.1 – coupure",
+    "description": "",
+    "commentaires": []
+  },
+  "17646": {
+    "systeme": "Injection",
+    "libelle": "P1238 Injecteur cyl.2 – coupure",
+    "description": "",
+    "commentaires": []
+  },
+  "17647": {
+    "systeme": "Injection",
+    "libelle": "P1239 Injecteur cyl.3 – coupure",
+    "description": "",
+    "commentaires": []
+  },
+  "17648": {
+    "systeme": "Injection",
+    "libelle": "P1240 Injecteur cyl.4 – coupure",
+    "description": "",
+    "commentaires": []
+  },
+  "17649": {
+    "systeme": "Injection",
+    "libelle": "P1241 Injecteur cyl.5 – coupure",
+    "description": "",
+    "commentaires": []
+  },
+  "17650": {
+    "systeme": "Injection",
+    "libelle": "P1242 Injecteur cyl.6 – coupure",
+    "description": "",
+    "commentaires": []
+  },
+  "17651": {
+    "systeme": "Injection",
+    "libelle": "P1243 Injecteur cyl.7 – coupure",
+    "description": "",
+    "commentaires": []
+  },
+  "17652": {
+    "systeme": "Injection",
+    "libelle": "P1244 Injecteur cyl.8 – coupure",
+    "description": "",
+    "commentaires": []
+  },
+
+  "17656": {
+    "systeme": "Injection",
+    "libelle": "P1250 Régulation du début d'injection - différence de réglage",
+    "description": "",
+    "commentaires": []
+  },
+
+  "17733": {
+    "systeme": "Cliquetis",
+    "libelle": "P1325 Réglage cliquetis cyl.1 limite atteinte",
+    "description": "",
+    "commentaires": []
+  },
+  "17734": {
+    "systeme": "Cliquetis",
+    "libelle": "P1326 Réglage cliquetis cyl.2 limite atteinte",
+    "description": "",
+    "commentaires": []
+  },
+  "17735": {
+    "systeme": "Cliquetis",
+    "libelle": "P1327 Réglage cliquetis cyl.3 limite atteinte",
+    "description": "",
+    "commentaires": []
+  },
+  "17736": {
+    "systeme": "Cliquetis",
+    "libelle": "P1328 Réglage cliquetis cyl.4 limite atteinte",
+    "description": "",
+    "commentaires": []
+  },
+  "17737": {
+    "systeme": "Cliquetis",
+    "libelle": "P1329 Réglage cliquetis cyl.5 limite atteinte",
+    "description": "",
+    "commentaires": []
+  },
+  "17738": {
+    "systeme": "Cliquetis",
+    "libelle": "P1330 Réglage cliquetis cyl.6 limite atteinte",
+    "description": "",
+    "commentaires": []
+  },
+  "17739": {
+    "systeme": "Cliquetis",
+    "libelle": "P1331 Réglage cliquetis cyl.7 limite atteinte",
+    "description": "",
+    "commentaires": []
+  },
+  "17740": {
+    "systeme": "Cliquetis",
+    "libelle": "P1332 Réglage cliquetis cyl.8 limite atteinte",
+    "description": "",
+    "commentaires": []
+  },
+
+  "17747": {
+    "systeme": "Synchro moteur",
+    "libelle": "P1339 Capteurs vilebrequin/ régime moteur inversés",
+    "description": "",
+    "commentaires": []
+  },
+  "17748": {
+    "systeme": "Synchronisation",
+    "libelle": "P1340 Capteur arbre à cames G40 / vilebrequin G28 info incohérente",
+    "description": "",
+    "commentaires": []
+  },
+  "17749": {
+    "systeme": "Allumage",
+    "libelle": "P1341 Sortie allumage 1 – court-circuit masse",
+    "description": "",
+    "commentaires": []
+  },
+  "17751": {
+    "systeme": "Allumage",
+    "libelle": "P1343 Sortie allumage 2 – court-circuit masse",
+    "description": "",
+    "commentaires": []
+  },
+  "17753": {
+    "systeme": "Allumage",
+    "libelle": "P1345 Sortie allumage 3 – court-circuit masse",
+    "description": "",
+    "commentaires": []
+  },
+
+  "17799": {
+    "systeme": "Arbre à cames",
+    "libelle": "P1391 Capteur position AAC rangée 2 court-circuit masse",
+    "description": "",
+    "commentaires": []
+  },
+  "17800": {
+    "systeme": "Arbre à cames",
+    "libelle": "P1392 Capteur AAC rangée 2 coupure / court-circuit",
+    "description": "",
+    "commentaires": []
+  },
+  "17801": {
+    "systeme": "Allumage",
+    "libelle": "P1393 Sortie allumage 1 – panne électrique",
+    "description": "",
+    "commentaires": []
+  },
+  "17802": {
+    "systeme": "Allumage",
+    "libelle": "P1394 Sortie allumage 2 – panne électrique",
+    "description": "",
+    "commentaires": []
+  },
+  "17803": {
+    "systeme": "Allumage",
+    "libelle": "P1395 Sortie allumage 3 – panne électrique",
+    "description": "",
+    "commentaires": []
+  },
+  "17804": {
+    "systeme": "Moteur",
+    "libelle": "P1396 Capteur régime G28 – dent manquante",
+    "description": "",
+    "commentaires": []
+  },
+  {
+  "17808": {
+    "systeme": "EGR",
+    "libelle": "P1400 Électrovanne EGR -N18 panne électrique",
+    "description": "",
+    "commentaires": []
+  },
+  "17809": {
+    "systeme": "EGR",
+    "libelle": "P1401 Valve EGR - court-circuit à la masse",
+    "description": "",
+    "commentaires": []
+  },
+  "17810": {
+    "systeme": "EGR",
+    "libelle": "P1402 Valve EGR - court-circuit au plus",
+    "description": "",
+    "commentaires": []
+  },
+
+  "17815": {
+    "systeme": "EGR",
+    "libelle": "P1407 Capteur température EGR G98 – signal trop faible",
+    "description": "",
+    "commentaires": []
+  },
+  "17816": {
+    "systeme": "EGR",
+    "libelle": "P1408 Capteur température EGR G98 – signal trop fort",
+    "description": "",
+    "commentaires": []
+  },
+
+  "17817": {
+    "systeme": "Filtre à charbon",
+    "libelle": "P1409 Électrovanne filtre à charbon -N80 panne électrique",
+    "description": "",
+    "commentaires": []
+  },
+  "17818": {
+    "systeme": "Filtre à charbon",
+    "libelle": "P1410 Électrovanne N80 — court-circuit au plus",
+    "description": "",
+    "commentaires": []
+  },
+
+  "17819": {
+    "systeme": "Air secondaire",
+    "libelle": "P1411 Système air secondaire banc 2 — passage trop étroit",
+    "description": "",
+    "commentaires": []
+  },
+  "17822": {
+    "systeme": "Air secondaire",
+    "libelle": "P1414 Fuite air secondaire banc 2",
+    "description": "",
+    "commentaires": []
+  },
+
+  "17826": {
+    "systeme": "Capteurs carburant",
+    "libelle": "P1418 Flotteur -G signal trop fort",
+    "description": "",
+    "commentaires": []
+  },
+
+  "17828": {
+    "systeme": "Air secondaire",
+    "libelle": "P1420 Soupape injection air secondaire -N112 panne électrique",
+    "description": "",
+    "commentaires": []
+  },
+  "17829": {
+    "systeme": "Air secondaire",
+    "libelle": "P1421 Soupape injection air secondaire - court-circuit masse",
+    "description": "",
+    "commentaires": []
+  },
+  "17830": {
+    "systeme": "Air secondaire",
+    "libelle": "P1422 Soupape injection air secondaire -N112 court-circuit au plus",
+    "description": "",
+    "commentaires": []
+  },
+
+  "17831": {
+    "systeme": "Air secondaire",
+    "libelle": "P1423 Banc 1 — passage trop étroit",
+    "description": "",
+    "commentaires": []
+  },
+  "17832": {
+    "systeme": "Air secondaire",
+    "libelle": "P1424 Banc 1 — fuite détectée",
+    "description": "",
+    "commentaires": []
+  },
+
+  "17833": {
+    "systeme": "Filtre charbon",
+    "libelle": "P1425 Électrovanne N80 court-circuit à la masse",
+    "description": "",
+    "commentaires": []
+  },
+  "17834": {
+    "systeme": "Filtre charbon",
+    "libelle": "P1426 Électrovanne N80 coupure",
+    "description": "",
+    "commentaires": []
+  },
+
+  "17842": {
+    "systeme": "Air secondaire",
+    "libelle": "P1434 Relais pompe air secondaire court-circuit au plus",
+    "description": "",
+    "commentaires": []
+  },
+  "17844": {
+    "systeme": "Air secondaire",
+    "libelle": "P1436 Relais pompe air secondaire panne électrique",
+    "description": "",
+    "commentaires": []
+  },
+
+  "17848": {
+    "systeme": "EGR",
+    "libelle": "P1440 Électrovanne EGR -N18 coupure",
+    "description": "",
+    "commentaires": []
+  },
+  "17858": {
+    "systeme": "Air secondaire",
+    "libelle": "P1450 Court-circuit au plus",
+    "description": "",
+    "commentaires": []
+  },
+  "17859": {
+    "systeme": "Air secondaire",
+    "libelle": "P1451 Court-circuit à la masse",
+    "description": "",
+    "commentaires": []
+  },
+  "17860": {
+    "systeme": "Air secondaire",
+    "libelle": "P1452 Coupure",
+    "description": "",
+    "commentaires": []
+  },
+
+  "17878": {
+    "systeme": "Réservoir",
+    "libelle": "P1470 Pompe diagnostic du réservoir — panne électrique",
+    "description": "",
+    "commentaires": []
+  },
+  "17879": {
+    "systeme": "Réservoir",
+    "libelle": "P1471 Pompe diagnostic — court-circuit au plus",
+    "description": "",
+    "commentaires": []
+  },
+  "17883": {
+    "systeme": "Réservoir",
+    "libelle": "P1475 Pompe diagnostic — mauvais fonctionnement",
+    "description": "",
+    "commentaires": []
+  },
+  "17884": {
+    "systeme": "Réservoir",
+    "libelle": "P1476 Pompe diagnostic — mauvais fonctionnement",
+    "description": "",
+    "commentaires": []
+  },
+
+  "17908": {
+    "systeme": "Pompe essence",
+    "libelle": "P1500 Relais pompe essence panne électrique",
+    "description": "",
+    "commentaires": []
+  },
+  "17910": {
+    "systeme": "Pompe essence",
+    "libelle": "P1502 Relais pompe essence court-circuit au plus",
+    "description": "",
+    "commentaires": []
+  },
+  "17912": {
+    "systeme": "Admission",
+    "libelle": "P1504 Fuite d'air détectée",
+    "description": "",
+    "commentaires": []
+  },
+
+  "17913": {
+    "systeme": "Ralenti",
+    "libelle": "P1505 Contacteur charge nulle ne ferme pas",
+    "description": "",
+    "commentaires": []
+  },
+  "17914": {
+    "systeme": "Ralenti",
+    "libelle": "P1506 Contacteur charge nulle court-circuit à la masse",
+    "description": "",
+    "commentaires": []
+  },
+
+  "17917": {
+    "systeme": "Ralenti",
+    "libelle": "P1509 Soupape stabilisation ralenti N71 panne électrique",
+    "description": "",
+    "commentaires": []
+  },
+  "17918": {
+    "systeme": "Ralenti",
+    "libelle": "P1510 Soupape stabilisation ralenti N71 court-circuit au plus",
+    "description": "",
+    "commentaires": []
+  },
+
+  "17919": {
+    "systeme": "Admission",
+    "libelle": "P1511 Soupape inversion collecteur admission -N156 panne électrique",
+    "description": "",
+    "commentaires": []
+  },
+  "17920": {
+    "systeme": "Admission",
+    "libelle": "P1512 Soupape inversion collecteur admission court-circuit au plus",
+    "description": "",
+    "commentaires": []
+  },
+
+  "17945": {
+    "systeme": "Papillon",
+    "libelle": "P1537 Défaut papillon",
+    "description": "",
+    "commentaires": []
+  },
+
+  "17951": {
+    "systeme": "Papillon",
+    "libelle": "P1543 Capteur angle papillon -G187 signal trop faible",
+    "description": "",
+    "commentaires": []
+  },
+  "17952": {
+    "systeme": "Papillon",
+    "libelle": "P1544 Capteur angle papillon -G187 signal trop fort",
+    "description": "",
+    "commentaires": []
+  },
+
+  "17988": {
+    "systeme": "Papillon",
+    "libelle": "P1580 Entraînement papillon banc 1 mauvais fonctionnement",
+    "description": "",
+    "commentaires": []
+  },
+  "17990": {
+    "systeme": "Ralenti",
+    "libelle": "P1582 Limite d'adaptation du ralenti atteinte",
+    "description": "",
+    "commentaires": []
+  },
+
+  "18008": {
+    "systeme": "Électrique",
+    "libelle": "P1600 Tension contact 15 trop faible",
+    "description": "",
+    "commentaires": []
+  },
+  "18010": {
+    "systeme": "Électrique",
+    "libelle": "P1602 Tension contact 30 trop faible",
+    "description": "",
+    "commentaires": []
+  },
+
+  "18014": {
+    "systeme": "ABS",
+    "libelle": "P1606 Info ABS mauvaise / panne électrique",
+    "description": "",
+    "commentaires": []
+  },
+
+  "18019": {
+    "systeme": "Électrique",
+    "libelle": "P1611 Court-circuit témoin panne",
+    "description": "",
+    "commentaires": []
+  },
+  "18020": {
+    "systeme": "Électrique",
+    "libelle": "P1612 Mauvais codage calculateur moteur",
+    "description": "",
+    "commentaires": []
+  },
+  "18021": {
+    "systeme": "Électrique",
+    "libelle": "P1613 Témoin panne coupure / CC+",
+    "description": "",
+    "commentaires": []
+  },
+
+  "18062": {
+    "systeme": "Combiné",
+    "libelle": "P1654 Lire mémoire défaut combiné d’instruments",
+    "description": "",
+    "commentaires": []
+  },
+  {
+  "00257": {
+    "systeme": "ABS",
+    "libelle": "Soupape d'admission ABS avant gauche -N101",
+    "description": "",
+    "commentaires": []
+  },
+  "00258": {
+    "systeme": "ABS / Boîte",
+    "libelle": "P0753 Electrovanne 1 -N88",
+    "description": "",
+    "commentaires": []
+  },
+  "00259": {
+    "systeme": "ABS",
+    "libelle": "Soupape d'admission ABS avant droite -N99",
+    "description": "",
+    "commentaires": []
+  },
+  "00260": {
+    "systeme": "ABS / Boîte",
+    "libelle": "P0758 Electrovalve 2 -N89",
+    "description": "",
+    "commentaires": []
+  },
+  "00261": {
+    "systeme": "ABS",
+    "libelle": "Soupape d'admission ABS essieu arrière -N103",
+    "description": "",
+    "commentaires": []
+  },
+  "00262": {
+    "systeme": "ABS / Boîte",
+    "libelle": "P0763 Electrovanne 3 -N90",
+    "description": "",
+    "commentaires": []
+  },
+  "00263": {
+    "systeme": "Boîte",
+    "libelle": "Défaut boîte à vitesse",
+    "description": "",
+    "commentaires": []
+  },
+  "00264": {
+    "systeme": "ABS / Boîte",
+    "libelle": "P0748 Electrovanne 4 -N91",
+    "description": "",
+    "commentaires": []
+  },
+  "00265": {
+    "systeme": "ABS",
+    "libelle": "Soupape échappement ABS avant gauche -N102",
+    "description": "",
+    "commentaires": []
+  },
+  "00266": {
+    "systeme": "ABS / Boîte",
+    "libelle": "P0773 Electrovanne 5 -N92",
+    "description": "",
+    "commentaires": []
+  },
+  "00267": {
+    "systeme": "ABS",
+    "libelle": "Soupape échappement ABS avant droite -N100",
+    "description": "",
+    "commentaires": []
+  },
+  "00268": {
+    "systeme": "ABS / Boîte",
+    "libelle": "P0748 Electrovanne 6 -N93",
+    "description": "",
+    "commentaires": []
+  },
+  "00269": {
+    "systeme": "ABS",
+    "libelle": "Soupape échappement ABS essieu arrière -N104",
+    "description": "",
+    "commentaires": []
+  },
+  "00270": {
+    "systeme": "ABS / Boîte",
+    "libelle": "P1778 Electrovanne 7 -N94",
+    "description": "",
+    "commentaires": []
+  },
+  "00273": {
+    "systeme": "ABS",
+    "libelle": "Soupape admission ABS arrière droite -N133",
+    "description": "",
+    "commentaires": []
+  },
+  "00274": {
+    "systeme": "ABS",
+    "libelle": "Soupape admission ABS arrière gauche -N134",
+    "description": "",
+    "commentaires": []
+  },
+  "00275": {
+    "systeme": "ABS",
+    "libelle": "Soupape échappement ABS arrière droite -N135",
+    "description": "",
+    "commentaires": []
+  },
+  "00276": {
+    "systeme": "ABS",
+    "libelle": "Soupape échappement ABS arrière gauche -N136",
+    "description": "",
+    "commentaires": []
+  },
+  "00277": {
+    "systeme": "ABS",
+    "libelle": "Soupape admission/échappement ABS avant gauche -N137",
+    "description": "",
+    "commentaires": []
+  },
+  "00278": {
+    "systeme": "ABS",
+    "libelle": "Soupape principale ABS -N105",
+    "description": "",
+    "commentaires": []
+  },
+  "00279": {
+    "systeme": "ABS / Différentiel",
+    "libelle": "Soupape 1 différentiel blocage -N125",
+    "description": "",
+    "commentaires": []
+  },
+  "00280": {
+    "systeme": "ABS / Différentiel",
+    "libelle": "Soupape 2 différentiel blocage -N126",
+    "description": "",
+    "commentaires": []
+  },
+  "00281": {
+    "systeme": "ABS",
+    "libelle": "Capteur vitesse -G68",
+    "description": "",
+    "commentaires": []
+  },
+  "00282": {
+    "systeme": "Admission",
+    "libelle": "Lève-papillon -V60",
+    "description": "",
+    "commentaires": []
+  },
+
+  "00283": {
+    "systeme": "ABS",
+    "libelle": "P1711 Capteur régime ABS avant gauche -G47",
+    "description": "",
+    "commentaires": []
+  },
+  "00284": {
+    "systeme": "ABS",
+    "libelle": "Soupape admission/échappement ABS avant droite -N138",
+    "description": "",
+    "commentaires": []
+  },
+  "00285": {
+    "systeme": "ABS",
+    "libelle": "P1716 Capteur régime ABS avant droite -G45",
+    "description": "",
+    "commentaires": []
+  },
+  "00286": {
+    "systeme": "ABS",
+    "libelle": "Soupape admission/échappement ABS arrière gauche -N139",
+    "description": "",
+    "commentaires": []
+  },
+  "00287": {
+    "systeme": "ABS",
+    "libelle": "P1721 Capteur régime ABS arrière droite -G44",
+    "description": "",
+    "commentaires": []
+  },
+  "00289": {
+    "systeme": "ABS",
+    "libelle": "Soupape admission/échappement ABS arrière droite -N140",
+    "description": "",
+    "commentaires": []
+  },
+
+  "00290": {
+    "systeme": "ABS",
+    "libelle": "P1726 Capteur régime ABS arrière gauche -G46",
+    "description": "",
+    "commentaires": []
+  },
+
+  "00291": {
+    "systeme": "ABS / Frein",
+    "libelle": "Contacteur avertisseur pression -F116 / F117",
+    "description": "",
+    "commentaires": []
+  },
+
+  "00292": {
+    "systeme": "ABS",
+    "libelle": "Alimentation énergie hydraulique — pression",
+    "description": "",
+    "commentaires": []
+  },
+
+  "00293": {
+    "systeme": "Boîte / ABS",
+    "libelle": "P0705 Contacteur multifonction -F125",
+    "description": "",
+    "commentaires": []
+  },
+
+  "00294": {
+    "systeme": "Boîte",
+    "libelle": "Contacteur pression 1",
+    "description": "",
+    "commentaires": []
+  },
+
+  "00295": {
+    "systeme": "Boîte",
+    "libelle": "Contacteur pression 2",
+    "description": "",
+    "commentaires": []
+  },
+
+  "00296": {
+    "systeme": "Boîte",
+    "libelle": "P1704 Contacteur kickdown -F8",
+    "description": "",
+    "commentaires": []
+  },
+
+  "00297": {
+    "systeme": "Boîte / ABS",
+    "libelle": "P0715 / P0721 / P0722 Capteur régime boîte G38 — défaut",
+    "description": "Plusieurs variantes selon le sous-code.",
+    "commentaires": []
+  },
+
+  "00298": {
+    "systeme": "Différentiel",
+    "libelle": "Contacteur différentiel blocage -E121",
+    "description": "",
+    "commentaires": []
+  },
+
+  "00299": {
+    "systeme": "Boîte",
+    "libelle": "Contacteur programme -E122",
+    "description": "",
+    "commentaires": []
+  },
+  {
+  "00301": {
+    "systeme": "ABS",
+    "libelle": "Pompe retour ABS -V39",
+    "description": "",
+    "commentaires": []
+  },
+  "00302": {
+    "systeme": "ABS",
+    "libelle": "Relais électrovalves ABS -J106",
+    "description": "",
+    "commentaires": []
+  },
+  "00547": {
+    "systeme": "ABS",
+    "libelle": "Contacteur contrôle de pression ABS -F137",
+    "description": "",
+    "commentaires": []
+  },
+  "00623": {
+    "systeme": "ABS / Boîte",
+    "libelle": "Connexion électrique ABS / boîte de vitesses",
+    "description": "",
+    "commentaires": []
+  },
+  "00638": {
+    "systeme": "Transmission",
+    "libelle": "P1766 / P1767 Moteur/boîte vitesse connexion électrique 2",
+    "description": "",
+    "commentaires": []
+  },
+  "00642": {
+    "systeme": "EDS / ABS",
+    "libelle": "Valve de changement EDS avant droite -N166",
+    "description": "",
+    "commentaires": []
+  },
+  "00643": {
+    "systeme": "EDS / ABS",
+    "libelle": "Valve d'échappement avant droite -N167",
+    "description": "",
+    "commentaires": []
+  },
+  "00644": {
+    "systeme": "EDS / ABS",
+    "libelle": "Valve de changement EDS avant gauche -N168",
+    "description": "",
+    "commentaires": []
+  },
+  "00645": {
+    "systeme": "EDS / ABS",
+    "libelle": "Valve d'échappement avant gauche -N169",
+    "description": "",
+    "commentaires": []
+  },
+  "00646": {
+    "systeme": "ABS / ASR",
+    "libelle": "ABS-ASR/moteur connexion électrique 1",
+    "description": "",
+    "commentaires": []
+  },
+  "00647": {
+    "systeme": "ABS / ASR",
+    "libelle": "ABS-ASR/moteur connexion électrique 2",
+    "description": "",
+    "commentaires": []
+  },
+  "00649": {
+    "systeme": "ABS",
+    "libelle": "Soupape admission/échappement ABS essieu arrière -N160",
+    "description": "",
+    "commentaires": []
+  },
+  "00672": {
+    "systeme": "ABS",
+    "libelle": "Pompe hydraulique ABS avec résistance additionnelle",
+    "description": "",
+    "commentaires": []
+  },
+  "00675": {
+    "systeme": "ABS",
+    "libelle": "ILV: 0V ULV: 0V — roue avant gauche bloquée",
+    "description": "",
+    "commentaires": []
+  },
+  "00676": {
+    "systeme": "ABS",
+    "libelle": "ILV: Ubatt ULV: 0V — roue avant gauche bloquée",
+    "description": "",
+    "commentaires": []
+  },
+  "00677": {
+    "systeme": "ABS",
+    "libelle": "ILV: Ubatt ULV: Ubatt — roue avant gauche libre",
+    "description": "",
+    "commentaires": []
+  },
+  "00678": {
+    "systeme": "ABS",
+    "libelle": "ILV: Ubatt ULV: 0V — roue avant gauche libre",
+    "description": "",
+    "commentaires": []
+  },
+  "00680": {
+    "systeme": "ABS",
+    "libelle": "IRV: 0V URV: 0V — roue avant droite bloquée",
+    "description": "",
+    "commentaires": []
+  },
+  "00681": {
+    "systeme": "ABS",
+    "libelle": "IRV: Ubatt URV: 0V — roue avant droite bloquée",
+    "description": "",
+    "commentaires": []
+  },
+  "00682": {
+    "systeme": "ABS",
+    "libelle": "IRV: Ubatt URV: Ubatt — roue avant droite libre",
+    "description": "",
+    "commentaires": []
+  },
+  "00683": {
+    "systeme": "ABS",
+    "libelle": "IRV: Ubatt URV: 0V — roue avant droite libre",
+    "description": "",
+    "commentaires": []
+  },
+  "00685": {
+    "systeme": "ABS",
+    "libelle": "ILA: 0V ULA: 0V — roue arrière gauche bloquée",
+    "description": "",
+    "commentaires": []
+  },
+  "00686": {
+    "systeme": "ABS",
+    "libelle": "ILA: Ubatt ULA: 0V — roue arrière gauche bloquée",
+    "description": "",
+    "commentaires": []
+  },
+  "00687": {
+    "systeme": "ABS",
+    "libelle": "ILA: Ubatt ULA: Ubatt — roue arrière gauche libre",
+    "description": "",
+    "commentaires": []
+  },
+  "00688": {
+    "systeme": "ABS",
+    "libelle": "ILA: Ubatt ULA: 0V — roue arrière gauche libre",
+    "description": "",
+    "commentaires": []
+  },
+  "00690": {
+    "systeme": "ABS",
+    "libelle": "IRA: 0V URA: 0V — roue arrière droite bloquée",
+    "description": "",
+    "commentaires": []
+  },
+  "00691": {
+    "systeme": "ABS",
+    "libelle": "IRA: Ubatt URA: 0V — roue arrière droite bloquée",
+    "description": "",
+    "commentaires": []
+  },
+  "00692": {
+    "systeme": "ABS",
+    "libelle": "IRA: Ubatt URA: Ubatt — roue arrière droite libre",
+    "description": "",
+    "commentaires": []
+  },
+  "00693": {
+    "systeme": "ABS",
+    "libelle": "IRA: Ubatt URA: 0V — roue arrière droite libre",
+    "description": "",
+    "commentaires": []
+  },
+  "00695": {
+    "systeme": "ABS / EDS",
+    "libelle": "Valves EDS / pompe hydraulique: Ubatt — roues gauche/droite bloquées",
+    "description": "",
+    "commentaires": []
+  },
+  "00696": {
+    "systeme": "ABS",
+    "libelle": "Valve ABS réduction pression gauche -N170",
+    "description": "",
+    "commentaires": []
+  },
+  "00697": {
+    "systeme": "ABS",
+    "libelle": "Valve ABS réduction pression droite -N171",
+    "description": "",
+    "commentaires": []
+  },
+  "00704": {
+    "systeme": "ABS / EDS",
+    "libelle": "Valves EDS/pompe hydraulique: Ubatt — roues bloquées",
+    "description": "",
+    "commentaires": []
+  },
+  "00824": {
+    "systeme": "ASR",
+    "libelle": "Témoin de contrôle ASR -K86",
+    "description": "",
+    "commentaires": []
+  },
+  "01040": {
+    "systeme": "ABS / Boîte",
+    "libelle": "Connexion électrique 2 ABS / boîte à vitesse",
+    "description": "",
+    "commentaires": []
+  },
+  "01041": {
+    "systeme": "ASR",
+    "libelle": "Fonctionnement ASR inacceptable",
+    "description": "",
+    "commentaires": []
+  },
+  "01130": {
+    "systeme": "ABS",
+    "libelle": "Fonctionnement ABS",
+    "description": "",
+    "commentaires": []
+  },
+  {
+  "00519": {
+    "systeme": "Moteur / Capteur",
+    "libelle": "Capteur de pression de collecteur -G71 (écart / tension)",
+    "description": "",
+    "commentaires": []
+  },
+  "00520": {
+    "systeme": "Moteur / Admission",
+    "libelle": "P0721 Débitmètre d'air / massique -G70/-G19",
+    "description": "",
+    "commentaires": []
+  },
+  "00522": {
+    "systeme": "Moteur / Refroidissement",
+    "libelle": "Capteur température liquide de refroidissement -G62",
+    "description": "",
+    "commentaires": []
+  },
+  "00523": {
+    "systeme": "Moteur / Admission",
+    "libelle": "Capteur température d’air -G42 (trop élevée/trop basse)",
+    "description": "",
+    "commentaires": []
+  },
+  "00524": {
+    "systeme": "Moteur / Cliquetis",
+    "libelle": "P0712 Capteur cliquetis 1 -G61",
+    "description": "",
+    "commentaires": []
+  },
+  "00525": {
+    "systeme": "Moteur / Lambda",
+    "libelle": "P0713 Sonde lambda -G39",
+    "description": "",
+    "commentaires": []
+  },
+  "00527": {
+    "systeme": "Moteur / Admission",
+    "libelle": "Capteur température collecteur d'admission -G72",
+    "description": "",
+    "commentaires": []
+  },
+  "00534": {
+    "systeme": "Moteur / Huile",
+    "libelle": "Capteur de température d'huile -G8",
+    "description": "",
+    "commentaires": []
+  },
+  "00539": {
+    "systeme": "Moteur / Carburant",
+    "libelle": "Capteur température carburant -G81",
+    "description": "",
+    "commentaires": []
+  },
+  "00560": {
+    "systeme": "Moteur / EGR",
+    "libelle": "Système de recirculation des gaz d'échappement",
+    "description": "",
+    "commentaires": []
+  },
+  "00561": {
+    "systeme": "Moteur / Mélange",
+    "libelle": "Adaptation du mélange",
+    "description": "",
+    "commentaires": []
+  },
+  "00575": {
+    "systeme": "Moteur / Turbo",
+    "libelle": "Pression collecteur d'admission",
+    "description": "",
+    "commentaires": []
+  },
+  "00585": {
+    "systeme": "Moteur / EGR",
+    "libelle": "Capteur température recirculation gaz d'échappement -G98",
+    "description": "",
+    "commentaires": []
+  },
+  "00586": {
+    "systeme": "Moteur / EGR",
+    "libelle": "Régulation système de recirculation des gaz d'échappement",
+    "description": "",
+    "commentaires": []
+  },
+  "00607": {
+    "systeme": "Moteur / Gestion",
+    "libelle": "Thermomètre extérieur -G106",
+    "description": "",
+    "commentaires": []
+  },
+  "00608": {
+    "systeme": "Moteur / Charge",
+    "libelle": "Capteur de condition de charge -G119",
+    "description": "",
+    "commentaires": []
+  },
+
+  "16486": {
+    "systeme": "Moteur / Admission",
+    "libelle": "P0102 Débitmètre massique -G70 - signal trop faible",
+    "description": "",
+    "commentaires": []
+  },
+  "16487": {
+    "systeme": "Moteur / Admission",
+    "libelle": "P0103 Débitmètre massique -G70 - signal trop fort",
+    "description": "",
+    "commentaires": []
+  },
+  "16496": {
+    "systeme": "Moteur / Admission",
+    "libelle": "P0112 Capteur température air aspiré -G42 - signal trop faible",
+    "description": "",
+    "commentaires": []
+  },
+  "16497": {
+    "systeme": "Moteur / Admission",
+    "libelle": "P0113 Capteur température air aspiré -G42 - signal trop fort",
+    "description": "",
+    "commentaires": []
+  },
+  "16500": {
+    "systeme": "Moteur / Refroidissement",
+    "libelle": "P0116 Capteur température liquide de refroidissement -G62 - signal inacceptable",
+    "description": "",
+    "commentaires": []
+  },
+  "16501": {
+    "systeme": "Moteur / Refroidissement",
+    "libelle": "P0117 Capteur température liquide de refroidissement -G62 - signal trop faible",
+    "description": "",
+    "commentaires": []
+  },
+  "16502": {
+    "systeme": "Moteur / Refroidissement",
+    "libelle": "P0118 Capteur température liquide de refroidissement -G62 - signal trop fort",
+    "description": "",
+    "commentaires": []
+  },
+  "16504": {
+    "systeme": "Moteur / Papillon",
+    "libelle": "P0120 Potentiomètre de papillon -G69 - panne électrique",
+    "description": "",
+    "commentaires": []
+  },
+  "16505": {
+    "systeme": "Moteur / Papillon",
+    "libelle": "P0121 Potentiomètre de papillon -G69 - signal inacceptable",
+    "description": "",
+    "commentaires": []
+  },
+  "16506": {
+    "systeme": "Moteur / Papillon",
+    "libelle": "P0122 Potentiomètre de papillon -G69 - signal trop faible",
+    "description": "",
+    "commentaires": []
+  },
+  "16507": {
+    "systeme": "Moteur / Papillon",
+    "libelle": "P0123 Potentiomètre de papillon -G69 - signal trop fort",
+    "description": "",
+    "commentaires": []
+  },
+  "16509": {
+    "systeme": "Moteur / Refroidissement",
+    "libelle": "P0125 Température liquide de refroidissement pour régulation lambda non atteinte",
+    "description": "",
+    "commentaires": []
+  },
+
+  "16514": {
+    "systeme": "Moteur / Lambda",
+    "libelle": "P0130 Rangée 1, sonde 1 - panne électronique",
+    "description": "",
+    "commentaires": []
+  },
+  "16515": {
+    "systeme": "Moteur / Lambda",
+    "libelle": "P0131 Rangée 1, sonde 1 - tension trop faible",
+    "description": "",
+    "commentaires": []
+  },
+  "16516": {
+    "systeme": "Moteur / Lambda",
+    "libelle": "P0132 Rangée 1, sonde 1 - tension trop forte",
+    "description": "",
+    "commentaires": []
+  },
+  "16517": {
+    "systeme": "Moteur / Lambda",
+    "libelle": "P0133 Rangée 1, sonde 1 - signal trop lent",
+    "description": "",
+    "commentaires": []
+  },
+  "16518": {
+    "systeme": "Moteur / Lambda",
+    "libelle": "P0134 Rangée 1, sonde 1 - aucune activité",
+    "description": "",
+    "commentaires": []
+  },
+  "16519": {
+    "systeme": "Moteur / Lambda",
+    "libelle": "P0135 Rangée 1, sonde 1 - chauffage, panne électrique",
+    "description": "",
+    "commentaires": []
+  },
+
+  "16554": {
+    "systeme": "Moteur / Mélange",
+    "libelle": "P0170 Rangée 1, calcul carburant - mauvais fonctionnement",
+    "description": "",
+    "commentaires": []
+  },
+  "16555": {
+    "systeme": "Moteur / Mélange",
+    "libelle": "P0171 Rangée 1, système trop pauvre",
+    "description": "",
+    "commentaires": []
+  },
+  "16556": {
+    "systeme": "Moteur / Mélange",
+    "libelle": "P0172 Rangée 1, système trop riche",
+    "description": "",
+    "commentaires": []
+  },
+  "16684": {
+    "systeme": "Moteur / Allumage",
+    "libelle": "P0300 Ratés d'allumage cylindre(s)",
+    "description": "",
+    "commentaires": []
+  },
+  "16685": {
+    "systeme": "Moteur / Allumage",
+    "libelle": "P0301 Ratés cylindre 1",
+    "description": "",
+    "commentaires": []
+  },
+  "16686": {
+    "systeme": "Moteur / Allumage",
+    "libelle": "P0302 Ratés cylindre 2",
+    "description": "",
+    "commentaires": []
+  },
+  "16687": {
+    "systeme": "Moteur / Allumage",
+    "libelle": "P0303 Ratés cylindre 3",
+    "description": "",
+    "commentaires": []
+  },
+  "16688": {
+    "systeme": "Moteur / Allumage",
+    "libelle": "P0304 Ratés cylindre 4",
+    "description": "",
+    "commentaires": []
+  },
+
+  "16706": {
+    "systeme": "Moteur / Capteur régime",
+    "libelle": "P0322 Capteur régime moteur -G28 - aucun signal",
+    "description": "",
+    "commentaires": []
+  },
+  "16711": {
+    "systeme": "Moteur / Cliquetis",
+    "libelle": "P0327 Capteur cliquetis 1 -G61 - signal trop faible",
+    "description": "",
+    "commentaires": []
+  },
+  "16725": {
+    "systeme": "Moteur / Arbre à cames",
+    "libelle": "P0341 Capteur position arbre à cames -G40 - signal inacceptable",
+    "description": "",
+    "commentaires": []
+  },
+
+  "16784": {
+    "systeme": "Moteur / EGR",
+    "libelle": "P0400 Système recirculation gaz échappement - mauvais fonctionnement",
+    "description": "",
+    "commentaires": []
+  },
+  "16785": {
+    "systeme": "Moteur / EGR",
+    "libelle": "P0401 EGR - passage trop étroit",
+    "description": "",
+    "commentaires": []
+  },
+  "16786": {
+    "systeme": "Moteur / EGR",
+    "libelle": "P0402 EGR - passage trop gros",
+    "description": "",
+    "commentaires": []
+  },
+
+  "16806": {
+    "systeme": "Moteur / Catalyseur",
+    "libelle": "P0422 Rangée 1, catalyseur principal - fonctionnement insuffisant",
+    "description": "",
+    "commentaires": []
+  },
+  "16816": {
+    "systeme": "Moteur / Catalyseur",
+    "libelle": "P0432 Rangée 2, catalyseur principal - fonctionnement insuffisant",
+    "description": "",
+    "commentaires": []
+  },
+
+  "17535": {
+    "systeme": "Moteur / Mélange",
+    "libelle": "P1127 Rangée 1, adaptation mélange - système trop riche",
+    "description": "",
+    "commentaires": []
+  },
+  "17536": {
+    "systeme": "Moteur / Mélange",
+    "libelle": "P1128 Rangée 1, adaptation mélange - système trop pauvre",
+    "description": "",
+    "commentaires": []
+  },
+
+  "17609": {
+    "systeme": "Moteur / Injection",
+    "libelle": "P1201 Injecteur cylindre 1 -N30 - panne électrique",
+    "description": "",
+    "commentaires": []
+  },
+  "17610": {
+    "systeme": "Moteur / Injection",
+    "libelle": "P1202 Injecteur cylindre 2 -N31 - panne électrique",
+    "description": "",
+    "commentaires": []
+  },
+
+  "17733": {
+    "systeme": "Moteur / Cliquetis",
+    "libelle": "P1325 Réglage cliquetis cylindre 1 - limite atteinte",
+    "description": "",
+    "commentaires": []
+  },
+
+  "17808": {
+    "systeme": "Moteur / EGR",
+    "libelle": "P1400 Electrovalve EGR -N18 - panne électrique",
+    "description": "",
+    "commentaires": []
+  },
+  "17809": {
+    "systeme": "Moteur / EGR",
+    "libelle": "P1401 Valve EGR -N18 court-circuit à la masse",
+    "description": "",
+    "commentaires": []
+  },
+
+  "17908": {
+    "systeme": "Moteur / Alimentation carburant",
+    "libelle": "P1500 Relais pompe à essence -J17 - panne électrique",
+    "description": "",
+    "commentaires": []
+  },
+  "17910": {
+    "systeme": "Moteur / Alimentation carburant",
+    "libelle": "P1502 Relais pompe à essence -J17 - court-circuit au plus",
+    "description": "",
+    "commentaires": []
+  },
+
+  "17965": {
+    "systeme": "Turbo",
+    "libelle": "P1557 Charge Pressure Control: Positive Deviation",
+    "description": "Surpression turbo détectée.",
+    "commentaires": [
+      "Wastegate grippée",
+      "Électrovanne N75 défaillante",
+      "Durite de commande turbo pincée ou fuyarde"
+    ]
+  },
+
+  "17988": {
+    "systeme": "Moteur / Papillon",
+    "libelle": "P1580 Entraînement papillon rangée 1 - mauvais fonctionnement",
+    "description": "",
+    "commentaires": []
+  },
+
+  "18008": {
+    "systeme": "Alimentation",
+    "libelle": "P1600 Tension alimentation contact 15 - trop faible",
+    "description": "",
+    "commentaires": []
+  },
+  "18010": {
+    "systeme": "Alimentation",
+    "libelle": "P1602 Tension alimentation contact 30 - trop faible",
+    "description": "",
+    "commentaires": []
+  }
+}
 
 
 
