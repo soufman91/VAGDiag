@@ -639,7 +639,7 @@
     "description": "",
     "commentaires": []
   },
-{
+
   "17609": {
     "systeme": "Injection",
     "libelle": "P1201 Injecteur cylindre 1 - panne électrique",
@@ -835,14 +835,12 @@
     "description": "",
     "commentaires": []
   },
-
   "17656": {
     "systeme": "Injection",
     "libelle": "P1250 Régulation du début d'injection - différence de réglage",
     "description": "",
     "commentaires": []
   },
-
   "17733": {
     "systeme": "Cliquetis",
     "libelle": "P1325 Réglage cliquetis cyl.1 limite atteinte",
@@ -991,7 +989,6 @@
     "description": "",
     "commentaires": []
   },
-
   "17817": {
     "systeme": "Filtre à charbon",
     "libelle": "P1409 Électrovanne filtre à charbon -N80 panne électrique",
@@ -1004,7 +1001,6 @@
     "description": "",
     "commentaires": []
   },
-
   "17819": {
     "systeme": "Air secondaire",
     "libelle": "P1411 Système air secondaire banc 2 — passage trop étroit",
@@ -1017,14 +1013,12 @@
     "description": "",
     "commentaires": []
   },
-
   "17826": {
     "systeme": "Capteurs carburant",
     "libelle": "P1418 Flotteur -G signal trop fort",
     "description": "",
     "commentaires": []
   },
-
   "17828": {
     "systeme": "Air secondaire",
     "libelle": "P1420 Soupape injection air secondaire -N112 panne électrique",
@@ -1043,7 +1037,6 @@
     "description": "",
     "commentaires": []
   },
-
   "17831": {
     "systeme": "Air secondaire",
     "libelle": "P1423 Banc 1 — passage trop étroit",
@@ -1069,7 +1062,6 @@
     "description": "",
     "commentaires": []
   },
-
   "17842": {
     "systeme": "Air secondaire",
     "libelle": "P1434 Relais pompe air secondaire court-circuit au plus",
@@ -1082,7 +1074,6 @@
     "description": "",
     "commentaires": []
   },
-
   "17848": {
     "systeme": "EGR",
     "libelle": "P1440 Électrovanne EGR -N18 coupure",
@@ -1107,7 +1098,6 @@
     "description": "",
     "commentaires": []
   },
-
   "17878": {
     "systeme": "Réservoir",
     "libelle": "P1470 Pompe diagnostic du réservoir — panne électrique",
@@ -1164,7 +1154,6 @@
     "description": "",
     "commentaires": []
   },
-
   "17917": {
     "systeme": "Ralenti",
     "libelle": "P1509 Soupape stabilisation ralenti N71 panne électrique",
@@ -1177,7 +1166,6 @@
     "description": "",
     "commentaires": []
   },
-
   "17919": {
     "systeme": "Admission",
     "libelle": "P1511 Soupape inversion collecteur admission -N156 panne électrique",
@@ -1197,7 +1185,6 @@
     "description": "",
     "commentaires": []
   },
-
   "17951": {
     "systeme": "Papillon",
     "libelle": "P1543 Capteur angle papillon -G187 signal trop faible",
@@ -1243,7 +1230,6 @@
     "description": "",
     "commentaires": []
   },
-
   "18019": {
     "systeme": "Électrique",
     "libelle": "P1611 Court-circuit témoin panne",
@@ -1451,7 +1437,6 @@
     "description": "",
     "commentaires": []
   },
-
   "00290": {
     "systeme": "ABS",
     "libelle": "P1726 Capteur régime ABS arrière gauche -G46",
@@ -1493,14 +1478,12 @@
     "description": "",
     "commentaires": []
   },
-
   "00296": {
     "systeme": "Boîte",
     "libelle": "P1704 Contacteur kickdown -F8",
     "description": "",
     "commentaires": []
   },
-
   "00297": {
     "systeme": "Boîte / ABS",
     "libelle": "P0715 / P0721 / P0722 Capteur régime boîte G38 — défaut",
@@ -1514,7 +1497,6 @@
     "description": "",
     "commentaires": []
   },
-
   "00299": {
     "systeme": "Boîte",
     "libelle": "Contacteur programme -E122",
@@ -1744,7 +1726,7 @@
     "description": "",
     "commentaires": []
   },
-  {
+  
   "00519": {
     "systeme": "Moteur / Capteur",
     "libelle": "Capteur de pression de collecteur -G71 (écart / tension)",
@@ -1841,7 +1823,6 @@
     "description": "",
     "commentaires": []
   },
-
   "16486": {
     "systeme": "Moteur / Admission",
     "libelle": "P0102 Débitmètre massique -G70 - signal trop faible",
@@ -2000,7 +1981,6 @@
     "description": "",
     "commentaires": []
   },
-
   "16706": {
     "systeme": "Moteur / Capteur régime",
     "libelle": "P0322 Capteur régime moteur -G28 - aucun signal",
@@ -2019,7 +1999,6 @@
     "description": "",
     "commentaires": []
   },
-
   "16784": {
     "systeme": "Moteur / EGR",
     "libelle": "P0400 Système recirculation gaz échappement - mauvais fonctionnement",
@@ -2110,7 +2089,6 @@
     "description": "",
     "commentaires": []
   },
-
   "17965": {
     "systeme": "Turbo",
     "libelle": "P1557 Charge Pressure Control: Positive Deviation",
@@ -2119,9 +2097,7 @@
       "Wastegate grippée",
       "Électrovanne N75 défaillante",
       "Durite de commande turbo pincée ou fuyarde"
-    ]
   },
-
   "17988": {
     "systeme": "Moteur / Papillon",
     "libelle": "P1580 Entraînement papillon rangée 1 - mauvais fonctionnement",
